@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Should Be Apps</title>
+<meta name="description" content="Download Should Be Media's apps for Mac.">
+<style>
+:root { --bg:#f7f7f9; --card:#fff; --text:#1b1b1f; --muted:#5d5d66; --line:#e3e3e8; --accent:#5b3df5; --ok:#137a3a; --okbg:#e3f6ea; --need:#8a5a00; --needbg:#fff2d6; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#111114; --card:#1b1b20; --text:#ececf1; --muted:#a3a3ad; --line:#2c2c33; --accent:#9d8bff; --ok:#7ee2a1; --okbg:#173022; --need:#ffcf7a; --needbg:#3a2c10; } }
+* { box-sizing: border-box; }
+body { margin:0; font:16px/1.5 -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif; background:var(--bg); color:var(--text); }
+header, main, footer { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+header { padding-top: 48px; }
+h1 { font-size: 2.2rem; margin: 0 0 8px; }
+.lead { color: var(--muted); max-width: 46rem; }
+.note { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 20px 0 28px; }
+.note h3 { margin: 0 0 6px; font-size: 1rem; }
+.note ol { margin: 6px 0 0; padding-left: 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 16px; }
+.app { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 6px; }
+.app h2 { font-size: 1.15rem; margin: 0; }
+.ver { color: var(--muted); font-weight: 400; font-size: .9rem; }
+.app p { margin: 0; }
+.meta { color: var(--muted); font-size: .8rem; margin-top: auto !important; padding-top: 6px; }
+code { font-size: .78rem; }
+.tag { align-self: flex-start; font-size: .78rem; font-weight: 600; padding: 2px 8px; border-radius: 99px; }
+.ok { color: var(--ok); background: var(--okbg); }
+.need { color: var(--need); background: var(--needbg); }
+.dl { margin-top: 8px; align-self: flex-start; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; padding: 8px 16px; border-radius: 9px; }
+.dl:focus-visible { outline: 3px solid var(--text); outline-offset: 2px; }
+footer { color: var(--muted); font-size: .85rem; padding-top: 32px; padding-bottom: 48px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Should Be Apps</h1>
+  <p class="lead">Apps for Mac from Should Be Media. Every download is a zipped app with its SHA-256 checksum. Some apps also need a server that isn't online yet; each card says so.</p>
+  <section class="note" aria-labelledby="first-open">
+    <h3 id="first-open">Opening an app the first time</h3>
+    These apps aren't notarised by Apple yet, so macOS blocks them on first open:
+    <ol>
+      <li>Unzip the download and move the app to your Applications folder.</li>
+      <li>Open it. When macOS says it can't be opened, click <strong>Done</strong>.</li>
+      <li>Open <strong>System Settings › Privacy &amp; Security</strong>, scroll to Security and click <strong>Open Anyway</strong>, then enter your Mac password.</li>
+    </ol>
+  </section>
+</header>
+<main>
+<div class="grid">
+<article class="app" id="active">
+  <h2>Active <span class="ver">0.2.0</span></h2>
+  <p>Cross-device messaging client.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 0.2 MB · <span title="SHA-256">SHA-256 <code>8334f51e23ca625a…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/active-v0.2.0/Active-0.2.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="bread">
+  <h2>Bread <span class="ver">1.0.0</span></h2>
+  <p>Bread app (iOS-first).</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 0.8 MB · <span title="SHA-256">SHA-256 <code>1bb4100202ae784a…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/bread-v1.0.0/Bread-1.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="caxion">
+  <h2>CAXION <span class="ver">0.1.0</span></h2>
+  <p>Messaging hub.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 0.2 MB · <span title="SHA-256">SHA-256 <code>cd20c8bf37e3966d…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/caxion-v0.1.0/CAXION-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="clarice">
+  <h2>Clarice <span class="ver">1.0.0</span></h2>
+  <p>Local-first personal assistant.</p>
+  <span class="tag need">Needs the Clarice core and a local AI model set up on the Mac.</span>
+  <p class="meta">Apple Silicon · 0.5 MB · <span title="SHA-256">SHA-256 <code>4b5986e25c78849b…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/clarice-v1.0.0/Clarice-1.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="clean">
+  <h2>Clean <span class="ver">0.1.1</span></h2>
+  <p>System health and services monitor.</p>
+  <span class="tag need">Some features need its background service.</span>
+  <p class="meta">Apple Silicon + Intel · 2.4 MB · <span title="SHA-256">SHA-256 <code>b96c12ecbc1e1a25…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/clean-v0.1.1/Clean-0.1.1-macOS.zip">Download</a>
+</article>
+<article class="app" id="connect">
+  <h2>Connect <span class="ver">1.0.0</span></h2>
+  <p>Private connection app.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 107.2 MB · <span title="SHA-256">SHA-256 <code>1b9b63fadc56ebbd…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/connect-v1.0.0/Connect-1.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="feet">
+  <h2>Feet <span class="ver">0.1.0</span></h2>
+  <p>Walking routes, navigation and accessibility.</p>
+  <span class="tag need">Needs the Feet route server, which isn&#x27;t online yet.</span>
+  <p class="meta">Apple Silicon + Intel · 2.1 MB · <span title="SHA-256">SHA-256 <code>215399d5c055069b…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/feet-v0.1.0/Feet-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="fionbo">
+  <h2>Fionbo <span class="ver">1.0</span></h2>
+  <p>Fionbo app.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · <0.1 MB · <span title="SHA-256">SHA-256 <code>0276cad3301478c0…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/fionbo-v1.0/Fionbo-1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="fionn-mpho-mwaba">
+  <h2>Fionn Mpho Mwaba <span class="ver">4.1.0</span></h2>
+  <p>Personal AI workstation.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 6.1 MB · <span title="SHA-256">SHA-256 <code>ae228a11afa55dc3…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/fionn-mpho-mwaba-v4.1.0/Fionn-Mpho-Mwaba-4.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="ganise-organize">
+  <h2>Ganise Organize <span class="ver">0.1.0</span></h2>
+  <p>Organiser for files and duplicate apps.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon + Intel · 2.7 MB · <span title="SHA-256">SHA-256 <code>b16f53ca82959fe6…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/ganise-organize-v0.1.0/Ganise-Organize-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="gone">
+  <h2>Gone <span class="ver">1.0.1</span></h2>
+  <p>Email delivery console: send mail through your own SMTP account, domains, delivery logs.</p>
+  <span class="tag need">Sends mail through your own SMTP account.</span>
+  <p class="meta">Apple Silicon · 0.4 MB · <span title="SHA-256">SHA-256 <code>2661bd314af8f86b…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/gone-v1.0.1/Gone-1.0.1-macOS.zip">Download</a>
+</article>
+<article class="app" id="hot-contents">
+  <h2>Hot Contents <span class="ver">2.0.0</span></h2>
+  <p>Trending repositories and private git hosting.</p>
+  <span class="tag need">Needs the Hot Contents server, which isn&#x27;t included.</span>
+  <p class="meta">Apple Silicon · <0.1 MB · <span title="SHA-256">SHA-256 <code>9f5222a4b3dc4022…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/hot-contents-v2.0.0/Hot-Contents-2.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="independent">
+  <h2>Independent <span class="ver">0.1.0</span></h2>
+  <p>Independent app manifests and launcher.</p>
+  <span class="tag need">Needs Python 3 on the Mac.</span>
+  <p class="meta">Apple Silicon · <0.1 MB · <span title="SHA-256">SHA-256 <code>88f77f8e9053a583…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/independent-v0.1.0/Independent-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="jobs">
+  <h2>Jobs <span class="ver">0.2.0</span></h2>
+  <p>UK vacancy platform.</p>
+  <span class="tag need">Needs the Jobs server, which isn&#x27;t online yet.</span>
+  <p class="meta">Apple Silicon + Intel · 1.3 MB · <span title="SHA-256">SHA-256 <code>a3f0ce081bddead2…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/jobs-v0.2.0/Jobs-0.2.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="lenda">
+  <h2>Lenda <span class="ver">2.1</span></h2>
+  <p>Lenda app with the George corner assistant.</p>
+  <span class="tag need">The George assistant needs Node.js on the Mac.</span>
+  <p class="meta">Apple Silicon · 0.6 MB · <span title="SHA-256">SHA-256 <code>99f2793fc50b9cb9…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/lenda-v2.1/Lenda-2.1-macOS.zip">Download</a>
+</article>
+<article class="app" id="live-summer">
+  <h2>Live Summer <span class="ver">0.1.0</span></h2>
+  <p>Live Summer app.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 0.3 MB · <span title="SHA-256">SHA-256 <code>59467f13687a1c8c…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/live-summer-v0.1.0/Live-Summer-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="milo">
+  <h2>Milo <span class="ver">0.1.0</span></h2>
+  <p>Web browser.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 127.0 MB · <span title="SHA-256">SHA-256 <code>7e7bf1f9ea5a3337…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/milo-v0.1.0/Milo-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="myl">
+  <h2>MYL <span class="ver">1.0.0</span></h2>
+  <p>Mind Your Language: offline password vault.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 0.4 MB · <span title="SHA-256">SHA-256 <code>5f34771bad3e0700…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/myl-v1.0.0/MYL-1.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="ostore">
+  <h2>OStore <span class="ver">2.4.0</span></h2>
+  <p>App store, update authority and Mac application library.</p>
+  <span class="tag need">Needs ShouldCloud running on the same Mac.</span>
+  <p class="meta">Apple Silicon · 1.3 MB · <span title="SHA-256">SHA-256 <code>6886cf6e0ee8b0bf…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/ostore-v2.4.0/OStore-2.4.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="real">
+  <h2>REAL <span class="ver">0.3.0</span></h2>
+  <p>Independent social photo app.</p>
+  <span class="tag need">Needs the REAL server, which isn&#x27;t online yet.</span>
+  <p class="meta">Apple Silicon + Intel · 2.9 MB · <span title="SHA-256">SHA-256 <code>b8c8adbebc5a2bb6…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/real-v0.3.0/REAL-0.3.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="rest">
+  <h2>Rest <span class="ver">2.0.0</span></h2>
+  <p>App drawer and file navigator, with the seated character.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 1.7 MB · <span title="SHA-256">SHA-256 <code>86f3c5865c9bfacc…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/rest-v2.0.0/Rest-2.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="revelation">
+  <h2>Revelation <span class="ver">0.1.0</span></h2>
+  <p>Story studio.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 0.2 MB · <span title="SHA-256">SHA-256 <code>5d19950e878fd9bd…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/revelation-v0.1.0/Revelation-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="roatchez">
+  <h2>Roatchez <span class="ver">1.3.0</span></h2>
+  <p>Streetwear collection with 3D product views.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 31.4 MB · <span title="SHA-256">SHA-256 <code>cc4918ca0bc40f83…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/roatchez-v1.3.0/Roatchez-1.3.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="samples-loop-studio">
+  <h2>Samples Loop Studio <span class="ver">2.1.0</span></h2>
+  <p>Audio loops and multitrack DAW.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 5.2 MB · <span title="SHA-256">SHA-256 <code>978d64075e6c7415…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/samples-loop-studio-v2.1.0/Samples-Loop-Studio-2.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="shouldcloud">
+  <h2>ShouldCloud <span class="ver">0.10.2</span></h2>
+  <p>Release hosting and publishing cloud.</p>
+  <span class="tag need">A server app: needs Node.js (Homebrew).</span>
+  <p class="meta">Apple Silicon · 24.5 MB · <span title="SHA-256">SHA-256 <code>c46e1428ff0aabc3…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/shouldcloud-v0.10.2/ShouldCloud-0.10.2-macOS.zip">Download</a>
+</article>
+<article class="app" id="sonix">
+  <h2>Sonix <span class="ver">2.0.0</span></h2>
+  <p>Music app (multi-platform).</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon + Intel · 8.9 MB · <span title="SHA-256">SHA-256 <code>4d063ddcf5ce0451…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/sonix-v2.0.0/Sonix-2.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="speco">
+  <h2>Speco <span class="ver">1.0</span></h2>
+  <p>Specification writer.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 0.1 MB · <span title="SHA-256">SHA-256 <code>6c500b1191fa09c7…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/speco-v1.0/Speco-1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="stepmail">
+  <h2>StepMail <span class="ver">1.8.1</span></h2>
+  <p>Encrypted email client and mail server.</p>
+  <span class="tag need">Needs the StepMail mail server, which isn&#x27;t online yet.</span>
+  <p class="meta">Apple Silicon · 0.7 MB · <span title="SHA-256">SHA-256 <code>d6c008f540a5716b…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/stepmail-v1.8.1/StepMail-1.8.1-macOS.zip">Download</a>
+</article>
+<article class="app" id="syncro">
+  <h2>Syncro <span class="ver">0.1.0</span></h2>
+  <p>Rota and daily routine planner.</p>
+  <span class="tag need">Accounts need the Syncro accounts server, which isn&#x27;t online yet.</span>
+  <p class="meta">Apple Silicon · 133.5 MB · <span title="SHA-256">SHA-256 <code>76251663c3551bac…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/syncro-v0.1.0/Syncro-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="the-booth">
+  <h2>The Booth <span class="ver">0.6.1</span></h2>
+  <p>Photo capture and storyboard studio.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 10.7 MB · <span title="SHA-256">SHA-256 <code>34d0ac1a032aa42b…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/the-booth-v0.6.1/The-Booth-0.6.1-macOS.zip">Download</a>
+</article>
+<article class="app" id="viewverse">
+  <h2>Viewverse <span class="ver">0.3.0</span></h2>
+  <p>Video streaming and review.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon + Intel · 0.8 MB · <span title="SHA-256">SHA-256 <code>7b18bc845df7f9a8…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/viewverse-v0.3.0/Viewverse-0.3.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="visora">
+  <h2>Visora <span class="ver">0.1.0</span></h2>
+  <p>Visual planning canvas.</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 127.2 MB · <span title="SHA-256">SHA-256 <code>bd071abf35b32434…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/visora-v0.1.0/Visora-0.1.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="vueve-studio">
+  <h2>Vueve Studio <span class="ver">3.0.0</span></h2>
+  <p>3D anime script-to-film studio.</p>
+  <span class="tag need">Needs Node.js and headless Chrome installed on the Mac.</span>
+  <p class="meta">Apple Silicon · 13.4 MB · <span title="SHA-256">SHA-256 <code>0a02cedf6a9b5661…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/vueve-studio-v3.0.0/Vueve-Studio-3.0.0-macOS.zip">Download</a>
+</article>
+<article class="app" id="xylo-code">
+  <h2>Xylo Code <span class="ver">0.5.2</span></h2>
+  <p>Code editor (IDE).</p>
+  <span class="tag ok">Runs on its own</span>
+  <p class="meta">Apple Silicon · 38.3 MB · <span title="SHA-256">SHA-256 <code>8f2339b4124461f0…</code></span></p>
+  <a class="dl" href="https://github.com/Mwabampho/shouldbe-apps/releases/download/xylo-code-v0.5.2/Xylo-Code-0.5.2-macOS.zip">Download</a>
+</article>
+</div>
+</main>
+<footer>
+  <p>34 apps · macOS 14 or later · these builds haven't been tested on other Macs yet, so please report problems.</p>
+  <p>© Should Be Media. Provided as-is, without warranty. More at <a href="https://shouldbe.media/">shouldbe.media</a>.</p>
+</footer>
+</body>
+</html>
