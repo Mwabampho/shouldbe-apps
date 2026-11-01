@@ -68,7 +68,55 @@
   "about": "Bread app (iOS-first).",
   "needs": "",
   "tag": "bread-v1.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Bread-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "4dd94959cd23526cca60e9892824687d4471c6966742deecaee4e63a2ebcf2b3",
+    "mb": 114.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Bread-1.0.0-Windows-x64.zip",
+    "sha256": "c37bf44de706001cadd49daf83743c62afd135718544d16c2c9ae124b3c7ae8b",
+    "mb": 153.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Bread-1.0.0-Linux-amd64.deb",
+    "sha256": "6ad665e01c5c3b5bc1082f54eaf75d2f8c2acb0a9816f98fc2889947ace05564",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Bread-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "f339747332c91824826262a16225040bd5051f88e60acbb2b07d6e5a24df067e",
+    "mb": 125.9,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "linux",
+    "steps": 8
+   }
+  },
+  "desktopDifferences": [
+   "Like the Mac version this is a preview with sample balances, activity and card: nothing connects to a bank or card issuer and no real money moves.",
+   "Where the Mac preview says a check passed (face scan ticks, 'Logged in securely with multi-factor authentication', 'code sent to your device and email', 'real-time fraud monitoring'), this version says plainly that no camera, fingerprint reader, code service or fraud monitoring is used — nothing is checked on either version.",
+   "The face and fingerprint steps never read biometrics (the Mac preview doesn't either); Windows Hello and Linux fingerprint readers are not used.",
+   "Adds a small 'Preview · sandbox · no real money moves' note to the welcome, intro, home and card screens."
+  ]
  },
  {
   "slug": "caxion",
@@ -200,7 +248,55 @@
   "about": "System health and services monitor.",
   "needs": "Some features need its background service.",
   "tag": "clean-v0.1.1",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Clean-0.1.1-Windows-x64-Setup.exe",
+    "sha256": "a9702581fe6de34cc393b2f2515ddd0a939ab9907d475ccc44829bf95ed4a1fc",
+    "mb": 114.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Clean-0.1.1-Windows-x64.zip",
+    "sha256": "db1b7dc508a22937783b1117630c38dd78423efaedfc672f76103267bb0fed8a",
+    "mb": 153.6,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Clean-0.1.1-Linux-amd64.deb",
+    "sha256": "c9e8bc64113c6d7c58a2d46f0ad4c8d505c83f40b5aba070cecb9b5a75f1e6c8",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Clean-0.1.1-Linux-x86_64.AppImage",
+    "sha256": "dc80c6e7f406494570ec863bd3a46f701c61ef3168702df8ee93ac5f38962da3",
+    "mb": 126.1,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "win32",
+    "steps": 12
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "linux",
+    "steps": 12
+   }
+  },
+  "desktopDifferences": [
+   "API keys and credential passwords are encrypted with the system's secure storage (Windows data protection, or the Secret Service/KWallet keyring on Linux) instead of Apple Keychain. On Linux without a keyring, Clean refuses to save secrets rather than store them in plain text.",
+   "Publishing can't start, stop or restart the publisher background service: on the Mac those buttons control its launchd service (clean-publisher-daemon). Here Clean reads that service's state, releases and logs in ~/.clean/publisher, publishes and rolls back releases, and runs the health and DNS checks.",
+   "Publish New Release asks you to choose the website's build folder once; the Mac version uses a fixed folder on the owner's Mac.",
+   "Import Project has separate buttons for files and folders, because Windows and Linux file pickers can't select both at once."
+  ]
  },
  {
   "slug": "connect",
@@ -326,7 +422,52 @@
   "about": "Fionbo app.",
   "needs": "",
   "tag": "fionbo-v1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Fionbo-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "d3ba624a7a2a8dd7c38b8e9b25847f7f489f26e82323a60b13a83bca169b4aae",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Fionbo-1.0.0-Windows-x64.zip",
+    "sha256": "66e975487c1de2b686515b143399043575b2046d149ac41839e72c1320bf8bdb",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Fionbo-1.0.0-Linux-amd64.deb",
+    "sha256": "0cf5720f87eaf83b3c2acd746cab394921dc9c6d911486c3fdb596024dd989b6",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Fionbo-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "ce0c4a482278c811820c545188de8beda44e90a239c931fefb4eca2a629dbbd8",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "win32",
+    "steps": 3
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "linux",
+    "steps": 3
+   }
+  },
+  "desktopDifferences": [
+   "Uses the standard app icon; the Mac app sets its Dock icon from the Fionbo avatar at launch."
+  ]
  },
  {
   "slug": "fionn-mpho-mwaba",
@@ -404,7 +545,52 @@
   "about": "A workspace for writing grant and funding applications: questions, answers, sign-off and deadlines in one place.",
   "needs": "",
   "tag": "funding-cockpit-v2.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Funding-Cockpit-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "9b7cf08fcf92ae02c8addff453eaa24be242e9dd4a08682a3c75bf6372fa555b",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Funding-Cockpit-2.0.0-Windows-x64.zip",
+    "sha256": "169d1cc48cfdea27324195627259b04c3af16a93c317026c65223108723847d9",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Funding-Cockpit-2.0.0-Linux-amd64.deb",
+    "sha256": "2b2fb58f1eaec57b7b40a970e26ba7a786b7fa79f3b38349b7f5eaece86c9cd0",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Funding-Cockpit-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "0fd586f241d1437d3905fa398c445caaddaff18545c257d044423bacc3582e3b",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "Uses the layout of Funding Cockpit's web version (same screens, features, data file format and keyboard shortcuts with Ctrl instead of Cmd) rather than the Mac app's native sidebar window; text size has three steps instead of four, plus the View menu zoom."
+  ]
  },
  {
   "slug": "ganise-organize",
@@ -534,7 +720,49 @@
   "about": "Trending repositories and private git hosting.",
   "needs": "Needs the Hot Contents server, which isn't included.",
   "tag": "hot-contents-v2.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Hot-Contents-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "94dc3544a3573a3be33654786f0d7ffdcec6182e4fff57c128af19caf7905361",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Hot-Contents-2.0.0-Windows-x64.zip",
+    "sha256": "3de532ba13b3948ec65f3a9ecd7bfe2151d841b5568320d2a151ddf5c3f452a3",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Hot-Contents-2.0.0-Linux-amd64.deb",
+    "sha256": "3eaf8d6de45c6e36aaa344205d2d639378f872495ec57a5dc36c78b7d7235ba9",
+    "mb": 89.6,
+    "kind": "deb"
+   },
+   {
+    "file": "Hot-Contents-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "3ba8c685fe4448bc3d6bd62b7c5388bee3cb18ed433865c8d72c94c47532481c",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "linux",
+    "steps": 8
+   }
+  }
  },
  {
   "slug": "independent",
@@ -720,7 +948,53 @@
   "about": "Live Summer app.",
   "needs": "",
   "tag": "live-summer-v0.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Live-Summer-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "e41c9d1962099315e974e516c1b873c28e06d9899dab8d8acf82efac16d52b9f",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Live-Summer-0.1.0-Windows-x64.zip",
+    "sha256": "47f400209e85d9f30e609ba3c987f99c7cc615c6c5a384ba0c744b37b50b47db",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Live-Summer-0.1.0-Linux-amd64.deb",
+    "sha256": "e352707a4a5caae4e049a05eba80638768291fd825ccc5767e64024374be47a7",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Live-Summer-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "a8cdbd90fe882acda3635b872e52504520f80e497ce5ce2d2172fdd9e922e7d2",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323886164,
+    "platform": "win32",
+    "steps": 7
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323886164,
+    "platform": "linux",
+    "steps": 7
+   }
+  },
+  "desktopDifferences": [
+   "Explore Map uses OpenStreetMap tiles instead of Apple Maps.",
+   "\"Remind me\" reminders only appear while Live Summer is open (the Mac schedules them with the system)."
+  ]
  },
  {
   "slug": "milo",
@@ -1274,7 +1548,55 @@
   "about": "Release hosting and publishing cloud.",
   "needs": "A server app: needs Node.js (Homebrew).",
   "tag": "shouldcloud-v0.10.2",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "ShouldCloud-0.10.2-Windows-x64-Setup.exe",
+    "sha256": "6afaca3b180adfa90d22348ca4435bed3e8dc4bf352ad77188a22fb616034dc8",
+    "mb": 114.6,
+    "kind": "installer"
+   },
+   {
+    "file": "ShouldCloud-0.10.2-Windows-x64.zip",
+    "sha256": "d7f52c3c07ce92c74bb86a0d41c2cd62eb0ea6733a9c5eeb27e23430f1ede285",
+    "mb": 153.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "ShouldCloud-0.10.2-Linux-amd64.deb",
+    "sha256": "73e475335e6392414e5ebf0b0ab30fd7fcbbb677a9d8a103649417dcd1fd7cb1",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "ShouldCloud-0.10.2-Linux-x86_64.AppImage",
+    "sha256": "832bda8ec921f453970b499cf0cb7e2cdfec0f17b9f498864eae9d45c349ae89",
+    "mb": 125.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "win32",
+    "steps": 9
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "linux",
+    "steps": 9
+   }
+  },
+  "desktopDifferences": [
+   "The Mac app's \"Publisher Access\" dialog is not included: the remote admin password and publisher key are in the data folder (Help > Open data folder > .shouldcloud/public-access and .shouldcloud/publisher).",
+   "The origin only runs while the app window is open; the Mac version can keep running as a background service and keeps the Mac awake.",
+   "\"Deploy Viewverse\" (the bundled Viewverse Mac Preview) needs macOS and does not work here.",
+   "The old September 2026 seed release files bundled with the Mac app are not included."
+  ]
  },
  {
   "slug": "sonix",
