@@ -369,7 +369,54 @@
   "about": "Streetwear collection with 3D product views.",
   "needs": "",
   "tag": "roatchez-v1.3.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Roatchez-1.3.0-Windows-x64-Setup.exe",
+    "sha256": "2aa767e7627a048c25f8906a962b9334e490249c20dab823ea2a19e5d4ed9fd6",
+    "mb": 134.2,
+    "kind": "installer"
+   },
+   {
+    "file": "Roatchez-1.3.0-Windows-x64.zip",
+    "sha256": "5a279c38a5881692ee3974f3ba3605dc1ab0bdd4bc942f6a04a219bbfd090169",
+    "mb": 175.8,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Roatchez-1.3.0-Linux-amd64.deb",
+    "sha256": "64522bed636faf000a32016b38d0d95d14c3a37f29a96f1dd4e2eebf732b1db8",
+    "mb": 108.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Roatchez-1.3.0-Linux-x86_64.AppImage",
+    "sha256": "17cc843badc6ab5426966b89cf2aab9f7655b548e78f5add982f94e4768670cf",
+    "mb": 148.4,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "win32",
+    "steps": 16
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "linux",
+    "steps": 16
+   }
+  },
+  "desktopDifferences": [
+   "Does not receive products sent from Roatchez Studio (Studio is Mac only); the 30 Studio products bundled with the Mac app are included.",
+   "The 3D shape mock-ups are drawn with WebGL instead of Apple SceneKit, so lighting and materials look slightly different; on computers without WebGL 2 the product photo is shown instead.",
+   "The Mac command-line checks (--catalogue-audit, --studio-verify, --studio-product) are not included."
+  ]
  },
  {
   "slug": "roatchez-studio",
@@ -417,7 +464,53 @@
   "about": "Music app (multi-platform).",
   "needs": "",
   "tag": "sonix-v2.0.0",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Sonix-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "1f9d023c9030812ebed0eb6255d0691e45f6c75d73430d777a347c21d9b1e9cb",
+    "mb": 118.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Sonix-2.0.0-Windows-x64.zip",
+    "sha256": "efa413f9507d97458d7676d69606cfe8df616a9c7714bba8bcb313ff13dd3534",
+    "mb": 158.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Sonix-2.0.0-Linux-amd64.deb",
+    "sha256": "b530e0917c10d7c2b831e43c0f82bd19600cc5b10ea80a29dd56ba31a7a18bca",
+    "mb": 94.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Sonix-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "6444ade1dd86d78aa3d18b7a2b447197a4b3e9208f35af022acd232a77fd2f73",
+    "mb": 130.9,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "win32",
+    "steps": 12
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "linux",
+    "steps": 12
+   }
+  },
+  "desktopDifferences": [
+   "Studio takes are saved as WAV files (the Mac saves AAC .m4a).",
+   "Settings has no Check for Updates: the Mac version installs updates from a local O Store folder; on Windows and Linux, download new versions from shouldbe.media."
+  ]
  },
  {
   "slug": "speco",
@@ -507,7 +600,56 @@
   "about": "Photo capture and storyboard studio.",
   "needs": "",
   "tag": "the-booth-v0.6.1",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "The-Booth-0.6.1-Windows-x64-Setup.exe",
+    "sha256": "95df9fd72f0751df69a7dc087f72e0e4a5683a73d6f3beac8a62d2732852f2c6",
+    "mb": 115.8,
+    "kind": "installer"
+   },
+   {
+    "file": "The-Booth-0.6.1-Windows-x64.zip",
+    "sha256": "ea20ecd2e8226a0b7e3b09cdbc43ab3271b0efcbe9b9b0150bdc0d0aa8ff802a",
+    "mb": 154.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "The-Booth-0.6.1-Linux-amd64.deb",
+    "sha256": "ab64d9a482601d3cd0c4ebde2e99e10b500c3cd20eb4b09ea963626a48e21f0f",
+    "mb": 90.9,
+    "kind": "deb"
+   },
+   {
+    "file": "The-Booth-0.6.1-Linux-x86_64.AppImage",
+    "sha256": "1d3602d5a65a92e01c874f17e15cae2870fe221e6d9517dc37061f1b8271d302",
+    "mb": 127,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "AI Scene Studio (Apple Vision person segmentation and Image Playground AI rooms) is Mac only and is not included.",
+   "AI Character Mode (Create ML styles trained on the Mac) is Mac only; live broadcasting uses the original camera only.",
+   "Live broadcasting needs FFmpeg installed separately (as on the Mac); it encodes with x264 on Windows and Linux instead of Apple's VideoToolbox hardware encoder.",
+   "Live recordings are saved in Videos/The Booth/Live and diagnostics in The Booth's own logs folder instead of the Mac's Movies and Library/Logs folders.",
+   "Reload is not blocked while live, and closing the window while live stops the broadcast cleanly instead of asking first."
+  ]
  },
  {
   "slug": "tribute",
@@ -694,64 +836,5 @@
   "needs": "",
   "tag": "xylo-code-v0.5.2",
   "arch": "Apple Silicon"
- },
- {
-  "slug": "liveo",
-  "name": "Liveo",
-  "version": "1.0.2",
-  "file": "Liveo-1.0.2-macOS.zip",
-  "sha256": "0fa88fef326db1a5483a2c23b2ff78b479f60c4d19ea8d46fedad9da598b634e",
-  "mb": 119.6,
-  "about": "Live and upcoming football, boxing and other sport: Live Now, Upcoming, Football, Boxing and Other Sports with search and filters, scores, start times and where to watch (TV listings and official broadcasters). Data from TheSportsDB. Never shows unofficial streams.",
-  "needs": "",
-  "tag": "liveo-v1.0.2",
-  "arch": "Apple Silicon",
-  "macIntel": {
-   "file": "Liveo-1.0.2-macOS-Intel.zip",
-   "sha256": "067ced3772517ea5b76908f072ac79fc4db56d35eab4e35d662f280235149712",
-   "mb": 126.8
-  },
-  "windows": [
-   {
-    "file": "Liveo-1.0.2-Windows-x64-Setup.exe",
-    "sha256": "04f969c33b100e5a6c885be3ea45a568f5092110b0d8b364f61a732a8bf741e0",
-    "mb": 114.8,
-    "kind": "installer"
-   },
-   {
-    "file": "Liveo-1.0.2-Windows-x64.zip",
-    "sha256": "b2023dc841f9fa9351af22916ab873d6ce54bbaf041b492e1ed7e1ea90493cf2",
-    "mb": 153.9,
-    "kind": "zip"
-   }
-  ],
-  "linux": [
-   {
-    "file": "Liveo-1.0.2-Linux-amd64.deb",
-    "sha256": "1dbe86489c84ec2f84b4471217033349b6f09bb795fe0514a15625a4a350a907",
-    "mb": 90.1,
-    "kind": "deb"
-   },
-   {
-    "file": "Liveo-1.0.2-Linux-x86_64.AppImage",
-    "sha256": "be8e26fb3294f949164941d3674c722e4781a6ebc763b6bfcef1d1ba11f30a0d",
-    "mb": 126.3,
-    "kind": "appimage"
-   }
-  ],
-  "desktopTested": {
-   "windows": {
-    "at": "2026-11-01",
-    "run": 41316065557,
-    "platform": "win32",
-    "steps": null
-   },
-   "linux": {
-    "at": "2026-11-01",
-    "run": 41316065557,
-    "platform": "linux",
-    "steps": null
-   }
-  }
  }
 ]
