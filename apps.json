@@ -2,14 +2,14 @@
  {
   "slug": "active",
   "name": "Active",
-  "version": "0.2.0",
-  "file": "Active-0.2.0-macOS.zip",
-  "sha256": "8334f51e23ca625aa845bcf1bd01e0ece1dd693cf96253f768b2d88b7273fb42",
-  "mb": 0.2,
+  "version": "2.0",
+  "file": "Active-2.0-macOS.zip",
+  "sha256": "836f0a0493d571801f62ca564f98a6484c52923db65d6f106573a7bdb7fd4196",
+  "mb": 1.3,
   "about": "Cross-device messaging client.",
   "needs": "",
-  "tag": "active-v0.2.0",
-  "arch": "Apple Silicon"
+  "tag": "active-v2.0",
+  "arch": "Apple Silicon + Intel"
  },
  {
   "slug": "bread",
@@ -105,6 +105,18 @@
   "about": "Personal AI workstation.",
   "needs": "",
   "tag": "fionn-mpho-mwaba-v4.1.0",
+  "arch": "Apple Silicon"
+ },
+ {
+  "slug": "funding-cockpit",
+  "name": "Funding Cockpit",
+  "version": "2.0.0",
+  "file": "Funding-Cockpit-2.0.0-macOS.zip",
+  "sha256": "074e54f4a5f833f347d2611a805cb901a29c4f879b498854f365dece5201b58e",
+  "mb": 0.9,
+  "about": "A workspace for writing grant and funding applications: questions, answers, sign-off and deadlines in one place.",
+  "needs": "",
+  "tag": "funding-cockpit-v2.0.0",
   "arch": "Apple Silicon"
  },
  {
@@ -276,6 +288,18 @@
   "arch": "Apple Silicon"
  },
  {
+  "slug": "roatchez-studio",
+  "name": "Roatchez Studio",
+  "version": "2.0.0",
+  "file": "Roatchez-Studio-2.0.0-macOS.zip",
+  "sha256": "7a8af2cde4e2d49ba8aac0a1a385ee82d3c1a6912a8c3e6b7b0d5f9d86cf18f3",
+  "mb": 1.6,
+  "about": "Product manager for the Roatchez clothing app: make product pages and send them to Roatchez.",
+  "needs": "Sends products to the Roatchez app, so install Roatchez too.",
+  "tag": "roatchez-studio-v2.0.0",
+  "arch": "Apple Silicon"
+ },
+ {
   "slug": "samples-loop-studio",
   "name": "Samples Loop Studio",
   "version": "2.1.0",
@@ -362,13 +386,13 @@
  {
   "slug": "viewverse",
   "name": "Viewverse",
-  "version": "0.3.0",
-  "file": "Viewverse-0.3.0-macOS.zip",
-  "sha256": "7b18bc845df7f9a8d909ea9d8e2dd9d529873287699cb52eb484a895d0f10b27",
+  "version": "1.0.0",
+  "file": "Viewverse-1.0.0-macOS.zip",
+  "sha256": "ab1cef3a853dd298d3d3186cfa7f46a1f5f89c34a98755712640e91dc5f3af1e",
   "mb": 0.8,
   "about": "Video streaming and review.",
-  "needs": "",
-  "tag": "viewverse-v0.3.0",
+  "needs": "Needs Node.js 22.13 or newer and ffmpeg (brew install node ffmpeg).",
+  "tag": "viewverse-v1.0.0",
   "arch": "Apple Silicon + Intel"
  },
  {
