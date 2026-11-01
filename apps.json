@@ -123,7 +123,55 @@
   "about": "Walking routes, navigation and accessibility.",
   "needs": "Needs the Feet route server, which isn't online yet.",
   "tag": "feet-v0.1.0",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Feet-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "844c6e28363c183dd4d215f3ae72f4f4c9e91eff221143bd0e51b5992b17b6c5",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Feet-0.1.0-Windows-x64.zip",
+    "sha256": "49a2786a5a161d7f4cf549f3b585c0ee92166746713f705ce04e013a3231778c",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Feet-0.1.0-Linux-amd64.deb",
+    "sha256": "27ac1f98e58d92be93872d42a1793a39620a6f5dceb6e85180d29a66e4773d3e",
+    "mb": 90,
+    "kind": "deb"
+   },
+   {
+    "file": "Feet-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "efbb075a858423850699ee2e89eb0fd80d5927a519ada6c8c7cf617a7ba2c2fe",
+    "mb": 125.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 9
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 9
+   }
+  },
+  "desktopDifferences": [
+   "No spoken destination (\"Say where to\"): speech recognition isn't available on Windows or Linux in this version. Read aloud and spoken directions work where the system has a voice.",
+   "The map shows OpenStreetMap tiles instead of Apple Maps, so there is no Satellite or Hybrid view and no points of interest on the map.",
+   "Your position comes from the computer's location service when it has one; on many PCs it doesn't, so choose a start place instead. Navigation and activity recording need a location fix.",
+   "Saved data is kept in the app's data folder as JSON rather than a SQLite file; it isn't shared with the Mac app."
+  ]
  },
  {
   "slug": "fionbo",
@@ -147,7 +195,61 @@
   "about": "Personal AI workstation.",
   "needs": "",
   "tag": "fionn-mpho-mwaba-v4.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Windows-x64-Setup.exe",
+    "sha256": "1cb475ef301e710e6ff145f977135981cfccf65cf88e49834dd465042b86dc02",
+    "mb": 115.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Windows-x64.zip",
+    "sha256": "93767643f1e3016619038ea6520e9eeaccb5921223bb31eb24a6b7c5f864ec2e",
+    "mb": 153.9,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Linux-amd64.deb",
+    "sha256": "6d1cdb7a91ec9c3fb6ff90cebe493304e937e086b478d1cf0bd8a42725fe2c13",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Linux-x86_64.AppImage",
+    "sha256": "2a5399b905e6bd248d6a6dc74253b1728905bf4f0eb74e70596405531de8da81",
+    "mb": 126.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322009386,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322009386,
+    "platform": "linux",
+    "steps": 8
+   }
+  },
+  "desktopDifferences": [
+   "The Mac's Apple-only AI features are not available: Image Playground (on-device image generation), Apple Vision text recognition and Apple Speech (voice chat, dictation, read-aloud, audio transcription). Chat and the agent use Ollama on this computer, as on the Mac, or your own cloud keys.",
+   "No image analysis or Word/Excel/PowerPoint/PDF creation tools yet.",
+   "Cannot read PDF, Word, Excel, PowerPoint or iWork files; text and code files only.",
+   "No Projects, Build (live web preview), Files or Saved tabs, and no Prompt Studio.",
+   "File search scans folders directly instead of using the Spotlight index, so it is slower on large folders.",
+   "No Xcode build/inspect-project tools; use run_command for builds.",
+   "Undo of a move to the Recycle Bin/Trash isn't offered (restore it from the Recycle Bin/Trash instead).",
+   "The Antigravity CLI chat back-end is not included.",
+   "No in-app updater; new versions come from the ShouldBe website.",
+   "The macOS privacy permissions section (Full Disk Access, Microphone…) is Mac-only."
+  ]
  },
  {
   "slug": "funding-cockpit",
@@ -219,7 +321,53 @@
   "about": "UK vacancy platform.",
   "needs": "Needs the Jobs server, which isn't online yet.",
   "tag": "jobs-v0.2.0",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Jobs-0.2.0-Windows-x64-Setup.exe",
+    "sha256": "a5e6128ffba8b6480a9917713b5d7e0c84314b07b2605dcae06c113119dda65a",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Jobs-0.2.0-Windows-x64.zip",
+    "sha256": "0dfd71a3e8ea66d648750fb2bc4aacbcbe92fbf291c91742edc51570cb593baf",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Jobs-0.2.0-Linux-amd64.deb",
+    "sha256": "767d752d6894cdce6e22b883034aec1d68c3d2d05e575c0aab22838b8af0ca3f",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Jobs-0.2.0-Linux-x86_64.AppImage",
+    "sha256": "e86893fb4e32fc52d84cdde767a3319884ef2a579f3b156110c80e2d495678fa",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "Needs a Jobs server: like the Mac app it uses http://127.0.0.1:8820 unless you enter another address in Sources & Settings.",
+   "Share copies the vacancy link to the clipboard instead of opening the macOS share menu."
+  ]
  },
  {
   "slug": "lenda",
@@ -333,7 +481,54 @@
   "about": "Independent social photo app.",
   "needs": "Needs the REAL server, which isn't online yet.",
   "tag": "real-v0.3.0",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "REAL-0.3.0-Windows-x64-Setup.exe",
+    "sha256": "f8b36e4f941eee675490bc5d1a1005d35919cdc325a7b7b10a66788636c89854",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "REAL-0.3.0-Windows-x64.zip",
+    "sha256": "fbef2bc9f86dbc9cda694700298092626357c7cfa4f67ca16f4a52482a631b6f",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "REAL-0.3.0-Linux-amd64.deb",
+    "sha256": "a53c0909521d277ecc5cf1bbe0ce336a0931d947765e98a3c5006613ba3bd3b3",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "REAL-0.3.0-Linux-x86_64.AppImage",
+    "sha256": "64b86ac622ff04a7fa51cbd860acea3a955b044b831c2287c30b09e1673e85b9",
+    "mb": 125.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "Live broadcasts open in REAL on the web to watch (the Mac app plays them in the window); live chat and reactions work in the app.",
+   "Share copies the post's link instead of opening the macOS share menu.",
+   "The sign-in token is protected with the system keychain where the computer provides one (on some Linux desktops it is stored in the app's data folder)."
+  ]
  },
  {
   "slug": "rest",
@@ -357,7 +552,52 @@
   "about": "Story studio.",
   "needs": "",
   "tag": "revelation-v0.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Revelation-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "23c5bd687a9316b1d04727fa5d96a7182031f5db0a8b2afef00b539b5eed0018",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Revelation-0.1.0-Windows-x64.zip",
+    "sha256": "013b48bee97ce44761e0ab72f14f9934be5bec84e53bb58876eef22fd0c131c9",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Revelation-0.1.0-Linux-amd64.deb",
+    "sha256": "7be3c9fcbd322ac82ddb75176bb623e6712c671555d2483d3d477bb3b16131e3",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Revelation-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "7486d0efd07413bb8bda134b44c43a6f84bcd3b868e40b03d82b32dc33b17d4e",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "linux",
+    "steps": 6
+   }
+  },
+  "desktopDifferences": [
+   "There is no app icon yet (the Mac build has none either), so the standard Electron icon is shown."
+  ]
  },
  {
   "slug": "roatchez",
@@ -428,7 +668,56 @@
   "about": "Product manager for the Roatchez clothing app: make product pages and send them to Roatchez.",
   "needs": "Sends products to the Roatchez app, so install Roatchez too.",
   "tag": "roatchez-studio-v2.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Roatchez-Studio-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "92897b77d816158af5a10abdaeb2a72ca3439cb7c1229f200d54fb057e90df5f",
+    "mb": 115.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Roatchez-Studio-2.0.0-Windows-x64.zip",
+    "sha256": "4c3f1ab3b7334ca3c8afd53c1accbc1d6d05666e6e2579396e924c30fb5f6c5a",
+    "mb": 154.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Roatchez-Studio-2.0.0-Linux-amd64.deb",
+    "sha256": "841b041b61cf0c552c974e60d1dc72e75fe9566d71d32316541dfe2b7fd7db1d",
+    "mb": 90.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Roatchez-Studio-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "4d69aedc9488eb832216621da60c08e8d8c757c4942946fc2eb35250352365f7",
+    "mb": 126.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "linux",
+    "steps": 8
+   }
+  },
+  "desktopDifferences": [
+   "Sent products are written to the RoatchezStudioBridge folder (%APPDATA%\\RoatchezStudioBridge on Windows, ~/.config/RoatchezStudioBridge on Linux) in the same products.json format as the Mac. The Windows/Linux Roatchez app only shows them if it reads that folder.",
+   "A send is checked by reading the bridge catalogue back; the Mac version also asks the installed Roatchez app (Roatchez --studio-verify) to confirm it shows the product, and refuses to send if Roatchez is missing.",
+   "Open Roatchez and Show in Roatchez only work when Roatchez is installed in its usual place.",
+   "Replacement images must be PNG or JPEG (the Mac also accepts HEIC and TIFF).",
+   "Drafts from the earlier, misspelled Mac build are not imported."
+  ]
  },
  {
   "slug": "samples-loop-studio",
@@ -534,7 +823,54 @@
   "about": "Encrypted email client and mail server.",
   "needs": "Needs the StepMail mail server, which isn't online yet.",
   "tag": "stepmail-v1.8.1",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "StepMail-1.8.1-Windows-x64-Setup.exe",
+    "sha256": "bba257b73721483c5086a9408f4f20bbb1c06777942c6169ac0b0ecd1f923927",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "StepMail-1.8.1-Windows-x64.zip",
+    "sha256": "a0051af5b70d3b812bc7d60b36e5e14ad76bc0f988f694ef577a95af14389b7e",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "StepMail-1.8.1-Linux-amd64.deb",
+    "sha256": "0fa9473f7c7287ceeeefe0d471c8036b0060bf602bdf1d6771c6b8993c7edb02",
+    "mb": 89.5,
+    "kind": "deb"
+   },
+   {
+    "file": "StepMail-1.8.1-Linux-x86_64.AppImage",
+    "sha256": "6e98158eff6739fe12ccc4b10fe89f15b63e01fab62c421566a40e019e555232",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 24
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 24
+   }
+  },
+  "desktopDifferences": [
+   "Two-factor setup shows the key and otpauth link to type into an authenticator app; there is no QR code to scan.",
+   "Session tokens and on-device password hashes are kept in the app's data folder, not in a system keychain.",
+   "\"This computer only\" mailboxes are separate from ones made in the Mac app; mail isn't copied between them."
+  ]
  },
  {
   "slug": "syncro",
@@ -835,6 +1171,45 @@
   "about": "Code editor (IDE).",
   "needs": "",
   "tag": "xylo-code-v0.5.2",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Xylo-Code-0.5.2-Windows-x64.zip",
+    "sha256": "12e5698087ada539aff3b15ee3277d99b440d78f27d04117ad79d582e6d07de0",
+    "mb": 47.9,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Xylo-Code-0.5.2-Linux-x86_64.AppImage",
+    "sha256": "77b6accfecad11e452148b59c09c2ea05fd637430e2f952b01a1a2c37314af9c",
+    "mb": 33.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322767900,
+    "platform": "windows",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322767900,
+    "platform": "linux",
+    "steps": null
+   }
+  },
+  "desktopDifferences": [
+   "No iPhone or iOS Simulator run destinations, device installs or Xcode project builds: those need a Mac with Xcode.",
+   "The iOS App and macOS App project templates are not offered (CMake and Swift package templates are).",
+   "The LLDB debugger (breakpoints, stepping, variables) works on macOS only; Windows and Linux say it is unavailable.",
+   "The Inspector cannot edit Xcode build settings (it needs Apple's plutil).",
+   "Apple Account / signing team lookup and Open in Xcode are Mac-only.",
+   "Open in Hot Contents shows the server's repository details but cannot launch the Hot Contents app (it is a Mac app).",
+   "The terminal panel needs a POSIX shell: bash on Linux, Git for Windows' bash on Windows."
+  ]
  }
 ]
