@@ -338,14 +338,14 @@
  {
   "slug": "speco",
   "name": "Speco",
-  "version": "1.0",
-  "file": "Speco-1.0-macOS.zip",
-  "sha256": "6c500b1191fa09c7c56f9dfd3837ddda0c6d70997c7434e9bfce866ad39f6968",
-  "mb": 0.1,
-  "about": "Specification writer.",
+  "version": "0.3.0",
+  "file": "Speco-0.3.0-macOS.zip",
+  "sha256": "b9162c051bfa6272c944b624f170a395969493cb90e6b04b47ff1b619f9cfb93",
+  "mb": 0.3,
+  "about": "Voice-to-terminal assistant: speak, and it writes and runs terminal commands after a safety filter.",
   "needs": "",
-  "tag": "speco-v1.0",
-  "arch": "Apple Silicon"
+  "tag": "speco-v0.3.0",
+  "arch": "Apple Silicon + Intel"
  },
  {
   "slug": "stepmail",
