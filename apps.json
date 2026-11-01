@@ -379,7 +379,54 @@
   "about": "Email delivery console: send mail through your own SMTP account, domains, delivery logs.",
   "needs": "Sends mail through your own SMTP account.",
   "tag": "gone-v1.0.1",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "GONE-1.0.1-Windows-x64-Setup.exe",
+    "sha256": "f5d2a83382d1ef9c1394d8281893f389aa3d315cb064b8effc25fa0232aab19d",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "GONE-1.0.1-Windows-x64.zip",
+    "sha256": "576a91e67b2b0b9025ff49c30ec6521a87387f4be1326f7c4bd330f147df4360",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "GONE-1.0.1-Linux-amd64.deb",
+    "sha256": "cf4f42880a0f2d0627f1af4c8d29aa2c49b62389cb0ac34ef10c48b922791fd4",
+    "mb": 89.6,
+    "kind": "deb"
+   },
+   {
+    "file": "GONE-1.0.1-Linux-x86_64.AppImage",
+    "sha256": "ae43f3b1df9b3c2497ab7a576584dce42e5163d811a14ae14f07799811f8b00c",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "The SMTP password is kept in Windows protected storage or the Linux system keyring instead of the macOS Keychain. If no keyring is available on Linux, GONE won't save it (it is used only until you quit).",
+   "Mail is sent by GONE's own SMTP client instead of curl. It supports STARTTLS, implicit TLS on port 465, and PLAIN/LOGIN sign-in; servers that only offer other sign-in methods (such as CRAM-MD5 or OAuth) aren't supported.",
+   "Domain checks use this computer's DNS settings instead of the dig command."
+  ]
  },
  {
   "slug": "hot-contents",
@@ -403,7 +450,53 @@
   "about": "Independent app manifests and launcher.",
   "needs": "Needs Python 3 on the Mac.",
   "tag": "independent-v0.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Independent-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "e71a6bb68904484a5754408ac4121b5d218767d0495f80343ea1f9b1fb98d305",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Independent-0.1.0-Windows-x64.zip",
+    "sha256": "88c192a8b3d701393ba86090e9ec3b5efd8c0f53e6be4c9292e8678d940a9a1a",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Independent-0.1.0-Linux-amd64.deb",
+    "sha256": "8aa86f82ddba8ff796f41f2737a21bc1d818e74260990edffada7b9ef65f3b08",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Independent-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "b3a41ca1383fecfdcbe70083299544de5749fa193deae95a12fb09916a0770a8",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "win32",
+    "steps": 7
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "linux",
+    "steps": 7
+   }
+  },
+  "desktopDifferences": [
+   "Its settings, activity log and manifest backups are kept in the app's data folder instead of ~/.independent (same file formats).",
+   "No Python needed: the Mac build runs a Python/Tk program with the Python already on the Mac; this version is self-contained."
+  ]
  },
  {
   "slug": "jobs",
@@ -597,7 +690,54 @@
   "about": "Mind Your Language: offline password vault.",
   "needs": "",
   "tag": "myl-v1.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "MYL-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "34b9356e8056b287e120eb92c775e4d00b3dcc6deafc493601a942a423e18ee0",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "MYL-1.0.0-Windows-x64.zip",
+    "sha256": "162b6fee9ec85614957d4bf0e8c07557699d96fc536a04163aa37aa54994c8f8",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "MYL-1.0.0-Linux-amd64.deb",
+    "sha256": "d6f82e3ef6ff428f7adc534ceea3a26ed899f426c6bbed7b76a3c150c3d515f7",
+    "mb": 89.6,
+    "kind": "deb"
+   },
+   {
+    "file": "MYL-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "8f2e829bb45a0d06f508b0097652d870c2fe7335575b4a56c905ed1af74abb44",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "win32",
+    "steps": 12
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "linux",
+    "steps": 12
+   }
+  },
+  "desktopDifferences": [
+   "No Touch ID / biometric unlock; unlock with your master password.",
+   "The vault is protected by your computer's secure storage instead of the macOS Keychain: Windows Data Protection on Windows, and the system keyring (GNOME Keyring or KWallet) on Linux. On Linux without a keyring, MYL refuses to create a vault rather than store it unprotected.",
+   "Vaults can't be moved between a Mac and a Windows or Linux computer (each is locked to the computer's own secure storage, as on the Mac)."
+  ]
  },
  {
   "slug": "ostore",
@@ -869,7 +1009,62 @@
   "about": "Audio loops and multitrack DAW.",
   "needs": "",
   "tag": "samples-loop-studio-v2.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Windows-x64-Setup.exe",
+    "sha256": "dd83df6af18fdcfbebf7ef3cb9d1a70add28501cc20ab92de0d00e3ae821887d",
+    "mb": 117.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Windows-x64.zip",
+    "sha256": "0ebd92b8bf71b104fd3745ab933ae190e1b765fd46b7a20f9872e69da205ce8d",
+    "mb": 156.8,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Linux-amd64.deb",
+    "sha256": "2668161180ee7b66830c2774e2aee7eacfc078a9505318eba62b8bd5c4a5e8ce",
+    "mb": 92.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Linux-x86_64.AppImage",
+    "sha256": "e0357b0785075850a778345b050bd88798d3079f976f6ec8a35965e8fe66c993",
+    "mb": 129.3,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41325032734,
+    "platform": "win32",
+    "steps": 16
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41325032734,
+    "platform": "linux",
+    "steps": 16
+   }
+  },
+  "desktopDifferences": [
+   "Audio Unit plug-ins (effects and instruments) aren't available; Audio Unit channels and inserts in Mac projects are silent here.",
+   "SL Synth's sound engine was rebuilt from the Mac app's behaviour, so synth parts sound very close but not sample-identical; samples, built-in sounds, drums and the mixer effects play the same.",
+   "SL Drum Machine Tune and Decay are approximations of the Mac versions.",
+   "Export writes WAV and AIFF (master and stems); FLAC and AAC/M4A aren't offered.",
+   "Editor windows can't be detached into their own floating windows.",
+   "Audio plays through the system's default output; there is no device, buffer-size or input-channel choice, and no DSP-load or memory readout.",
+   "Audio recording is basic: count-in and punch-in/out don't apply to audio takes, and input monitoring isn't available.",
+   "Sample time-stretch and pitch-shift tools, and clip time-stretch/reverse in the playlist, aren't included.",
+   "Files can't be dragged in from the file manager; use Import Audio or File › Open.",
+   "Collect Project Package isn't available.",
+   "The new-project templates start with similar but not identical patterns to the Mac templates."
+  ]
  },
  {
   "slug": "shouldcloud",
