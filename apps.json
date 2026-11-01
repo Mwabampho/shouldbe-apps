@@ -694,5 +694,64 @@
   "needs": "",
   "tag": "xylo-code-v0.5.2",
   "arch": "Apple Silicon"
+ },
+ {
+  "slug": "liveo",
+  "name": "Liveo",
+  "version": "1.0.2",
+  "file": "Liveo-1.0.2-macOS.zip",
+  "sha256": "0fa88fef326db1a5483a2c23b2ff78b479f60c4d19ea8d46fedad9da598b634e",
+  "mb": 119.6,
+  "about": "Live and upcoming football, boxing and other sport: Live Now, Upcoming, Football, Boxing and Other Sports with search and filters, scores, start times and where to watch (TV listings and official broadcasters). Data from TheSportsDB. Never shows unofficial streams.",
+  "needs": "",
+  "tag": "liveo-v1.0.2",
+  "arch": "Apple Silicon",
+  "macIntel": {
+   "file": "Liveo-1.0.2-macOS-Intel.zip",
+   "sha256": "067ced3772517ea5b76908f072ac79fc4db56d35eab4e35d662f280235149712",
+   "mb": 126.8
+  },
+  "windows": [
+   {
+    "file": "Liveo-1.0.2-Windows-x64-Setup.exe",
+    "sha256": "04f969c33b100e5a6c885be3ea45a568f5092110b0d8b364f61a732a8bf741e0",
+    "mb": 114.8,
+    "kind": "installer"
+   },
+   {
+    "file": "Liveo-1.0.2-Windows-x64.zip",
+    "sha256": "b2023dc841f9fa9351af22916ab873d6ce54bbaf041b492e1ed7e1ea90493cf2",
+    "mb": 153.9,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Liveo-1.0.2-Linux-amd64.deb",
+    "sha256": "1dbe86489c84ec2f84b4471217033349b6f09bb795fe0514a15625a4a350a907",
+    "mb": 90.1,
+    "kind": "deb"
+   },
+   {
+    "file": "Liveo-1.0.2-Linux-x86_64.AppImage",
+    "sha256": "be8e26fb3294f949164941d3674c722e4781a6ebc763b6bfcef1d1ba11f30a0d",
+    "mb": 126.3,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41316065557,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41316065557,
+    "platform": "linux",
+    "steps": null
+   }
+  }
  }
 ]
