@@ -139,7 +139,56 @@
   "about": "Local-first personal assistant.",
   "needs": "Needs the Clarice core and a local AI model set up on the Mac.",
   "tag": "clarice-v1.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Clarice-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "6b67aa5da2358fdc1d35553500433403b377ed8062f625acb6bfce72fc12d011",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Clarice-1.0.0-Windows-x64.zip",
+    "sha256": "966fd2c173b9aaf77f1b11e81703aaab7af005e216b6b8edc8c4ddf6db0e9d5b",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Clarice-1.0.0-Linux-amd64.deb",
+    "sha256": "00f4043ddc47c4c0692be667933c155c74a8dffe507a42a0c3726648853d2a8e",
+    "mb": 89.8,
+    "kind": "deb"
+   },
+   {
+    "file": "Clarice-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "2e499c95a9dbf75f97812216b09ea23b06d3934e34e41b77579af23caf944e32",
+    "mb": 125.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41325464617,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41325464617,
+    "platform": "linux",
+    "steps": 8
+   }
+  },
+  "desktopDifferences": [
+   "No voice input: the Mac version dictates with Apple's Speech framework, which Windows and Linux don't have. Spoken replies work where the computer has text-to-speech voices.",
+   "Terminal commands run in PowerShell on Windows and in your login shell on Linux (the Mac uses zsh), so Mac-only commands won't work.",
+   "\"open <name>\" opens files and folders with their usual app; opening an app by name works for Windows Start names and Linux commands on your PATH (the Mac uses open -a).",
+   "\"status\" shows user, folder, system, architecture, home disk and battery from this computer instead of macOS sw_vers and pmset.",
+   "Codex CLI, Claude CLI or Ollama must be installed on this computer for open-ended answers, just like on the Mac."
+  ]
  },
  {
   "slug": "clean",
@@ -1295,7 +1344,56 @@
   "about": "Voice-to-terminal assistant: speak, and it writes and runs terminal commands after a safety filter.",
   "needs": "",
   "tag": "speco-v0.3.0",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Speco-0.3.0-Windows-x64-Setup.exe",
+    "sha256": "33a0ef5fe35d58558e08acec786ea49ddb7090bfd14ed1aeb5cba9bb6b88fcc9",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Speco-0.3.0-Windows-x64.zip",
+    "sha256": "0cf3adfe1a7047eef2661145af99b31e2c1975f2c0be5b9e8559673dcdde4996",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Speco-0.3.0-Linux-amd64.deb",
+    "sha256": "778772d1720d21068ee929f5ff4937577a34d02b908974cd49f525188492ff0b",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Speco-0.3.0-Linux-x86_64.AppImage",
+    "sha256": "751ef2297a27815cef14f5cee69e51b1258a81686719bfba985042cbfa26d282",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41325530082,
+    "platform": "win32",
+    "steps": 11
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41325530082,
+    "platform": "linux",
+    "steps": 11
+   }
+  },
+  "desktopDifferences": [
+   "No voice input: the Mac uses Apple's speech recognition, which doesn't exist on Windows or Linux, and no free offline recogniser is bundled. You type instructions into Live Speech instead; they go through the same 1.4-second wait, safety filter and terminal steps.",
+   "Commands run in Windows PowerShell on Windows and /bin/sh on Linux (the Mac uses zsh). On Windows Speco writes PowerShell versions of the same commands (for example New-Item instead of mkdir -p).",
+   "The safety filter has extra rules for dangerous Windows and Linux commands on top of the Mac's rules.",
+   "Each batch runs in a fresh shell that continues in the folder the last one ended in; shell variables set by hand don't carry over (Speco's own commands never set any).",
+   "Spoken replies use the computer's own voices; on Linux these are usually unavailable to the app, so replies are shown as text only."
+  ]
  },
  {
   "slug": "stepmail",
