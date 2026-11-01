@@ -384,6 +384,18 @@
   "arch": "Apple Silicon"
  },
  {
+  "slug": "tribute",
+  "name": "Tribute",
+  "version": "1.0.0",
+  "file": "Tribute-1.0.0-macOS.zip",
+  "sha256": "b2fb869ff0f2223880a8cb7f65cb0a09043a7a629f2ffcb2dba5f0a72b23979d",
+  "mb": 40.4,
+  "about": "Music distribution: upload singles, EPs and albums, check them against store rules, get UPC/ISRC codes, split royalties with collaborators and share a smart link. Sending to real stores is simulated for now.",
+  "needs": "",
+  "tag": "tribute-v1.0.0",
+  "arch": "Apple Silicon"
+ },
+ {
   "slug": "viewverse",
   "name": "Viewverse",
   "version": "1.0.0",
