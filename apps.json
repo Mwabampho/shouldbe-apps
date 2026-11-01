@@ -2063,7 +2063,56 @@
   "about": "3D anime script-to-film studio.",
   "needs": "Needs Node.js and headless Chrome installed on the Mac.",
   "tag": "vueve-studio-v3.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Vueve-Studio-3.0.0-Windows-x64-Setup.exe",
+    "sha256": "70728d6b22a8af7a3fa6759b0dab76df6fc7bdd2ad91c63e6c2099cf1556baae",
+    "mb": 302.9,
+    "kind": "installer"
+   },
+   {
+    "file": "Vueve-Studio-3.0.0-Windows-x64.zip",
+    "sha256": "f95cfdd7048544e41e88caebc2f46882cf051267c81fa0f855e138722c4ea827",
+    "mb": 407,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Vueve-Studio-3.0.0-Linux-amd64.deb",
+    "sha256": "69d777f5cb9b68c6fb4959485d307aa823de09c4a632a795f4585e057ff7fb00",
+    "mb": 270.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Vueve-Studio-3.0.0-Linux-x86_64.AppImage",
+    "sha256": "d0bec75f98fac2760059933cd34ef865f0f34b875f8103a16634a565bb3ce1e4",
+    "mb": 386.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41327570995,
+    "platform": "win32",
+    "steps": 7
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41327570995,
+    "platform": "linux",
+    "steps": 7
+   }
+  },
+  "desktopDifferences": [
+   "Dialogue is spoken with this computer's own voices (Windows voices, or espeak-ng on Linux if installed) instead of the macOS voices; characters set to a macOS voice (the default is \"Daniel\") need a voice picked in Assets. On Linux without espeak-ng, upload a recording for each line.",
+   "Automatic lyric transcription (whisper.cpp) is not available; paste or edit the lyric sheet in the Song tab instead.",
+   "There is no \"Set Gemini API Key…\" menu; the optional Gemini cloud features work only if GEMINI_API_KEY is set in the system environment.",
+   "No progress badge, finished-render notification or keep-awake while rendering, and files can't be dropped on the app icon (use Ctrl+O). Menu commands are keyboard shortcuts with Ctrl; Render Draft is Ctrl+Alt+R.",
+   "Fixes a 3.0.0 bug: opening a song before its analysis finished showed an error message (the Mac app still does)."
+  ]
  },
  {
   "slug": "xylo-code",
