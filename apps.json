@@ -367,7 +367,54 @@
   "about": "Organiser for files and duplicate apps.",
   "needs": "",
   "tag": "ganise-organize-v0.1.0",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Ganise-Organize-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "3b5f351325778bdf409dde1669c7385721f491786e0d855079f0e929274d939b",
+    "mb": 114.6,
+    "kind": "installer"
+   },
+   {
+    "file": "Ganise-Organize-0.1.0-Windows-x64.zip",
+    "sha256": "c5a7a6935cf557ac8e04539b9afbd06453dc5431486f111bd10503fd161efed2",
+    "mb": 153.4,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Ganise-Organize-0.1.0-Linux-amd64.deb",
+    "sha256": "665f20d38ae136587fe301d4850d3a9ef43dee93db9d1b43414dfdd0ba457b7d",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Ganise-Organize-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "8f0cda992f847f96fa987bed06de9bd0f87f8a17d8711aa37ef12a84814b6ea4",
+    "mb": 125.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "linux",
+    "steps": 6
+   }
+  },
+  "desktopDifferences": [
+   "The Applications section (finding duplicate copies of installed Mac apps by bundle identifier) is not included; it only works with macOS .app bundles.",
+   "Merge combines duplicate folders and exact duplicate files; the Mac version also removes older builds of the same .app.",
+   "The Full Disk Access card is replaced by a note: Ganise works on the folders you choose."
+  ]
  },
  {
   "slug": "gone",
@@ -749,7 +796,59 @@
   "about": "App store, update authority and Mac application library.",
   "needs": "Needs ShouldCloud running on the same Mac.",
   "tag": "ostore-v2.4.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "OStore-2.4.0-Windows-x64-Setup.exe",
+    "sha256": "7bffa0747f9bacd152c7c1a879373e2cba57f7ce32f9884925c8c255a859c29b",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "OStore-2.4.0-Windows-x64.zip",
+    "sha256": "b9d3b4e745fcdf1f8e7480f2b3c8f4768470580024a8817220103c97d16088b1",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "OStore-2.4.0-Linux-amd64.deb",
+    "sha256": "fe14605a355d46209a497f2c3165d466b3fe68b5ae7dd914cb09ff31aaa1e712",
+    "mb": 90,
+    "kind": "deb"
+   },
+   {
+    "file": "OStore-2.4.0-Linux-x86_64.AppImage",
+    "sha256": "6927eb1e5837be0bb5e10281459fc3856af532bf4bf1b2a83045b537c3d0fa26",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323149004,
+    "platform": "win32",
+    "steps": 14
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323149004,
+    "platform": "linux",
+    "steps": 13
+   }
+  },
+  "desktopDifferences": [
+   "Needs ShouldCloud on the same computer (default 127.0.0.1:8788, changeable in settings); remote addresses must use HTTPS.",
+   "Installs Linux AppImage and tar packages itself; deb/rpm go through PackageKit, MSI through Windows Installer and MSIX through App Installer, each after you confirm.",
+   ".exe installers are never run (the catalogue declares no silent-install switches), as the OStore Windows spec requires.",
+   "Automatic updates install by themselves only for AppImage and tar apps; system-package updates are offered on the Updates page.",
+   "No Publisher Studio (publishing to ShouldCloud is done from the Mac).",
+   "Application Library: no installer archives, no licence-key storage, no own-app source analysis and no App Store lookup; Check Links verifies developer web pages only.",
+   "AppImage packages are checked by SHA-256 only; their internal app identity is not inspected.",
+   "Screenshots are listed by caption but not downloaded."
+  ]
  },
  {
   "slug": "real",
@@ -820,7 +919,57 @@
   "about": "App drawer and file navigator, with the seated character.",
   "needs": "",
   "tag": "rest-v2.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Rest-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "a585c4022176d09a249366d9d7fb4d80114c29d8a11f2261a8739fe253e4893a",
+    "mb": 114.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Rest-2.0.0-Windows-x64.zip",
+    "sha256": "7a0eca2bd9346c66b82231bc5d8c3ef172a5b7802aed64bc893fbba26022a585",
+    "mb": 153.4,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Rest-2.0.0-Linux-amd64.deb",
+    "sha256": "97f171defc359975b7ad1dfc268e96e68fe4dbca965331773c5b5a9468fe2838",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Rest-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "8d20b4fbbc18ae8551683d306fec202d839940844aed0ab0c28ac93af45df6a5",
+    "mb": 125.9,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "win32",
+    "steps": 9
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "linux",
+    "steps": 9
+   }
+  },
+  "desktopDifferences": [
+   "The character and the drawer live inside Rest's window instead of floating on the desktop above other windows.",
+   "Apps come from the Start Menu (Windows) or the system's application launchers (Linux). Microsoft Store apps without a Start Menu shortcut are not listed.",
+   "There is no menu-bar icon; right-click the window for the same options.",
+   "No \"Open Rest when I log in\" setting.",
+   "Rest doesn't say \"Switched to\" an app that was already running; it always opens it.",
+   "The PetsOS Files window (⇧⌘F) is not included."
+  ]
  },
  {
   "slug": "revelation",
