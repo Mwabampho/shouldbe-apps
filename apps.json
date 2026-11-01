@@ -69,7 +69,49 @@
   "about": "Private connection app.",
   "needs": "",
   "tag": "connect-v1.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Connect-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "33eb88911c5feeacdee72b531f751b420857b3afb02fb83cd52803983d1574bb",
+    "mb": 93.2,
+    "kind": "installer"
+   },
+   {
+    "file": "Connect-1.0.0-Windows-x64.zip",
+    "sha256": "72346995f2d7e4c840112c715bc2a4a943c51e8f2eb44a44db68f61ed0bf2c5f",
+    "mb": 129.4,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Connect-1.0.0-Linux-amd64.deb",
+    "sha256": "5ec7a087d826476cedafa0d703c57957b6e6cc87f84cba10fba206898dbcf73c",
+    "mb": 79.8,
+    "kind": "deb"
+   },
+   {
+    "file": "Connect-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "05012d226c893a3f5e0394e5a25ca84fea52c2cff36bf173a6c15e10e55a6488",
+    "mb": 115.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
+  }
  },
  {
   "slug": "feet",
@@ -89,7 +131,7 @@
   "version": "1.0",
   "file": "Fionbo-1.0-macOS.zip",
   "sha256": "0276cad3301478c09bb8059182eec0c5430e3638c366b9819421e66a02048539",
-  "mb": 0.0,
+  "mb": 0,
   "about": "Fionbo app.",
   "needs": "",
   "tag": "fionbo-v1.0",
@@ -149,7 +191,7 @@
   "version": "2.0.0",
   "file": "Hot-Contents-2.0.0-macOS.zip",
   "sha256": "9f5222a4b3dc40220b3083b4af6c5ba8d33e721babe46561762f6aa1e68bc766",
-  "mb": 0.0,
+  "mb": 0,
   "about": "Trending repositories and private git hosting.",
   "needs": "Needs the Hot Contents server, which isn't included.",
   "tag": "hot-contents-v2.0.0",
@@ -161,7 +203,7 @@
   "version": "0.1.0",
   "file": "Independent-0.1.0-macOS.zip",
   "sha256": "88f77f8e9053a583f00dbb1c05042a4d688e175f082b560046610b90efdb4297",
-  "mb": 0.0,
+  "mb": 0,
   "about": "Independent app manifests and launcher.",
   "needs": "Needs Python 3 on the Mac.",
   "tag": "independent-v0.1.0",
@@ -209,11 +251,53 @@
   "version": "0.1.0",
   "file": "Milo-0.1.0-macOS.zip",
   "sha256": "7e7bf1f9ea5a33378c59bb47bc5574e65d330b710303ef71c34a1d926bf1663d",
-  "mb": 127.0,
+  "mb": 127,
   "about": "Web browser.",
   "needs": "",
   "tag": "milo-v0.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Milo-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "8fd9480e94773b582ec926032106fc959258cb02356f93f9bb8ab78efd9391c3",
+    "mb": 113.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Milo-0.1.0-Windows-x64.zip",
+    "sha256": "71c2d9033fe8c70ed67d4215b0205cdc9587df59578381695eb7c48384c1bbf9",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Milo-0.1.0-Linux-amd64.deb",
+    "sha256": "5d6daec1386e1e2170a2b8375254d2c0a99d41fd567058b428fb8c6a8a8dbd5d",
+    "mb": 88.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Milo-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "690fd2970bb5e34450819e7be79d31adfd344fb6bb403dca0525dfbc346c98c5",
+    "mb": 125.2,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
+  }
  },
  {
   "slug": "myl",
@@ -369,7 +453,49 @@
   "about": "Rota and daily routine planner.",
   "needs": "Accounts need the Syncro accounts server, which isn't online yet.",
   "tag": "syncro-v0.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Syncro-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "1e3e4d803c9d89db55b8c92b1dbbd1e62ff99508cf581a53b29588420710b665",
+    "mb": 120.1,
+    "kind": "installer"
+   },
+   {
+    "file": "Syncro-0.1.0-Windows-x64.zip",
+    "sha256": "2f71822cd2c9121a567c22f0ec3fa96d7959dd4bf85f85433148be29d04030a8",
+    "mb": 160,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Syncro-0.1.0-Linux-amd64.deb",
+    "sha256": "e95892c3406670ddab73591a8371a9d594c995d6331f01537a2c707fd7d78377",
+    "mb": 94.8,
+    "kind": "deb"
+   },
+   {
+    "file": "Syncro-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "a5b0597825c00766813927b7b1a38a39d266a511388437668f4832a9b2da28be",
+    "mb": 131.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41315087615,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41315087615,
+    "platform": "linux",
+    "steps": null
+   }
+  }
  },
  {
   "slug": "the-booth",
@@ -393,7 +519,49 @@
   "about": "Music distribution: upload singles, EPs and albums, check them against store rules, get UPC/ISRC codes, split royalties with collaborators and share a smart link. Sending to real stores is simulated for now.",
   "needs": "",
   "tag": "tribute-v1.0.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Tribute-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "e8b1b7262c590dd6adacbab7d085ec3a973494318800ffc8375d12a6858fa6aa",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Tribute-1.0.0-Windows-x64.zip",
+    "sha256": "a3e81367dff65df07b9c85028b297dadd23e8ca870cf07cd756179c1f3981ba2",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Tribute-1.0.0-Linux-amd64.deb",
+    "sha256": "3660546dc0b53fabb73e5811e5c9906ca1eb4e10336bc2ef686de02c98ec46df",
+    "mb": 90,
+    "kind": "deb"
+   },
+   {
+    "file": "Tribute-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "d31c7779343f7d1fd346b0f822dbbef3978e42c47dfaa73c3c44b3720b45720e",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
+  }
  },
  {
   "slug": "viewverse",
@@ -405,7 +573,49 @@
   "about": "Video streaming and review.",
   "needs": "Needs Node.js 22.13 or newer and ffmpeg (brew install node ffmpeg).",
   "tag": "viewverse-v1.0.0",
-  "arch": "Apple Silicon + Intel"
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Viewverse-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "40914605a40c6c2128dba74da1d943b17ce6b7615e1706acfb0560647445de6e",
+    "mb": 206.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Viewverse-1.0.0-Windows-x64.zip",
+    "sha256": "a4047d25a33cf34c2a8a5f973a7d417cf635e918763193e4af40362fe509902d",
+    "mb": 276.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Viewverse-1.0.0-Linux-amd64.deb",
+    "sha256": "607b5299d64cf434999e834e6d3588fb622d09156f581602abd17567641092f6",
+    "mb": 186.6,
+    "kind": "deb"
+   },
+   {
+    "file": "Viewverse-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "8d0d9925f29f673a424e8fdbcaeac95525c86f3179cca15ea7620bb132adaaa7",
+    "mb": 263.3,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41315621648,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41315621648,
+    "platform": "linux",
+    "steps": 6
+   }
+  }
  },
  {
   "slug": "visora",
@@ -417,7 +627,49 @@
   "about": "Visual planning canvas.",
   "needs": "",
   "tag": "visora-v0.1.0",
-  "arch": "Apple Silicon"
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Visora-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "fd309af83b5cb77661cb1fb9f04251117b8518d43d66358a7450f0dfd167820f",
+    "mb": 113.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Visora-0.1.0-Windows-x64.zip",
+    "sha256": "8166805c977dd8eb430b1b9171d32ec7db96be58afbad753a1880f49c1673af0",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Visora-0.1.0-Linux-amd64.deb",
+    "sha256": "3d54d1a12147f8ae298cb4e69ccd3ace5628a5ad7e5d4766c781ece37cbef61c",
+    "mb": 88.4,
+    "kind": "deb"
+   },
+   {
+    "file": "Visora-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "d93b5d08023f5c140d599ea59e67506d823ca0099fe5e443ca204f221bd81b41",
+    "mb": 125,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
+  }
  },
  {
   "slug": "vueve-studio",
