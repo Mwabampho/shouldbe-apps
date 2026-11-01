@@ -113,9 +113,9 @@
   },
   "desktopDifferences": [
    "Like the Mac version this is a preview with sample balances, activity and card: nothing connects to a bank or card issuer and no real money moves.",
-   "Where the Mac preview says a check passed (face scan ticks, 'Logged in securely with multi-factor authentication', 'code sent to your device and email', 'real-time fraud monitoring'), this version says plainly that no camera, fingerprint reader, code service or fraud monitoring is used — nothing is checked on either version.",
+   "Where the Mac preview says a check passed (face scan ticks, 'Logged in securely with multi-factor authentication', 'code sent to your device and email', 'real-time fraud monitoring'), this version says plainly that no camera, fingerprint reader, code service or fraud monitoring is used \u2014 nothing is checked on either version.",
    "The face and fingerprint steps never read biometrics (the Mac preview doesn't either); Windows Hello and Linux fingerprint readers are not used.",
-   "Adds a small 'Preview · sandbox · no real money moves' note to the welcome, intro, home and card screens."
+   "Adds a small 'Preview \u00b7 sandbox \u00b7 no real money moves' note to the welcome, intro, home and card screens."
   ]
  },
  {
@@ -532,7 +532,7 @@
    "Undo of a move to the Recycle Bin/Trash isn't offered (restore it from the Recycle Bin/Trash instead).",
    "The Antigravity CLI chat back-end is not included.",
    "No in-app updater; new versions come from the ShouldBe website.",
-   "The macOS privacy permissions section (Full Disk Access, Microphone…) is Mac-only."
+   "The macOS privacy permissions section (Full Disk Access, Microphone\u2026) is Mac-only."
   ]
  },
  {
@@ -997,6 +997,65 @@
   ]
  },
  {
+  "slug": "liveo",
+  "name": "Liveo",
+  "version": "1.0.2",
+  "file": "Liveo-1.0.2-macOS.zip",
+  "sha256": "0fa88fef326db1a5483a2c23b2ff78b479f60c4d19ea8d46fedad9da598b634e",
+  "mb": 119.6,
+  "about": "Live and upcoming football, boxing and other sport: Live Now, Upcoming, Football, Boxing and Other Sports with search and filters, scores, start times and where to watch (TV listings and official broadcasters). Data from TheSportsDB. Never shows unofficial streams.",
+  "needs": "",
+  "tag": "liveo-v1.0.2",
+  "arch": "Apple Silicon",
+  "macIntel": {
+   "file": "Liveo-1.0.2-macOS-Intel.zip",
+   "sha256": "067ced3772517ea5b76908f072ac79fc4db56d35eab4e35d662f280235149712",
+   "mb": 126.8
+  },
+  "windows": [
+   {
+    "file": "Liveo-1.0.2-Windows-x64-Setup.exe",
+    "sha256": "04f969c33b100e5a6c885be3ea45a568f5092110b0d8b364f61a732a8bf741e0",
+    "mb": 114.8,
+    "kind": "installer"
+   },
+   {
+    "file": "Liveo-1.0.2-Windows-x64.zip",
+    "sha256": "b2023dc841f9fa9351af22916ab873d6ce54bbaf041b492e1ed7e1ea90493cf2",
+    "mb": 153.9,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Liveo-1.0.2-Linux-amd64.deb",
+    "sha256": "1dbe86489c84ec2f84b4471217033349b6f09bb795fe0514a15625a4a350a907",
+    "mb": 90.1,
+    "kind": "deb"
+   },
+   {
+    "file": "Liveo-1.0.2-Linux-x86_64.AppImage",
+    "sha256": "be8e26fb3294f949164941d3674c722e4781a6ebc763b6bfcef1d1ba11f30a0d",
+    "mb": 126.3,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41316065557,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41316065557,
+    "platform": "linux",
+    "steps": null
+   }
+  }
+ },
+ {
   "slug": "milo",
   "name": "Milo",
   "version": "0.1.0",
@@ -1291,7 +1350,7 @@
    "There is no menu-bar icon; right-click the window for the same options.",
    "No \"Open Rest when I log in\" setting.",
    "Rest doesn't say \"Switched to\" an app that was already running; it always opens it.",
-   "The PetsOS Files window (⇧⌘F) is not included."
+   "The PetsOS Files window (\u21e7\u2318F) is not included."
   ]
  },
  {
@@ -1533,7 +1592,7 @@
    "Audio plays through the system's default output; there is no device, buffer-size or input-channel choice, and no DSP-load or memory readout.",
    "Audio recording is basic: count-in and punch-in/out don't apply to audio takes, and input monitoring isn't available.",
    "Sample time-stretch and pitch-shift tools, and clip time-stretch/reverse in the playlist, aren't included.",
-   "Files can't be dragged in from the file manager; use Import Audio or File › Open.",
+   "Files can't be dragged in from the file manager; use Import Audio or File \u203a Open.",
    "Collect Project Package isn't available.",
    "The new-project templates start with similar but not identical patterns to the Mac templates."
   ]
@@ -2109,7 +2168,7 @@
   "desktopDifferences": [
    "Dialogue is spoken with this computer's own voices (Windows voices, or espeak-ng on Linux if installed) instead of the macOS voices; characters set to a macOS voice (the default is \"Daniel\") need a voice picked in Assets. On Linux without espeak-ng, upload a recording for each line.",
    "Automatic lyric transcription (whisper.cpp) is not available; paste or edit the lyric sheet in the Song tab instead.",
-   "There is no \"Set Gemini API Key…\" menu; the optional Gemini cloud features work only if GEMINI_API_KEY is set in the system environment.",
+   "There is no \"Set Gemini API Key\u2026\" menu; the optional Gemini cloud features work only if GEMINI_API_KEY is set in the system environment.",
    "No progress badge, finished-render notification or keep-awake while rendering, and files can't be dropped on the app icon (use Ctrl+O). Menu commands are keyboard shortcuts with Ctrl; Render Draft is Ctrl+Alt+R.",
    "Fixes a 3.0.0 bug: opening a song before its analysis finished showed an error message (the Mac app still does)."
   ]
