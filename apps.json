@@ -1058,11 +1058,11 @@
  {
   "slug": "milo",
   "name": "Milo",
-  "version": "0.2.0",
-  "file": "Milo-0.2.0-macOS.zip",
-  "sha256": "c0f14b3b037cc19908fe004111cf0b0aa12ae146906016679561b5ca960d3ec1",
+  "version": "0.2.1",
+  "file": "Milo-0.2.1-macOS.zip",
+  "sha256": "b307a58ebeadc75d409a5f51eb2a7e0e2bbe3e22bb5327fc500052de90be2968",
   "mb": 127.3,
-  "about": "Web browser with built-in Software Update.",
+  "about": "Web browser. Continue with Google, email or StepMail.",
   "needs": "",
   "tag": "milo-v0.1.0",
   "arch": "Apple Silicon",
@@ -1108,7 +1108,7 @@
     "steps": null
    }
   },
-  "macTag": "milo-v0.2.0"
+  "macTag": "milo-v0.2.1"
  },
  {
   "slug": "myl",
