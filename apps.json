@@ -1673,10 +1673,10 @@
  {
   "slug": "sonix",
   "name": "Sonix",
-  "version": "2.0.0",
-  "file": "Sonix-2.0.0-macOS.zip",
-  "sha256": "4d063ddcf5ce045195f499cf2e03e4d792b34367a29f52916d74c1e4ef96fe76",
-  "mb": 8.9,
+  "version": "2.0.1",
+  "file": "Sonix-2.0.1-macOS.zip",
+  "sha256": "b6974046fef6b0b929c8a34f8a0d9b0c403e3a9bd7e8375f05612229d2fda215",
+  "mb": 7.7,
   "about": "Music app (multi-platform).",
   "needs": "",
   "tag": "sonix-v2.0.0",
@@ -1726,7 +1726,8 @@
   "desktopDifferences": [
    "Studio takes are saved as WAV files (the Mac saves AAC .m4a).",
    "Settings has no Check for Updates: the Mac version installs updates from a local O Store folder; on Windows and Linux, download new versions from shouldbe.media."
-  ]
+  ],
+  "macTag": "sonix-v2.0.1"
  },
  {
   "slug": "speco",
