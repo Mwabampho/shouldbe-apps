@@ -1,2241 +1,2241 @@
 [
-  {
-    "slug": "active",
-    "name": "Active",
-    "version": "2.0",
-    "file": "Active-2.0-macOS.zip",
-    "sha256": "836f0a0493d571801f62ca564f98a6484c52923db65d6f106573a7bdb7fd4196",
-    "mb": 1.3,
-    "about": "Cross-device messaging client.",
-    "needs": "",
-    "tag": "active-v2.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Active-2.0.0-Windows-x64-Setup.exe",
-        "sha256": "d9281f17e6c2920ad7d3ffef1f1557e8269876ae43d9314bc1394283f61b5416",
-        "mb": 114.4,
-        "kind": "installer"
-      },
-      {
-        "file": "Active-2.0.0-Windows-x64.zip",
-        "sha256": "2fb9e5d63cc99429ec8a4d013bf0a719882570a472f47e49a929a5118a8da4d0",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Active-2.0.0-Linux-amd64.deb",
-        "sha256": "408c843fe658498e9e63f613febf4339695ab141b69c0196ad6b0406780177ba",
-        "mb": 89.6,
-        "kind": "deb"
-      },
-      {
-        "file": "Active-2.0.0-Linux-x86_64.AppImage",
-        "sha256": "5fc6a29d487023dfca04018c8d317ff5d681d19569e5c7dc0623b8a1c1e20dc6",
-        "mb": 125.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322841336,
-        "platform": "win32",
-        "steps": 9
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322841336,
-        "platform": "linux",
-        "steps": 9
-      }
-    },
-    "desktopDifferences": [
-      "No App Lock: Windows and Linux have no Face ID / Touch ID prompt for apps, so the App Lock switch isn't offered.",
-      "Your sign-in is encrypted with the system keychain (Windows: your user account; Linux: the desktop keyring). On Linux without a keyring it is kept in a file only your user can read.",
-      "Notifications use the desktop's own notification system."
-    ]
+ {
+  "slug": "active",
+  "name": "Active",
+  "version": "2.0",
+  "file": "Active-2.0-macOS.zip",
+  "sha256": "836f0a0493d571801f62ca564f98a6484c52923db65d6f106573a7bdb7fd4196",
+  "mb": 1.3,
+  "about": "Cross-device messaging client.",
+  "needs": "",
+  "tag": "active-v2.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Active-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "d9281f17e6c2920ad7d3ffef1f1557e8269876ae43d9314bc1394283f61b5416",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Active-2.0.0-Windows-x64.zip",
+    "sha256": "2fb9e5d63cc99429ec8a4d013bf0a719882570a472f47e49a929a5118a8da4d0",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Active-2.0.0-Linux-amd64.deb",
+    "sha256": "408c843fe658498e9e63f613febf4339695ab141b69c0196ad6b0406780177ba",
+    "mb": 89.6,
+    "kind": "deb"
+   },
+   {
+    "file": "Active-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "5fc6a29d487023dfca04018c8d317ff5d681d19569e5c7dc0623b8a1c1e20dc6",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322841336,
+    "platform": "win32",
+    "steps": 9
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322841336,
+    "platform": "linux",
+    "steps": 9
+   }
   },
-  {
-    "slug": "bread",
-    "name": "Bread",
-    "version": "1.0.0",
-    "file": "Bread-1.0.0-macOS.zip",
-    "sha256": "1bb4100202ae784ae9a5adf0426b288cc9b628030083c3b9ea9ecfd2ecf4e805",
-    "mb": 0.8,
-    "about": "Bread app (iOS-first).",
-    "needs": "",
-    "tag": "bread-v1.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Bread-1.0.0-Windows-x64-Setup.exe",
-        "sha256": "4dd94959cd23526cca60e9892824687d4471c6966742deecaee4e63a2ebcf2b3",
-        "mb": 114.7,
-        "kind": "installer"
-      },
-      {
-        "file": "Bread-1.0.0-Windows-x64.zip",
-        "sha256": "c37bf44de706001cadd49daf83743c62afd135718544d16c2c9ae124b3c7ae8b",
-        "mb": 153.5,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Bread-1.0.0-Linux-amd64.deb",
-        "sha256": "6ad665e01c5c3b5bc1082f54eaf75d2f8c2acb0a9816f98fc2889947ace05564",
-        "mb": 89.9,
-        "kind": "deb"
-      },
-      {
-        "file": "Bread-1.0.0-Linux-x86_64.AppImage",
-        "sha256": "f339747332c91824826262a16225040bd5051f88e60acbb2b07d6e5a24df067e",
-        "mb": 125.9,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323827189,
-        "platform": "win32",
-        "steps": 8
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323827189,
-        "platform": "linux",
-        "steps": 8
-      }
-    },
-    "desktopDifferences": [
-      "Like the Mac version this is a preview with sample balances, activity and card: nothing connects to a bank or card issuer and no real money moves.",
-      "Where the Mac preview says a check passed (face scan ticks, 'Logged in securely with multi-factor authentication', 'code sent to your device and email', and a real-time account monitoring message), this version says plainly that no camera, fingerprint reader, code service or account protection is used — nothing is checked on either version.",
-      "The face and fingerprint steps never read biometrics (the Mac preview doesn't either); Windows Hello and Linux fingerprint readers are not used.",
-      "Adds a small 'Preview · sandbox · no real money moves' note to the welcome, intro, home and card screens."
-    ]
+  "desktopDifferences": [
+   "No App Lock: Windows and Linux have no Face ID / Touch ID prompt for apps, so the App Lock switch isn't offered.",
+   "Your sign-in is encrypted with the system keychain (Windows: your user account; Linux: the desktop keyring). On Linux without a keyring it is kept in a file only your user can read.",
+   "Notifications use the desktop's own notification system."
+  ]
+ },
+ {
+  "slug": "bread",
+  "name": "Bread",
+  "version": "1.0.0",
+  "file": "Bread-1.0.0-macOS.zip",
+  "sha256": "1bb4100202ae784ae9a5adf0426b288cc9b628030083c3b9ea9ecfd2ecf4e805",
+  "mb": 0.8,
+  "about": "Bread app (iOS-first).",
+  "needs": "",
+  "tag": "bread-v1.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Bread-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "4dd94959cd23526cca60e9892824687d4471c6966742deecaee4e63a2ebcf2b3",
+    "mb": 114.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Bread-1.0.0-Windows-x64.zip",
+    "sha256": "c37bf44de706001cadd49daf83743c62afd135718544d16c2c9ae124b3c7ae8b",
+    "mb": 153.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Bread-1.0.0-Linux-amd64.deb",
+    "sha256": "6ad665e01c5c3b5bc1082f54eaf75d2f8c2acb0a9816f98fc2889947ace05564",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Bread-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "f339747332c91824826262a16225040bd5051f88e60acbb2b07d6e5a24df067e",
+    "mb": 125.9,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "linux",
+    "steps": 8
+   }
   },
-  {
-    "slug": "caxion",
-    "name": "CAXION",
-    "version": "0.1.0",
-    "file": "CAXION-0.1.0-macOS.zip",
-    "sha256": "cd20c8bf37e3966df7438782e0dbb7eebcb8491d7a4149cf09acd981c80e490e",
-    "mb": 0.2,
-    "about": "Messaging hub.",
-    "needs": "",
-    "tag": "caxion-v0.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "CAXION-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "b1dfeb95ac6bb1b496a37445dbf867af5294cdf38e70580c1da7ceac09ce5dcb",
-        "mb": 114.4,
-        "kind": "installer"
-      },
-      {
-        "file": "CAXION-0.1.0-Windows-x64.zip",
-        "sha256": "e1ae5b88b93a85a3967d4dca8b2c5e33e421e9877cbaf73a2beb4cd3deb2d132",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "CAXION-0.1.0-Linux-amd64.deb",
-        "sha256": "33c80020f4cc4c0306731c4add2efecf27e77f4f6da1e64d93d31b85210f7cad",
-        "mb": 89.5,
-        "kind": "deb"
-      },
-      {
-        "file": "CAXION-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "0e40f27454b7efe2263f6f278753f0e52d57a9ece8308157f7065486d09afcf6",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322841336,
-        "platform": "win32",
-        "steps": 6
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322841336,
-        "platform": "linux",
-        "steps": 6
-      }
-    },
-    "desktopDifferences": [
-      "Web clients run in CAXION's built-in Chromium browser view instead of Safari's WebKit; a few providers may still refuse sign-in there (use Browser).",
-      "Apple Messages only exists on Apple devices, so it shows as not installed.",
-      "Installed apps are found through Start menu shortcuts (Windows) or desktop entries (Linux) instead of macOS bundle IDs."
-    ]
+  "desktopDifferences": [
+   "Like the Mac version this is a preview with sample balances, activity and card: nothing connects to a bank or card issuer and no real money moves.",
+   "Where the Mac preview says a check passed (face scan ticks, 'Logged in securely with multi-factor authentication', 'code sent to your device and email', and a real-time account monitoring message), this version says plainly that no camera, fingerprint reader, code service or account protection is used — nothing is checked on either version.",
+   "The face and fingerprint steps never read biometrics (the Mac preview doesn't either); Windows Hello and Linux fingerprint readers are not used.",
+   "Adds a small 'Preview · sandbox · no real money moves' note to the welcome, intro, home and card screens."
+  ]
+ },
+ {
+  "slug": "caxion",
+  "name": "CAXION",
+  "version": "0.1.0",
+  "file": "CAXION-0.1.0-macOS.zip",
+  "sha256": "cd20c8bf37e3966df7438782e0dbb7eebcb8491d7a4149cf09acd981c80e490e",
+  "mb": 0.2,
+  "about": "Messaging hub.",
+  "needs": "",
+  "tag": "caxion-v0.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "CAXION-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "b1dfeb95ac6bb1b496a37445dbf867af5294cdf38e70580c1da7ceac09ce5dcb",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "CAXION-0.1.0-Windows-x64.zip",
+    "sha256": "e1ae5b88b93a85a3967d4dca8b2c5e33e421e9877cbaf73a2beb4cd3deb2d132",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "CAXION-0.1.0-Linux-amd64.deb",
+    "sha256": "33c80020f4cc4c0306731c4add2efecf27e77f4f6da1e64d93d31b85210f7cad",
+    "mb": 89.5,
+    "kind": "deb"
+   },
+   {
+    "file": "CAXION-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "0e40f27454b7efe2263f6f278753f0e52d57a9ece8308157f7065486d09afcf6",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322841336,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322841336,
+    "platform": "linux",
+    "steps": 6
+   }
   },
-  {
-    "slug": "clarice",
-    "name": "Clarice",
-    "version": "1.0.0",
-    "file": "Clarice-1.0.0-macOS.zip",
-    "sha256": "4b5986e25c78849b018dbef64dc59b0bed89747faeeb205cc305af49b8fc2fe9",
-    "mb": 0.5,
-    "about": "Local-first personal assistant.",
-    "needs": "Needs the Clarice core and a local AI model set up on the Mac.",
-    "tag": "clarice-v1.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Clarice-1.0.0-Windows-x64-Setup.exe",
-        "sha256": "6b67aa5da2358fdc1d35553500433403b377ed8062f625acb6bfce72fc12d011",
-        "mb": 114.5,
-        "kind": "installer"
-      },
-      {
-        "file": "Clarice-1.0.0-Windows-x64.zip",
-        "sha256": "966fd2c173b9aaf77f1b11e81703aaab7af005e216b6b8edc8c4ddf6db0e9d5b",
-        "mb": 153.3,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Clarice-1.0.0-Linux-amd64.deb",
-        "sha256": "00f4043ddc47c4c0692be667933c155c74a8dffe507a42a0c3726648853d2a8e",
-        "mb": 89.8,
-        "kind": "deb"
-      },
-      {
-        "file": "Clarice-1.0.0-Linux-x86_64.AppImage",
-        "sha256": "2e499c95a9dbf75f97812216b09ea23b06d3934e34e41b77579af23caf944e32",
-        "mb": 125.7,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41325464617,
-        "platform": "win32",
-        "steps": 8
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41325464617,
-        "platform": "linux",
-        "steps": 8
-      }
-    },
-    "desktopDifferences": [
-      "No voice input: the Mac version dictates with Apple's Speech framework, which Windows and Linux don't have. Spoken replies work where the computer has text-to-speech voices.",
-      "Terminal commands run in PowerShell on Windows and in your login shell on Linux (the Mac uses zsh), so Mac-only commands won't work.",
-      "\"open <name>\" opens files and folders with their usual app; opening an app by name works for Windows Start names and Linux commands on your PATH (the Mac uses open -a).",
-      "\"status\" shows user, folder, system, architecture, home disk and battery from this computer instead of macOS sw_vers and pmset.",
-      "Codex CLI, Claude CLI or Ollama must be installed on this computer for open-ended answers, just like on the Mac."
-    ]
+  "desktopDifferences": [
+   "Web clients run in CAXION's built-in Chromium browser view instead of Safari's WebKit; a few providers may still refuse sign-in there (use Browser).",
+   "Apple Messages only exists on Apple devices, so it shows as not installed.",
+   "Installed apps are found through Start menu shortcuts (Windows) or desktop entries (Linux) instead of macOS bundle IDs."
+  ]
+ },
+ {
+  "slug": "clarice",
+  "name": "Clarice",
+  "version": "1.0.0",
+  "file": "Clarice-1.0.0-macOS.zip",
+  "sha256": "4b5986e25c78849b018dbef64dc59b0bed89747faeeb205cc305af49b8fc2fe9",
+  "mb": 0.5,
+  "about": "Local-first personal assistant.",
+  "needs": "Needs the Clarice core and a local AI model set up on the Mac.",
+  "tag": "clarice-v1.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Clarice-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "6b67aa5da2358fdc1d35553500433403b377ed8062f625acb6bfce72fc12d011",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Clarice-1.0.0-Windows-x64.zip",
+    "sha256": "966fd2c173b9aaf77f1b11e81703aaab7af005e216b6b8edc8c4ddf6db0e9d5b",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Clarice-1.0.0-Linux-amd64.deb",
+    "sha256": "00f4043ddc47c4c0692be667933c155c74a8dffe507a42a0c3726648853d2a8e",
+    "mb": 89.8,
+    "kind": "deb"
+   },
+   {
+    "file": "Clarice-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "2e499c95a9dbf75f97812216b09ea23b06d3934e34e41b77579af23caf944e32",
+    "mb": 125.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41325464617,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41325464617,
+    "platform": "linux",
+    "steps": 8
+   }
   },
-  {
-    "slug": "clean",
-    "name": "Clean",
-    "version": "0.1.1",
-    "file": "Clean-0.1.1-macOS.zip",
-    "sha256": "b96c12ecbc1e1a25218b79c385aaf07e489eeeefc27e996dea1626d9ff25abfe",
-    "mb": 2.4,
-    "about": "System health and services monitor.",
-    "needs": "Some features need its background service.",
-    "tag": "clean-v0.1.1",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Clean-0.1.1-Windows-x64-Setup.exe",
-        "sha256": "a9702581fe6de34cc393b2f2515ddd0a939ab9907d475ccc44829bf95ed4a1fc",
-        "mb": 114.7,
-        "kind": "installer"
-      },
-      {
-        "file": "Clean-0.1.1-Windows-x64.zip",
-        "sha256": "db1b7dc508a22937783b1117630c38dd78423efaedfc672f76103267bb0fed8a",
-        "mb": 153.6,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Clean-0.1.1-Linux-amd64.deb",
-        "sha256": "c9e8bc64113c6d7c58a2d46f0ad4c8d505c83f40b5aba070cecb9b5a75f1e6c8",
-        "mb": 89.9,
-        "kind": "deb"
-      },
-      {
-        "file": "Clean-0.1.1-Linux-x86_64.AppImage",
-        "sha256": "dc80c6e7f406494570ec863bd3a46f701c61ef3168702df8ee93ac5f38962da3",
-        "mb": 126.1,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323827189,
-        "platform": "win32",
-        "steps": 12
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323827189,
-        "platform": "linux",
-        "steps": 12
-      }
-    },
-    "desktopDifferences": [
-      "API keys and credential passwords are encrypted with the system's secure storage (Windows data protection, or the Secret Service/KWallet keyring on Linux) instead of Apple Keychain. On Linux without a keyring, Clean refuses to save secrets rather than store them in plain text.",
-      "Publishing can't start, stop or restart the publisher background service: on the Mac those buttons control its launchd service (clean-publisher-daemon). Here Clean reads that service's state, releases and logs in ~/.clean/publisher, publishes and rolls back releases, and runs the health and DNS checks.",
-      "Publish New Release asks you to choose the website's build folder once; the Mac version uses a fixed folder on the owner's Mac.",
-      "Import Project has separate buttons for files and folders, because Windows and Linux file pickers can't select both at once."
-    ]
+  "desktopDifferences": [
+   "No voice input: the Mac version dictates with Apple's Speech framework, which Windows and Linux don't have. Spoken replies work where the computer has text-to-speech voices.",
+   "Terminal commands run in PowerShell on Windows and in your login shell on Linux (the Mac uses zsh), so Mac-only commands won't work.",
+   "\"open <name>\" opens files and folders with their usual app; opening an app by name works for Windows Start names and Linux commands on your PATH (the Mac uses open -a).",
+   "\"status\" shows user, folder, system, architecture, home disk and battery from this computer instead of macOS sw_vers and pmset.",
+   "Codex CLI, Claude CLI or Ollama must be installed on this computer for open-ended answers, just like on the Mac."
+  ]
+ },
+ {
+  "slug": "clean",
+  "name": "Clean",
+  "version": "0.1.1",
+  "file": "Clean-0.1.1-macOS.zip",
+  "sha256": "b96c12ecbc1e1a25218b79c385aaf07e489eeeefc27e996dea1626d9ff25abfe",
+  "mb": 2.4,
+  "about": "System health and services monitor.",
+  "needs": "Some features need its background service.",
+  "tag": "clean-v0.1.1",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Clean-0.1.1-Windows-x64-Setup.exe",
+    "sha256": "a9702581fe6de34cc393b2f2515ddd0a939ab9907d475ccc44829bf95ed4a1fc",
+    "mb": 114.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Clean-0.1.1-Windows-x64.zip",
+    "sha256": "db1b7dc508a22937783b1117630c38dd78423efaedfc672f76103267bb0fed8a",
+    "mb": 153.6,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Clean-0.1.1-Linux-amd64.deb",
+    "sha256": "c9e8bc64113c6d7c58a2d46f0ad4c8d505c83f40b5aba070cecb9b5a75f1e6c8",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Clean-0.1.1-Linux-x86_64.AppImage",
+    "sha256": "dc80c6e7f406494570ec863bd3a46f701c61ef3168702df8ee93ac5f38962da3",
+    "mb": 126.1,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "win32",
+    "steps": 12
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "linux",
+    "steps": 12
+   }
   },
-  {
-    "slug": "connect",
-    "name": "Connect",
-    "version": "1.0.0",
-    "file": "Connect-1.0.0-macOS.zip",
-    "sha256": "1b9b63fadc56ebbd84a968674ebb53cd7d19697a8f4cad69d64df4386b89214c",
-    "mb": 107.2,
-    "about": "Private connection app.",
-    "needs": "",
-    "tag": "connect-v1.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Connect-1.0.0-Windows-x64-Setup.exe",
-        "sha256": "33eb88911c5feeacdee72b531f751b420857b3afb02fb83cd52803983d1574bb",
-        "mb": 93.2,
-        "kind": "installer"
-      },
-      {
-        "file": "Connect-1.0.0-Windows-x64.zip",
-        "sha256": "72346995f2d7e4c840112c715bc2a4a943c51e8f2eb44a44db68f61ed0bf2c5f",
-        "mb": 129.4,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Connect-1.0.0-Linux-amd64.deb",
-        "sha256": "5ec7a087d826476cedafa0d703c57957b6e6cc87f84cba10fba206898dbcf73c",
-        "mb": 79.8,
-        "kind": "deb"
-      },
-      {
-        "file": "Connect-1.0.0-Linux-x86_64.AppImage",
-        "sha256": "05012d226c893a3f5e0394e5a25ca84fea52c2cff36bf173a6c15e10e55a6488",
-        "mb": 115.8,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "win32",
-        "steps": null
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "linux",
-        "steps": null
-      }
-    }
-  },
-  {
-    "slug": "feet",
-    "name": "Feet",
-    "version": "0.1.0",
-    "file": "Feet-0.1.0-macOS.zip",
-    "sha256": "215399d5c055069bb3bbcf47fcf40b01884024bab90f91f433a752399e4c4545",
-    "mb": 2.1,
-    "about": "Walking routes, navigation and accessibility.",
-    "needs": "Needs the Feet route server, which isn't online yet.",
-    "tag": "feet-v0.1.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Feet-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "844c6e28363c183dd4d215f3ae72f4f4c9e91eff221143bd0e51b5992b17b6c5",
-        "mb": 114.5,
-        "kind": "installer"
-      },
-      {
-        "file": "Feet-0.1.0-Windows-x64.zip",
-        "sha256": "49a2786a5a161d7f4cf549f3b585c0ee92166746713f705ce04e013a3231778c",
-        "mb": 153.3,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Feet-0.1.0-Linux-amd64.deb",
-        "sha256": "27ac1f98e58d92be93872d42a1793a39620a6f5dceb6e85180d29a66e4773d3e",
-        "mb": 90,
-        "kind": "deb"
-      },
-      {
-        "file": "Feet-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "efbb075a858423850699ee2e89eb0fd80d5927a519ada6c8c7cf617a7ba2c2fe",
-        "mb": 125.7,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "win32",
-        "steps": 9
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "linux",
-        "steps": 9
-      }
-    },
-    "desktopDifferences": [
-      "No spoken destination (\"Say where to\"): speech recognition isn't available on Windows or Linux in this version. Read aloud and spoken directions work where the system has a voice.",
-      "The map shows OpenStreetMap tiles instead of Apple Maps, so there is no Satellite or Hybrid view and no points of interest on the map.",
-      "Your position comes from the computer's location service when it has one; on many PCs it doesn't, so choose a start place instead. Navigation and activity recording need a location fix.",
-      "Saved data is kept in the app's data folder as JSON rather than a SQLite file; it isn't shared with the Mac app."
-    ]
-  },
-  {
-    "slug": "finishes-musik",
-    "name": "Finishes Musik",
-    "version": "1.4.0",
-    "file": "Finishes-Musik-1.4.0-macOS.zip",
-    "sha256": "9d4a2021d3c18dbc74c37ce35be5edcfe13c5b8a805b979a8e68d14544d6280a",
-    "mb": 2.9,
-    "about": "Mix and master your own songs and organise them into albums: play songs, cut or extend them, compare before and after at matched loudness, fine-tune, LUFS and true-peak metering, and WAV/FLAC export with a report. Password protected; everything stays on your Mac.",
-    "needs": "",
-    "tag": "finishes-musik-v1.4.0",
-    "arch": "Apple Silicon + Intel"
-  },
-  {
-    "slug": "fionbo",
-    "name": "Fionbo",
-    "version": "1.0",
-    "file": "Fionbo-1.0-macOS.zip",
-    "sha256": "0276cad3301478c09bb8059182eec0c5430e3638c366b9819421e66a02048539",
-    "mb": 0,
-    "about": "Fionbo app.",
-    "needs": "",
-    "tag": "fionbo-v1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Fionbo-1.0.0-Windows-x64-Setup.exe",
-        "sha256": "d3ba624a7a2a8dd7c38b8e9b25847f7f489f26e82323a60b13a83bca169b4aae",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "Fionbo-1.0.0-Windows-x64.zip",
-        "sha256": "66e975487c1de2b686515b143399043575b2046d149ac41839e72c1320bf8bdb",
-        "mb": 153.1,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Fionbo-1.0.0-Linux-amd64.deb",
-        "sha256": "0cf5720f87eaf83b3c2acd746cab394921dc9c6d911486c3fdb596024dd989b6",
-        "mb": 89.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Fionbo-1.0.0-Linux-x86_64.AppImage",
-        "sha256": "ce0c4a482278c811820c545188de8beda44e90a239c931fefb4eca2a629dbbd8",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323827189,
-        "platform": "win32",
-        "steps": 3
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323827189,
-        "platform": "linux",
-        "steps": 3
-      }
-    },
-    "desktopDifferences": [
-      "Uses the standard app icon; the Mac app sets its Dock icon from the Fionbo avatar at launch."
-    ]
-  },
-  {
-    "slug": "fionn-mpho-mwaba",
-    "name": "Fionn Mpho Mwaba",
-    "version": "4.1.0",
-    "file": "Fionn-Mpho-Mwaba-4.1.0-macOS.zip",
-    "sha256": "ae228a11afa55dc32ae4d4e05ea41736d4a0059d854756e90008c56939f2ab4d",
-    "mb": 6.1,
-    "about": "Personal AI workstation.",
-    "needs": "",
-    "tag": "fionn-mpho-mwaba-v4.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Fionn-Mpho-Mwaba-4.1.0-Windows-x64-Setup.exe",
-        "sha256": "1cb475ef301e710e6ff145f977135981cfccf65cf88e49834dd465042b86dc02",
-        "mb": 115.3,
-        "kind": "installer"
-      },
-      {
-        "file": "Fionn-Mpho-Mwaba-4.1.0-Windows-x64.zip",
-        "sha256": "93767643f1e3016619038ea6520e9eeaccb5921223bb31eb24a6b7c5f864ec2e",
-        "mb": 153.9,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Fionn-Mpho-Mwaba-4.1.0-Linux-amd64.deb",
-        "sha256": "6d1cdb7a91ec9c3fb6ff90cebe493304e937e086b478d1cf0bd8a42725fe2c13",
-        "mb": 90.2,
-        "kind": "deb"
-      },
-      {
-        "file": "Fionn-Mpho-Mwaba-4.1.0-Linux-x86_64.AppImage",
-        "sha256": "2a5399b905e6bd248d6a6dc74253b1728905bf4f0eb74e70596405531de8da81",
-        "mb": 126.7,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322009386,
-        "platform": "win32",
-        "steps": 8
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322009386,
-        "platform": "linux",
-        "steps": 8
-      }
-    },
-    "desktopDifferences": [
-      "The Mac's Apple-only AI features are not available: Image Playground (on-device image generation), Apple Vision text recognition and Apple Speech (voice chat, dictation, read-aloud, audio transcription). Chat and the agent use Ollama on this computer, as on the Mac, or your own cloud keys.",
-      "No image analysis or Word/Excel/PowerPoint/PDF creation tools yet.",
-      "Cannot read PDF, Word, Excel, PowerPoint or iWork files; text and code files only.",
-      "No Projects, Build (live web preview), Files or Saved tabs, and no Prompt Studio.",
-      "File search scans folders directly instead of using the Spotlight index, so it is slower on large folders.",
-      "No Xcode build/inspect-project tools; use run_command for builds.",
-      "Undo of a move to the Recycle Bin/Trash isn't offered (restore it from the Recycle Bin/Trash instead).",
-      "The Antigravity CLI chat back-end is not included.",
-      "No in-app updater; new versions come from the ShouldBe website.",
-      "The macOS privacy permissions section (Full Disk Access, Microphone…) is Mac-only."
-    ]
-  },
-  {
-    "slug": "funding-cockpit",
-    "name": "Funding Cockpit",
-    "version": "2.0.0",
-    "file": "Funding-Cockpit-2.0.0-macOS.zip",
-    "sha256": "074e54f4a5f833f347d2611a805cb901a29c4f879b498854f365dece5201b58e",
-    "mb": 0.9,
-    "about": "A workspace for writing grant and funding applications: questions, answers, sign-off and deadlines in one place.",
-    "needs": "",
-    "tag": "funding-cockpit-v2.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Funding-Cockpit-2.0.0-Windows-x64-Setup.exe",
-        "sha256": "9b7cf08fcf92ae02c8addff453eaa24be242e9dd4a08682a3c75bf6372fa555b",
-        "mb": 114.4,
-        "kind": "installer"
-      },
-      {
-        "file": "Funding-Cockpit-2.0.0-Windows-x64.zip",
-        "sha256": "169d1cc48cfdea27324195627259b04c3af16a93c317026c65223108723847d9",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Funding-Cockpit-2.0.0-Linux-amd64.deb",
-        "sha256": "2b2fb58f1eaec57b7b40a970e26ba7a786b7fa79f3b38349b7f5eaece86c9cd0",
-        "mb": 89.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Funding-Cockpit-2.0.0-Linux-x86_64.AppImage",
-        "sha256": "0fd586f241d1437d3905fa398c445caaddaff18545c257d044423bacc3582e3b",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323286108,
-        "platform": "win32",
-        "steps": 10
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323286108,
-        "platform": "linux",
-        "steps": 10
-      }
-    },
-    "desktopDifferences": [
-      "Uses the layout of Funding Cockpit's web version (same screens, features, data file format and keyboard shortcuts with Ctrl instead of Cmd) rather than the Mac app's native sidebar window; text size has three steps instead of four, plus the View menu zoom."
-    ]
-  },
-  {
-    "slug": "ganise-organize",
-    "name": "Ganise Organize",
-    "version": "0.1.0",
-    "file": "Ganise-Organize-0.1.0-macOS.zip",
-    "sha256": "b16f53ca82959fe66387eca1ba61eb6f3ef8c6f2b349d273d729be96da0f4566",
-    "mb": 2.7,
-    "about": "Organiser for files and duplicate apps.",
-    "needs": "",
-    "tag": "ganise-organize-v0.1.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Ganise-Organize-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "3b5f351325778bdf409dde1669c7385721f491786e0d855079f0e929274d939b",
-        "mb": 114.6,
-        "kind": "installer"
-      },
-      {
-        "file": "Ganise-Organize-0.1.0-Windows-x64.zip",
-        "sha256": "c5a7a6935cf557ac8e04539b9afbd06453dc5431486f111bd10503fd161efed2",
-        "mb": 153.4,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Ganise-Organize-0.1.0-Linux-amd64.deb",
-        "sha256": "665f20d38ae136587fe301d4850d3a9ef43dee93db9d1b43414dfdd0ba457b7d",
-        "mb": 90.2,
-        "kind": "deb"
-      },
-      {
-        "file": "Ganise-Organize-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "8f0cda992f847f96fa987bed06de9bd0f87f8a17d8711aa37ef12a84814b6ea4",
-        "mb": 125.8,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323181152,
-        "platform": "win32",
-        "steps": 6
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323181152,
-        "platform": "linux",
-        "steps": 6
-      }
-    },
-    "desktopDifferences": [
-      "The Applications section (finding duplicate copies of installed Mac apps by bundle identifier) is not included; it only works with macOS .app bundles.",
-      "Merge combines duplicate folders and exact duplicate files; the Mac version also removes older builds of the same .app.",
-      "The Full Disk Access card is replaced by a note: Ganise works on the folders you choose."
-    ]
-  },
-  {
-    "slug": "gone",
-    "name": "Gone",
-    "version": "1.0.1",
-    "file": "Gone-1.0.1-macOS.zip",
-    "sha256": "2661bd314af8f86b39cf2659f7a8f9f86e44b01b71aecc8c9558ace0a92e151c",
-    "mb": 0.4,
-    "about": "Email delivery console: send mail through your own SMTP account, domains, delivery logs.",
-    "needs": "Sends mail through your own SMTP account.",
-    "tag": "gone-v1.0.1",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "GONE-1.0.1-Windows-x64-Setup.exe",
-        "sha256": "f5d2a83382d1ef9c1394d8281893f389aa3d315cb064b8effc25fa0232aab19d",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "GONE-1.0.1-Windows-x64.zip",
-        "sha256": "576a91e67b2b0b9025ff49c30ec6521a87387f4be1326f7c4bd330f147df4360",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "GONE-1.0.1-Linux-amd64.deb",
-        "sha256": "cf4f42880a0f2d0627f1af4c8d29aa2c49b62389cb0ac34ef10c48b922791fd4",
-        "mb": 89.6,
-        "kind": "deb"
-      },
-      {
-        "file": "GONE-1.0.1-Linux-x86_64.AppImage",
-        "sha256": "ae43f3b1df9b3c2497ab7a576584dce42e5163d811a14ae14f07799811f8b00c",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41324224265,
-        "platform": "win32",
-        "steps": 10
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41324224265,
-        "platform": "linux",
-        "steps": 10
-      }
-    },
-    "desktopDifferences": [
-      "The SMTP password is kept in Windows protected storage or the Linux system keyring instead of the macOS Keychain. If no keyring is available on Linux, GONE won't save it (it is used only until you quit).",
-      "Mail is sent by GONE's own SMTP client instead of curl. It supports STARTTLS, implicit TLS on port 465, and PLAIN/LOGIN sign-in; servers that only offer other sign-in methods (such as CRAM-MD5 or OAuth) aren't supported.",
-      "Domain checks use this computer's DNS settings instead of the dig command."
-    ]
-  },
-  {
-    "slug": "hot-contents",
-    "name": "Hot Contents",
-    "version": "2.0.0",
-    "file": "Hot-Contents-2.0.0-macOS.zip",
-    "sha256": "9f5222a4b3dc40220b3083b4af6c5ba8d33e721babe46561762f6aa1e68bc766",
-    "mb": 0,
-    "about": "Trending repositories and private git hosting.",
-    "needs": "Needs the Hot Contents server, which isn't included.",
-    "tag": "hot-contents-v2.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Hot-Contents-2.0.0-Windows-x64-Setup.exe",
-        "sha256": "94dc3544a3573a3be33654786f0d7ffdcec6182e4fff57c128af19caf7905361",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "Hot-Contents-2.0.0-Windows-x64.zip",
-        "sha256": "3de532ba13b3948ec65f3a9ecd7bfe2151d841b5568320d2a151ddf5c3f452a3",
-        "mb": 153.1,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Hot-Contents-2.0.0-Linux-amd64.deb",
-        "sha256": "3eaf8d6de45c6e36aaa344205d2d639378f872495ec57a5dc36c78b7d7235ba9",
-        "mb": 89.6,
-        "kind": "deb"
-      },
-      {
-        "file": "Hot-Contents-2.0.0-Linux-x86_64.AppImage",
-        "sha256": "3ba8c685fe4448bc3d6bd62b7c5388bee3cb18ed433865c8d72c94c47532481c",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323286108,
-        "platform": "win32",
-        "steps": 8
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323286108,
-        "platform": "linux",
-        "steps": 8
-      }
-    }
-  },
-  {
-    "slug": "independent",
-    "name": "Independent",
-    "version": "0.1.0",
-    "file": "Independent-0.1.0-macOS.zip",
-    "sha256": "88f77f8e9053a583f00dbb1c05042a4d688e175f082b560046610b90efdb4297",
-    "mb": 0,
-    "about": "Independent app manifests and launcher.",
-    "needs": "Needs Python 3 on the Mac.",
-    "tag": "independent-v0.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Independent-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "e71a6bb68904484a5754408ac4121b5d218767d0495f80343ea1f9b1fb98d305",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "Independent-0.1.0-Windows-x64.zip",
-        "sha256": "88c192a8b3d701393ba86090e9ec3b5efd8c0f53e6be4c9292e8678d940a9a1a",
-        "mb": 153.1,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Independent-0.1.0-Linux-amd64.deb",
-        "sha256": "8aa86f82ddba8ff796f41f2737a21bc1d818e74260990edffada7b9ef65f3b08",
-        "mb": 89.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Independent-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "b3a41ca1383fecfdcbe70083299544de5749fa193deae95a12fb09916a0770a8",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41324224265,
-        "platform": "win32",
-        "steps": 7
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41324224265,
-        "platform": "linux",
-        "steps": 7
-      }
-    },
-    "desktopDifferences": [
-      "Its settings, activity log and manifest backups are kept in the app's data folder instead of ~/.independent (same file formats).",
-      "No Python needed: the Mac build runs a Python/Tk program with the Python already on the Mac; this version is self-contained."
-    ]
-  },
-  {
-    "slug": "jobs",
-    "name": "Jobs",
-    "version": "0.2.0",
-    "file": "Jobs-0.2.0-macOS.zip",
-    "sha256": "a3f0ce081bddead2848ce770b9329287204358b43a62572e35c9890719a4bb78",
-    "mb": 1.3,
-    "about": "UK vacancy platform.",
-    "needs": "Needs the Jobs server, which isn't online yet.",
-    "tag": "jobs-v0.2.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Jobs-0.2.0-Windows-x64-Setup.exe",
-        "sha256": "a5e6128ffba8b6480a9917713b5d7e0c84314b07b2605dcae06c113119dda65a",
-        "mb": 114.4,
-        "kind": "installer"
-      },
-      {
-        "file": "Jobs-0.2.0-Windows-x64.zip",
-        "sha256": "0dfd71a3e8ea66d648750fb2bc4aacbcbe92fbf291c91742edc51570cb593baf",
-        "mb": 153.3,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Jobs-0.2.0-Linux-amd64.deb",
-        "sha256": "767d752d6894cdce6e22b883034aec1d68c3d2d05e575c0aab22838b8af0ca3f",
-        "mb": 89.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Jobs-0.2.0-Linux-x86_64.AppImage",
-        "sha256": "e86893fb4e32fc52d84cdde767a3319884ef2a579f3b156110c80e2d495678fa",
-        "mb": 125.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "win32",
-        "steps": 10
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "linux",
-        "steps": 10
-      }
-    },
-    "desktopDifferences": [
-      "Needs a Jobs server: like the Mac app it uses http://127.0.0.1:8820 unless you enter another address in Sources & Settings.",
-      "Share copies the vacancy link to the clipboard instead of opening the macOS share menu."
-    ]
-  },
-  {
-    "slug": "lenda",
-    "name": "Lenda",
-    "version": "2.1",
-    "file": "Lenda-2.1-macOS.zip",
-    "sha256": "99f2793fc50b9cb9caa76094ef12111ca6315d660e379825fc73ced49b0cfdcf",
-    "mb": 0.6,
-    "about": "Lenda app with the George corner assistant.",
-    "needs": "The George assistant needs Node.js on the Mac.",
-    "tag": "lenda-v2.1",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Lenda-2.1.0-Windows-x64-Setup.exe",
-        "sha256": "c752faeb706aacb1c9e4338f878a2da353d93396eaa886be6ac4d26e55992b53",
-        "mb": 114.4,
-        "kind": "installer"
-      },
-      {
-        "file": "Lenda-2.1.0-Windows-x64.zip",
-        "sha256": "8e151c01f563fcd1d08955456befbd775a437855a9fcd727b56f95f168e56a43",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Lenda-2.1.0-Linux-amd64.deb",
-        "sha256": "53e6a23d085eb9369cf07657e11ec07d6fc9675d694c61e21938d44245219174",
-        "mb": 89.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Lenda-2.1.0-Linux-x86_64.AppImage",
-        "sha256": "48aedd2050678fa095ba9a7facf24a5d2fcfda5c59257d75aa93406cb605c6e3",
-        "mb": 125.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322841336,
-        "platform": "win32",
-        "steps": 6
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322841336,
-        "platform": "linux",
-        "steps": 6
-      }
-    },
-    "desktopDifferences": [
-      "Date suggestions from pasted conversations use Lenda's own English date finder instead of macOS's built-in date detector, so it may pick up slightly different phrases.",
-      "Connected Apps checks the Start menu (Windows) or installed app list (Linux) instead of the Mac Applications folders."
-    ]
-  },
-  {
-    "slug": "live-summer",
-    "name": "Live Summer",
-    "version": "0.1.0",
-    "file": "Live-Summer-0.1.0-macOS.zip",
-    "sha256": "59467f13687a1c8ce7e4ccd3ef5492737a7b5d2b59b3febfd12dd743995d2b6f",
-    "mb": 0.3,
-    "about": "Live Summer app.",
-    "needs": "",
-    "tag": "live-summer-v0.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Live-Summer-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "e41c9d1962099315e974e516c1b873c28e06d9899dab8d8acf82efac16d52b9f",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "Live-Summer-0.1.0-Windows-x64.zip",
-        "sha256": "47f400209e85d9f30e609ba3c987f99c7cc615c6c5a384ba0c744b37b50b47db",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Live-Summer-0.1.0-Linux-amd64.deb",
-        "sha256": "e352707a4a5caae4e049a05eba80638768291fd825ccc5767e64024374be47a7",
-        "mb": 89.9,
-        "kind": "deb"
-      },
-      {
-        "file": "Live-Summer-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "a8cdbd90fe882acda3635b872e52504520f80e497ce5ce2d2172fdd9e922e7d2",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323886164,
-        "platform": "win32",
-        "steps": 7
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323886164,
-        "platform": "linux",
-        "steps": 7
-      }
-    },
-    "desktopDifferences": [
-      "Explore Map uses OpenStreetMap tiles instead of Apple Maps.",
-      "\"Remind me\" reminders only appear while Live Summer is open (the Mac schedules them with the system)."
-    ]
-  },
-  {
-    "slug": "liveo",
-    "name": "Liveo",
-    "version": "1.0.2",
-    "file": "Liveo-1.0.2-macOS.zip",
-    "sha256": "0fa88fef326db1a5483a2c23b2ff78b479f60c4d19ea8d46fedad9da598b634e",
-    "mb": 119.6,
-    "about": "Live and upcoming football, boxing and other sport: Live Now, Upcoming, Football, Boxing and Other Sports with search and filters, scores, start times and where to watch (TV listings and official broadcasters). Data from TheSportsDB. Never shows unofficial streams.",
-    "needs": "",
-    "tag": "liveo-v1.0.2",
-    "arch": "Apple Silicon",
-    "macIntel": {
-      "file": "Liveo-1.0.2-macOS-Intel.zip",
-      "sha256": "067ced3772517ea5b76908f072ac79fc4db56d35eab4e35d662f280235149712",
-      "mb": 126.8
-    },
-    "windows": [
-      {
-        "file": "Liveo-1.0.2-Windows-x64-Setup.exe",
-        "sha256": "04f969c33b100e5a6c885be3ea45a568f5092110b0d8b364f61a732a8bf741e0",
-        "mb": 114.8,
-        "kind": "installer"
-      },
-      {
-        "file": "Liveo-1.0.2-Windows-x64.zip",
-        "sha256": "b2023dc841f9fa9351af22916ab873d6ce54bbaf041b492e1ed7e1ea90493cf2",
-        "mb": 153.9,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Liveo-1.0.2-Linux-amd64.deb",
-        "sha256": "1dbe86489c84ec2f84b4471217033349b6f09bb795fe0514a15625a4a350a907",
-        "mb": 90.1,
-        "kind": "deb"
-      },
-      {
-        "file": "Liveo-1.0.2-Linux-x86_64.AppImage",
-        "sha256": "be8e26fb3294f949164941d3674c722e4781a6ebc763b6bfcef1d1ba11f30a0d",
-        "mb": 126.3,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41316065557,
-        "platform": "win32",
-        "steps": null
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41316065557,
-        "platform": "linux",
-        "steps": null
-      }
-    }
-  },
-  {
-    "slug": "milo",
-    "name": "Milo",
-    "version": "0.3.0",
-    "file": "Milo-0.3.0-macOS.zip",
-    "sha256": "0818eb308e54ddf398d22ffaf19c655bd9cc013e6ba72b70c90cfddf1066eb1f",
-    "mb": 127.4,
-    "about": "Web browser like Safari: Reader, Listen to Page, Reading List, Tab Overview, and Clarice summaries.",
-    "needs": "",
-    "tag": "milo-v0.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Milo-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "8fd9480e94773b582ec926032106fc959258cb02356f93f9bb8ab78efd9391c3",
-        "mb": 113.5,
-        "kind": "installer"
-      },
-      {
-        "file": "Milo-0.1.0-Windows-x64.zip",
-        "sha256": "71c2d9033fe8c70ed67d4215b0205cdc9587df59578381695eb7c48384c1bbf9",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Milo-0.1.0-Linux-amd64.deb",
-        "sha256": "5d6daec1386e1e2170a2b8375254d2c0a99d41fd567058b428fb8c6a8a8dbd5d",
-        "mb": 88.2,
-        "kind": "deb"
-      },
-      {
-        "file": "Milo-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "690fd2970bb5e34450819e7be79d31adfd344fb6bb403dca0525dfbc346c98c5",
-        "mb": 125.2,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "win32",
-        "steps": null
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "linux",
-        "steps": null
-      }
-    },
-    "macTag": "milo-v0.3.0"
-  },
-  {
-    "slug": "myl",
-    "name": "MYL",
-    "version": "1.0.0",
-    "file": "MYL-1.0.0-macOS.zip",
-    "sha256": "5f34771bad3e0700979c243dfaea258b034632a0b42914acda13a88320d8cb4a",
-    "mb": 0.4,
-    "about": "Mind Your Language: offline password vault.",
-    "needs": "",
-    "tag": "myl-v1.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "MYL-1.0.0-Windows-x64-Setup.exe",
-        "sha256": "34b9356e8056b287e120eb92c775e4d00b3dcc6deafc493601a942a423e18ee0",
-        "mb": 114.4,
-        "kind": "installer"
-      },
-      {
-        "file": "MYL-1.0.0-Windows-x64.zip",
-        "sha256": "162b6fee9ec85614957d4bf0e8c07557699d96fc536a04163aa37aa54994c8f8",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "MYL-1.0.0-Linux-amd64.deb",
-        "sha256": "d6f82e3ef6ff428f7adc534ceea3a26ed899f426c6bbed7b76a3c150c3d515f7",
-        "mb": 89.6,
-        "kind": "deb"
-      },
-      {
-        "file": "MYL-1.0.0-Linux-x86_64.AppImage",
-        "sha256": "8f2e829bb45a0d06f508b0097652d870c2fe7335575b4a56c905ed1af74abb44",
-        "mb": 125.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41324224265,
-        "platform": "win32",
-        "steps": 12
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41324224265,
-        "platform": "linux",
-        "steps": 12
-      }
-    },
-    "desktopDifferences": [
-      "No Touch ID / biometric unlock; unlock with your master password.",
-      "The vault is protected by your computer's secure storage instead of the macOS Keychain: Windows Data Protection on Windows, and the system keyring (GNOME Keyring or KWallet) on Linux. On Linux without a keyring, MYL refuses to create a vault rather than store it unprotected.",
-      "Vaults can't be moved between a Mac and a Windows or Linux computer (each is locked to the computer's own secure storage, as on the Mac)."
-    ]
-  },
-  {
-    "slug": "ostore",
-    "name": "OStore",
-    "version": "2.4.0",
-    "file": "OStore-2.4.0-macOS.zip",
-    "sha256": "6886cf6e0ee8b0bfecbaa08fac3e1b82a4d4e867f25ef1e816f7a0d072367fe9",
-    "mb": 1.3,
-    "about": "App store, update authority and Mac application library.",
-    "needs": "Needs ShouldCloud running on the same Mac.",
-    "tag": "ostore-v2.4.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "OStore-2.4.0-Windows-x64-Setup.exe",
-        "sha256": "7bffa0747f9bacd152c7c1a879373e2cba57f7ce32f9884925c8c255a859c29b",
-        "mb": 114.4,
-        "kind": "installer"
-      },
-      {
-        "file": "OStore-2.4.0-Windows-x64.zip",
-        "sha256": "b9d3b4e745fcdf1f8e7480f2b3c8f4768470580024a8817220103c97d16088b1",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "OStore-2.4.0-Linux-amd64.deb",
-        "sha256": "fe14605a355d46209a497f2c3165d466b3fe68b5ae7dd914cb09ff31aaa1e712",
-        "mb": 90,
-        "kind": "deb"
-      },
-      {
-        "file": "OStore-2.4.0-Linux-x86_64.AppImage",
-        "sha256": "6927eb1e5837be0bb5e10281459fc3856af532bf4bf1b2a83045b537c3d0fa26",
-        "mb": 125.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323149004,
-        "platform": "win32",
-        "steps": 14
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323149004,
-        "platform": "linux",
-        "steps": 13
-      }
-    },
-    "desktopDifferences": [
-      "Needs ShouldCloud on the same computer (default 127.0.0.1:8788, changeable in settings); remote addresses must use HTTPS.",
-      "Installs Linux AppImage and tar packages itself; deb/rpm go through PackageKit, MSI through Windows Installer and MSIX through App Installer, each after you confirm.",
-      ".exe installers are never run (the catalogue declares no silent-install switches), as the OStore Windows spec requires.",
-      "Automatic updates install by themselves only for AppImage and tar apps; system-package updates are offered on the Updates page.",
-      "No Publisher Studio (publishing to ShouldCloud is done from the Mac).",
-      "Application Library: no installer archives, no licence-key storage, no own-app source analysis and no App Store lookup; Check Links verifies developer web pages only.",
-      "AppImage packages are checked by SHA-256 only; their internal app identity is not inspected.",
-      "Screenshots are listed by caption but not downloaded."
-    ]
-  },
-  {
-    "slug": "real",
-    "name": "REAL",
-    "version": "0.3.0",
-    "file": "REAL-0.3.0-macOS.zip",
-    "sha256": "b8c8adbebc5a2bb6d6b42318e30707ccfe0725af97e763df7fb9e0c05ed562ca",
-    "mb": 2.9,
-    "about": "Independent social photo app.",
-    "needs": "Needs the REAL server, which isn't online yet.",
-    "tag": "real-v0.3.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "REAL-0.3.0-Windows-x64-Setup.exe",
-        "sha256": "f8b36e4f941eee675490bc5d1a1005d35919cdc325a7b7b10a66788636c89854",
-        "mb": 114.5,
-        "kind": "installer"
-      },
-      {
-        "file": "REAL-0.3.0-Windows-x64.zip",
-        "sha256": "fbef2bc9f86dbc9cda694700298092626357c7cfa4f67ca16f4a52482a631b6f",
-        "mb": 153.3,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "REAL-0.3.0-Linux-amd64.deb",
-        "sha256": "a53c0909521d277ecc5cf1bbe0ce336a0931d947765e98a3c5006613ba3bd3b3",
-        "mb": 89.7,
-        "kind": "deb"
-      },
-      {
-        "file": "REAL-0.3.0-Linux-x86_64.AppImage",
-        "sha256": "64b86ac622ff04a7fa51cbd860acea3a955b044b831c2287c30b09e1673e85b9",
-        "mb": 125.7,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "win32",
-        "steps": 10
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "linux",
-        "steps": 10
-      }
-    },
-    "desktopDifferences": [
-      "Live broadcasts open in REAL on the web to watch (the Mac app plays them in the window); live chat and reactions work in the app.",
-      "Share copies the post's link instead of opening the macOS share menu.",
-      "The sign-in token is protected with the system keychain where the computer provides one (on some Linux desktops it is stored in the app's data folder)."
-    ]
-  },
-  {
-    "slug": "rest",
-    "name": "Rest",
-    "version": "2.0.0",
-    "file": "Rest-2.0.0-macOS.zip",
-    "sha256": "86f3c5865c9bfaccb03ef8c178bfe27e55c5fb9dedbab3560a376a1a0f636c14",
-    "mb": 1.7,
-    "about": "App drawer and file navigator, with the seated character.",
-    "needs": "",
-    "tag": "rest-v2.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Rest-2.0.0-Windows-x64-Setup.exe",
-        "sha256": "a585c4022176d09a249366d9d7fb4d80114c29d8a11f2261a8739fe253e4893a",
-        "mb": 114.7,
-        "kind": "installer"
-      },
-      {
-        "file": "Rest-2.0.0-Windows-x64.zip",
-        "sha256": "7a0eca2bd9346c66b82231bc5d8c3ef172a5b7802aed64bc893fbba26022a585",
-        "mb": 153.4,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Rest-2.0.0-Linux-amd64.deb",
-        "sha256": "97f171defc359975b7ad1dfc268e96e68fe4dbca965331773c5b5a9468fe2838",
-        "mb": 90.2,
-        "kind": "deb"
-      },
-      {
-        "file": "Rest-2.0.0-Linux-x86_64.AppImage",
-        "sha256": "8d20b4fbbc18ae8551683d306fec202d839940844aed0ab0c28ac93af45df6a5",
-        "mb": 125.9,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323181152,
-        "platform": "win32",
-        "steps": 9
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323181152,
-        "platform": "linux",
-        "steps": 9
-      }
-    },
-    "desktopDifferences": [
-      "The character and the drawer live inside Rest's window instead of floating on the desktop above other windows.",
-      "Apps come from the Start Menu (Windows) or the system's application launchers (Linux). Microsoft Store apps without a Start Menu shortcut are not listed.",
-      "There is no menu-bar icon; right-click the window for the same options.",
-      "No \"Open Rest when I log in\" setting.",
-      "Rest doesn't say \"Switched to\" an app that was already running; it always opens it.",
-      "The PetsOS Files window (⇧⌘F) is not included."
-    ]
-  },
-  {
-    "slug": "revelation",
-    "name": "Revelation",
-    "version": "0.1.0",
-    "file": "Revelation-0.1.0-macOS.zip",
-    "sha256": "5d19950e878fd9bd104683c9480ffa3d20c250c5d89a27ef20dfeabcc8323dc1",
-    "mb": 0.2,
-    "about": "Story studio.",
-    "needs": "",
-    "tag": "revelation-v0.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Revelation-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "23c5bd687a9316b1d04727fa5d96a7182031f5db0a8b2afef00b539b5eed0018",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "Revelation-0.1.0-Windows-x64.zip",
-        "sha256": "013b48bee97ce44761e0ab72f14f9934be5bec84e53bb58876eef22fd0c131c9",
-        "mb": 153.1,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Revelation-0.1.0-Linux-amd64.deb",
-        "sha256": "7be3c9fcbd322ac82ddb75176bb623e6712c671555d2483d3d477bb3b16131e3",
-        "mb": 89.9,
-        "kind": "deb"
-      },
-      {
-        "file": "Revelation-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "7486d0efd07413bb8bda134b44c43a6f84bcd3b868e40b03d82b32dc33b17d4e",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322651620,
-        "platform": "win32",
-        "steps": 6
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322651620,
-        "platform": "linux",
-        "steps": 6
-      }
-    },
-    "desktopDifferences": [
-      "There is no app icon yet (the Mac build has none either), so the standard Electron icon is shown."
-    ]
-  },
-  {
-    "slug": "roatchez",
-    "name": "Roatchez",
-    "version": "1.3.0",
-    "file": "Roatchez-1.3.0-macOS.zip",
-    "sha256": "cc4918ca0bc40f83520e0dc976ffa0e459dbf5d8c52e09b36b561944d762ad85",
-    "mb": 31.4,
-    "about": "Streetwear collection with 3D product views.",
-    "needs": "",
-    "tag": "roatchez-v1.3.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Roatchez-1.3.0-Windows-x64-Setup.exe",
-        "sha256": "2aa767e7627a048c25f8906a962b9334e490249c20dab823ea2a19e5d4ed9fd6",
-        "mb": 134.2,
-        "kind": "installer"
-      },
-      {
-        "file": "Roatchez-1.3.0-Windows-x64.zip",
-        "sha256": "5a279c38a5881692ee3974f3ba3605dc1ab0bdd4bc942f6a04a219bbfd090169",
-        "mb": 175.8,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Roatchez-1.3.0-Linux-amd64.deb",
-        "sha256": "64522bed636faf000a32016b38d0d95d14c3a37f29a96f1dd4e2eebf732b1db8",
-        "mb": 108.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Roatchez-1.3.0-Linux-x86_64.AppImage",
-        "sha256": "17cc843badc6ab5426966b89cf2aab9f7655b548e78f5add982f94e4768670cf",
-        "mb": 148.4,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41321943237,
-        "platform": "win32",
-        "steps": 16
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41321943237,
-        "platform": "linux",
-        "steps": 16
-      }
-    },
-    "desktopDifferences": [
-      "Does not receive products sent from Roatchez Studio (Studio is Mac only); the 30 Studio products bundled with the Mac app are included.",
-      "The 3D shape mock-ups are drawn with WebGL instead of Apple SceneKit, so lighting and materials look slightly different; on computers without WebGL 2 the product photo is shown instead.",
-      "The Mac command-line checks (--catalogue-audit, --studio-verify, --studio-product) are not included."
-    ]
-  },
-  {
-    "slug": "roatchez-studio",
-    "name": "Roatchez Studio",
-    "version": "2.0.0",
-    "file": "Roatchez-Studio-2.0.0-macOS.zip",
-    "sha256": "7a8af2cde4e2d49ba8aac0a1a385ee82d3c1a6912a8c3e6b7b0d5f9d86cf18f3",
-    "mb": 1.6,
-    "about": "Product manager for the Roatchez clothing app: make product pages and send them to Roatchez.",
-    "needs": "Sends products to the Roatchez app, so install Roatchez too.",
-    "tag": "roatchez-studio-v2.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Roatchez-Studio-2.0.0-Windows-x64-Setup.exe",
-        "sha256": "92897b77d816158af5a10abdaeb2a72ca3439cb7c1229f200d54fb057e90df5f",
-        "mb": 115.5,
-        "kind": "installer"
-      },
-      {
-        "file": "Roatchez-Studio-2.0.0-Windows-x64.zip",
-        "sha256": "4c3f1ab3b7334ca3c8afd53c1accbc1d6d05666e6e2579396e924c30fb5f6c5a",
-        "mb": 154.3,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Roatchez-Studio-2.0.0-Linux-amd64.deb",
-        "sha256": "841b041b61cf0c552c974e60d1dc72e75fe9566d71d32316541dfe2b7fd7db1d",
-        "mb": 90.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Roatchez-Studio-2.0.0-Linux-x86_64.AppImage",
-        "sha256": "4d69aedc9488eb832216621da60c08e8d8c757c4942946fc2eb35250352365f7",
-        "mb": 126.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322651620,
-        "platform": "win32",
-        "steps": 8
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322651620,
-        "platform": "linux",
-        "steps": 8
-      }
-    },
-    "desktopDifferences": [
-      "Sent products are written to the RoatchezStudioBridge folder (%APPDATA%\\RoatchezStudioBridge on Windows, ~/.config/RoatchezStudioBridge on Linux) in the same products.json format as the Mac. The Windows/Linux Roatchez app only shows them if it reads that folder.",
-      "A send is checked by reading the bridge catalogue back; the Mac version also asks the installed Roatchez app (Roatchez --studio-verify) to confirm it shows the product, and refuses to send if Roatchez is missing.",
-      "Open Roatchez and Show in Roatchez only work when Roatchez is installed in its usual place.",
-      "Replacement images must be PNG or JPEG (the Mac also accepts HEIC and TIFF).",
-      "Drafts from the earlier, misspelled Mac build are not imported."
-    ]
-  },
-  {
-    "slug": "samples-loop-studio",
-    "name": "Samples Loop Studio",
-    "version": "2.1.0",
-    "file": "Samples-Loop-Studio-2.1.0-macOS.zip",
-    "sha256": "978d64075e6c7415515beaf91d264a1af7642034bc79efc2a3a180bdebb47852",
-    "mb": 5.2,
-    "about": "Audio loops and multitrack DAW.",
-    "needs": "",
-    "tag": "samples-loop-studio-v2.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Samples-Loop-Studio-2.1.0-Windows-x64-Setup.exe",
-        "sha256": "dd83df6af18fdcfbebf7ef3cb9d1a70add28501cc20ab92de0d00e3ae821887d",
-        "mb": 117.4,
-        "kind": "installer"
-      },
-      {
-        "file": "Samples-Loop-Studio-2.1.0-Windows-x64.zip",
-        "sha256": "0ebd92b8bf71b104fd3745ab933ae190e1b765fd46b7a20f9872e69da205ce8d",
-        "mb": 156.8,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Samples-Loop-Studio-2.1.0-Linux-amd64.deb",
-        "sha256": "2668161180ee7b66830c2774e2aee7eacfc078a9505318eba62b8bd5c4a5e8ce",
-        "mb": 92.9,
-        "kind": "deb"
-      },
-      {
-        "file": "Samples-Loop-Studio-2.1.0-Linux-x86_64.AppImage",
-        "sha256": "e0357b0785075850a778345b050bd88798d3079f976f6ec8a35965e8fe66c993",
-        "mb": 129.3,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41325032734,
-        "platform": "win32",
-        "steps": 16
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41325032734,
-        "platform": "linux",
-        "steps": 16
-      }
-    },
-    "desktopDifferences": [
-      "Audio Unit plug-ins (effects and instruments) aren't available; Audio Unit channels and inserts in Mac projects are silent here.",
-      "SL Synth's sound engine was rebuilt from the Mac app's behaviour, so synth parts sound very close but not sample-identical; samples, built-in sounds, drums and the mixer effects play the same.",
-      "SL Drum Machine Tune and Decay are approximations of the Mac versions.",
-      "Export writes WAV and AIFF (master and stems); FLAC and AAC/M4A aren't offered.",
-      "Editor windows can't be detached into their own floating windows.",
-      "Audio plays through the system's default output; there is no device, buffer-size or input-channel choice, and no DSP-load or memory readout.",
-      "Audio recording is basic: count-in and punch-in/out don't apply to audio takes, and input monitoring isn't available.",
-      "Sample time-stretch and pitch-shift tools, and clip time-stretch/reverse in the playlist, aren't included.",
-      "Files can't be dragged in from the file manager; use Import Audio or File › Open.",
-      "Collect Project Package isn't available.",
-      "The new-project templates start with similar but not identical patterns to the Mac templates."
-    ]
-  },
-  {
-    "slug": "shouldcloud",
-    "name": "ShouldCloud",
-    "version": "0.10.2",
-    "file": "ShouldCloud-0.10.2-macOS.zip",
-    "sha256": "c46e1428ff0aabc387a37ebe8d218d60a9f1259786c5708348a3486123543fe0",
-    "mb": 24.5,
-    "about": "Release hosting and publishing cloud.",
-    "needs": "A server app: needs Node.js (Homebrew).",
-    "tag": "shouldcloud-v0.10.2",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "ShouldCloud-0.10.2-Windows-x64-Setup.exe",
-        "sha256": "6afaca3b180adfa90d22348ca4435bed3e8dc4bf352ad77188a22fb616034dc8",
-        "mb": 114.6,
-        "kind": "installer"
-      },
-      {
-        "file": "ShouldCloud-0.10.2-Windows-x64.zip",
-        "sha256": "d7f52c3c07ce92c74bb86a0d41c2cd62eb0ea6733a9c5eeb27e23430f1ede285",
-        "mb": 153.5,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "ShouldCloud-0.10.2-Linux-amd64.deb",
-        "sha256": "73e475335e6392414e5ebf0b0ab30fd7fcbbb677a9d8a103649417dcd1fd7cb1",
-        "mb": 90.2,
-        "kind": "deb"
-      },
-      {
-        "file": "ShouldCloud-0.10.2-Linux-x86_64.AppImage",
-        "sha256": "832bda8ec921f453970b499cf0cb7e2cdfec0f17b9f498864eae9d45c349ae89",
-        "mb": 125.8,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41323286108,
-        "platform": "win32",
-        "steps": 9
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41323286108,
-        "platform": "linux",
-        "steps": 9
-      }
-    },
-    "desktopDifferences": [
-      "The Mac app's \"Publisher Access\" dialog is not included: the remote admin password and publisher key are in the data folder (Help > Open data folder > .shouldcloud/public-access and .shouldcloud/publisher).",
-      "The origin only runs while the app window is open; the Mac version can keep running as a background service and keeps the Mac awake.",
-      "\"Deploy Viewverse\" (the bundled Viewverse Mac Preview) needs macOS and does not work here.",
-      "The old September 2026 seed release files bundled with the Mac app are not included."
-    ]
-  },
-  {
-    "slug": "sonix",
-    "name": "Sonix",
-    "version": "2.0.1",
-    "file": "Sonix-2.0.1-macOS.zip",
-    "sha256": "b6974046fef6b0b929c8a34f8a0d9b0c403e3a9bd7e8375f05612229d2fda215",
-    "mb": 7.7,
-    "about": "Music app (multi-platform).",
-    "needs": "",
-    "tag": "sonix-v2.0.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Sonix-2.0.0-Windows-x64-Setup.exe",
-        "sha256": "1f9d023c9030812ebed0eb6255d0691e45f6c75d73430d777a347c21d9b1e9cb",
-        "mb": 118.7,
-        "kind": "installer"
-      },
-      {
-        "file": "Sonix-2.0.0-Windows-x64.zip",
-        "sha256": "efa413f9507d97458d7676d69606cfe8df616a9c7714bba8bcb313ff13dd3534",
-        "mb": 158.5,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Sonix-2.0.0-Linux-amd64.deb",
-        "sha256": "b530e0917c10d7c2b831e43c0f82bd19600cc5b10ea80a29dd56ba31a7a18bca",
-        "mb": 94.2,
-        "kind": "deb"
-      },
-      {
-        "file": "Sonix-2.0.0-Linux-x86_64.AppImage",
-        "sha256": "6444ade1dd86d78aa3d18b7a2b447197a4b3e9208f35af022acd232a77fd2f73",
-        "mb": 130.9,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41321943237,
-        "platform": "win32",
-        "steps": 12
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41321943237,
-        "platform": "linux",
-        "steps": 12
-      }
-    },
-    "desktopDifferences": [
-      "Studio takes are saved as WAV files (the Mac saves AAC .m4a).",
-      "Settings has no Check for Updates: the Mac version installs updates from a local O Store folder; on Windows and Linux, download new versions from shouldbe.media."
-    ],
-    "macTag": "sonix-v2.0.1"
-  },
-  {
-    "slug": "speco",
-    "name": "Speco",
-    "version": "0.3.0",
-    "file": "Speco-0.3.0-macOS.zip",
-    "sha256": "b9162c051bfa6272c944b624f170a395969493cb90e6b04b47ff1b619f9cfb93",
-    "mb": 0.3,
-    "about": "Voice-to-terminal assistant: speak, and it writes and runs terminal commands after a safety filter.",
-    "needs": "",
-    "tag": "speco-v0.3.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Speco-0.3.0-Windows-x64-Setup.exe",
-        "sha256": "33a0ef5fe35d58558e08acec786ea49ddb7090bfd14ed1aeb5cba9bb6b88fcc9",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "Speco-0.3.0-Windows-x64.zip",
-        "sha256": "0cf3adfe1a7047eef2661145af99b31e2c1975f2c0be5b9e8559673dcdde4996",
-        "mb": 153.1,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Speco-0.3.0-Linux-amd64.deb",
-        "sha256": "778772d1720d21068ee929f5ff4937577a34d02b908974cd49f525188492ff0b",
-        "mb": 89.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Speco-0.3.0-Linux-x86_64.AppImage",
-        "sha256": "751ef2297a27815cef14f5cee69e51b1258a81686719bfba985042cbfa26d282",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41325530082,
-        "platform": "win32",
-        "steps": 11
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41325530082,
-        "platform": "linux",
-        "steps": 11
-      }
-    },
-    "desktopDifferences": [
-      "No voice input: the Mac uses Apple's speech recognition, which doesn't exist on Windows or Linux, and no free offline recogniser is bundled. You type instructions into Live Speech instead; they go through the same 1.4-second wait, safety filter and terminal steps.",
-      "Commands run in Windows PowerShell on Windows and /bin/sh on Linux (the Mac uses zsh). On Windows Speco writes PowerShell versions of the same commands (for example New-Item instead of mkdir -p).",
-      "The safety filter has extra rules for dangerous Windows and Linux commands on top of the Mac's rules.",
-      "Each batch runs in a fresh shell that continues in the folder the last one ended in; shell variables set by hand don't carry over (Speco's own commands never set any).",
-      "Spoken replies use the computer's own voices; on Linux these are usually unavailable to the app, so replies are shown as text only."
-    ]
-  },
-  {
-    "slug": "stepmail",
-    "name": "StepMail",
-    "version": "1.8.1",
-    "file": "StepMail-1.8.1-macOS.zip",
-    "sha256": "d6c008f540a5716b6fbb214f3ac28a55f3d451dfac1a78c63861fbc6bbc96c98",
-    "mb": 0.7,
-    "about": "Encrypted email client and mail server.",
-    "needs": "Needs the StepMail mail server, which isn't online yet.",
-    "tag": "stepmail-v1.8.1",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "StepMail-1.8.1-Windows-x64-Setup.exe",
-        "sha256": "bba257b73721483c5086a9408f4f20bbb1c06777942c6169ac0b0ecd1f923927",
-        "mb": 114.3,
-        "kind": "installer"
-      },
-      {
-        "file": "StepMail-1.8.1-Windows-x64.zip",
-        "sha256": "a0051af5b70d3b812bc7d60b36e5e14ad76bc0f988f694ef577a95af14389b7e",
-        "mb": 153.2,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "StepMail-1.8.1-Linux-amd64.deb",
-        "sha256": "0fa9473f7c7287ceeeefe0d471c8036b0060bf602bdf1d6771c6b8993c7edb02",
-        "mb": 89.5,
-        "kind": "deb"
-      },
-      {
-        "file": "StepMail-1.8.1-Linux-x86_64.AppImage",
-        "sha256": "6e98158eff6739fe12ccc4b10fe89f15b63e01fab62c421566a40e019e555232",
-        "mb": 125.5,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "win32",
-        "steps": 24
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322024340,
-        "platform": "linux",
-        "steps": 24
-      }
-    },
-    "desktopDifferences": [
-      "Two-factor setup shows the key and otpauth link to type into an authenticator app; there is no QR code to scan.",
-      "Session tokens and on-device password hashes are kept in the app's data folder, not in a system keychain.",
-      "\"This computer only\" mailboxes are separate from ones made in the Mac app; mail isn't copied between them."
-    ]
-  },
-  {
-    "slug": "syncro",
-    "name": "Syncro",
-    "version": "0.1.0",
-    "file": "Syncro-0.1.0-macOS.zip",
-    "sha256": "76251663c3551bac00d35cfaf49a2868b2f5a0d06eef4b9aa2215a99bb7a953d",
-    "mb": 133.5,
-    "about": "Rota and daily routine planner.",
-    "needs": "Accounts need the Syncro accounts server, which isn't online yet.",
-    "tag": "syncro-v0.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Syncro-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "1e3e4d803c9d89db55b8c92b1dbbd1e62ff99508cf581a53b29588420710b665",
-        "mb": 120.1,
-        "kind": "installer"
-      },
-      {
-        "file": "Syncro-0.1.0-Windows-x64.zip",
-        "sha256": "2f71822cd2c9121a567c22f0ec3fa96d7959dd4bf85f85433148be29d04030a8",
-        "mb": 160,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Syncro-0.1.0-Linux-amd64.deb",
-        "sha256": "e95892c3406670ddab73591a8371a9d594c995d6331f01537a2c707fd7d78377",
-        "mb": 94.8,
-        "kind": "deb"
-      },
-      {
-        "file": "Syncro-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "a5b0597825c00766813927b7b1a38a39d266a511388437668f4832a9b2da28be",
-        "mb": 131.8,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41315087615,
-        "platform": "win32",
-        "steps": null
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41315087615,
-        "platform": "linux",
-        "steps": null
-      }
-    }
-  },
-  {
-    "slug": "the-booth",
-    "name": "The Booth",
-    "version": "0.6.1",
-    "file": "The-Booth-0.6.1-macOS.zip",
-    "sha256": "34d0ac1a032aa42ba45e2a226cb79ae1b2c7f3ccab905b77acbaef041e5924fc",
-    "mb": 10.7,
-    "about": "Photo capture and storyboard studio.",
-    "needs": "",
-    "tag": "the-booth-v0.6.1",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "The-Booth-0.6.1-Windows-x64-Setup.exe",
-        "sha256": "95df9fd72f0751df69a7dc087f72e0e4a5683a73d6f3beac8a62d2732852f2c6",
-        "mb": 115.8,
-        "kind": "installer"
-      },
-      {
-        "file": "The-Booth-0.6.1-Windows-x64.zip",
-        "sha256": "ea20ecd2e8226a0b7e3b09cdbc43ab3271b0efcbe9b9b0150bdc0d0aa8ff802a",
-        "mb": 154.5,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "The-Booth-0.6.1-Linux-amd64.deb",
-        "sha256": "ab64d9a482601d3cd0c4ebde2e99e10b500c3cd20eb4b09ea963626a48e21f0f",
-        "mb": 90.9,
-        "kind": "deb"
-      },
-      {
-        "file": "The-Booth-0.6.1-Linux-x86_64.AppImage",
-        "sha256": "1d3602d5a65a92e01c874f17e15cae2870fe221e6d9517dc37061f1b8271d302",
-        "mb": 127,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41321943237,
-        "platform": "win32",
-        "steps": 10
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41321943237,
-        "platform": "linux",
-        "steps": 10
-      }
-    },
-    "desktopDifferences": [
-      "AI Scene Studio (Apple Vision person segmentation and Image Playground AI rooms) is Mac only and is not included.",
-      "AI Character Mode (Create ML styles trained on the Mac) is Mac only; live broadcasting uses the original camera only.",
-      "Live broadcasting needs FFmpeg installed separately (as on the Mac); it encodes with x264 on Windows and Linux instead of Apple's VideoToolbox hardware encoder.",
-      "Live recordings are saved in Videos/The Booth/Live and diagnostics in The Booth's own logs folder instead of the Mac's Movies and Library/Logs folders.",
-      "Reload is not blocked while live, and closing the window while live stops the broadcast cleanly instead of asking first."
-    ]
-  },
-  {
-    "slug": "tribute",
-    "name": "Tribute",
-    "version": "1.0.0",
-    "file": "Tribute-1.0.0-macOS.zip",
-    "sha256": "b2fb869ff0f2223880a8cb7f65cb0a09043a7a629f2ffcb2dba5f0a72b23979d",
-    "mb": 40.4,
-    "about": "Music distribution: upload singles, EPs and albums, check them against store rules, get UPC/ISRC codes, split royalties with collaborators and share a smart link. Sending to real stores is simulated for now.",
-    "needs": "",
-    "tag": "tribute-v1.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Tribute-1.0.0-Windows-x64-Setup.exe",
-        "sha256": "e8b1b7262c590dd6adacbab7d085ec3a973494318800ffc8375d12a6858fa6aa",
-        "mb": 114.5,
-        "kind": "installer"
-      },
-      {
-        "file": "Tribute-1.0.0-Windows-x64.zip",
-        "sha256": "a3e81367dff65df07b9c85028b297dadd23e8ca870cf07cd756179c1f3981ba2",
-        "mb": 153.3,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Tribute-1.0.0-Linux-amd64.deb",
-        "sha256": "3660546dc0b53fabb73e5811e5c9906ca1eb4e10336bc2ef686de02c98ec46df",
-        "mb": 90,
-        "kind": "deb"
-      },
-      {
-        "file": "Tribute-1.0.0-Linux-x86_64.AppImage",
-        "sha256": "d31c7779343f7d1fd346b0f822dbbef3978e42c47dfaa73c3c44b3720b45720e",
-        "mb": 125.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "win32",
-        "steps": null
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "linux",
-        "steps": null
-      }
-    }
-  },
-  {
-    "slug": "viewverse",
-    "name": "Viewverse",
-    "version": "1.0.0",
-    "file": "Viewverse-1.0.0-macOS.zip",
-    "sha256": "ab1cef3a853dd298d3d3186cfa7f46a1f5f89c34a98755712640e91dc5f3af1e",
-    "mb": 0.8,
-    "about": "Video streaming and review.",
-    "needs": "Needs Node.js 22.13 or newer and ffmpeg (brew install node ffmpeg).",
-    "tag": "viewverse-v1.0.0",
-    "arch": "Apple Silicon + Intel",
-    "windows": [
-      {
-        "file": "Viewverse-1.0.0-Windows-x64-Setup.exe",
-        "sha256": "40914605a40c6c2128dba74da1d943b17ce6b7615e1706acfb0560647445de6e",
-        "mb": 206.4,
-        "kind": "installer"
-      },
-      {
-        "file": "Viewverse-1.0.0-Windows-x64.zip",
-        "sha256": "a4047d25a33cf34c2a8a5f973a7d417cf635e918763193e4af40362fe509902d",
-        "mb": 276.5,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Viewverse-1.0.0-Linux-amd64.deb",
-        "sha256": "607b5299d64cf434999e834e6d3588fb622d09156f581602abd17567641092f6",
-        "mb": 186.6,
-        "kind": "deb"
-      },
-      {
-        "file": "Viewverse-1.0.0-Linux-x86_64.AppImage",
-        "sha256": "8d0d9925f29f673a424e8fdbcaeac95525c86f3179cca15ea7620bb132adaaa7",
-        "mb": 263.3,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41315621648,
-        "platform": "win32",
-        "steps": 6
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41315621648,
-        "platform": "linux",
-        "steps": 6
-      }
-    }
-  },
-  {
-    "slug": "visora",
-    "name": "Visora",
-    "version": "0.1.0",
-    "file": "Visora-0.1.0-macOS.zip",
-    "sha256": "bd071abf35b324343d3e923c8dfb0970a3ad81fedd40d4c0d6ad8cc6056ab407",
-    "mb": 127.2,
-    "about": "Visual planning canvas.",
-    "needs": "",
-    "tag": "visora-v0.1.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Visora-0.1.0-Windows-x64-Setup.exe",
-        "sha256": "fd309af83b5cb77661cb1fb9f04251117b8518d43d66358a7450f0dfd167820f",
-        "mb": 113.4,
-        "kind": "installer"
-      },
-      {
-        "file": "Visora-0.1.0-Windows-x64.zip",
-        "sha256": "8166805c977dd8eb430b1b9171d32ec7db96be58afbad753a1880f49c1673af0",
-        "mb": 153.1,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Visora-0.1.0-Linux-amd64.deb",
-        "sha256": "3d54d1a12147f8ae298cb4e69ccd3ace5628a5ad7e5d4766c781ece37cbef61c",
-        "mb": 88.4,
-        "kind": "deb"
-      },
-      {
-        "file": "Visora-0.1.0-Linux-x86_64.AppImage",
-        "sha256": "d93b5d08023f5c140d599ea59e67506d823ca0099fe5e443ca204f221bd81b41",
-        "mb": 125,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "win32",
-        "steps": null
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41313603364,
-        "platform": "linux",
-        "steps": null
-      }
-    }
-  },
-  {
-    "slug": "vueve-studio",
-    "name": "Vueve Studio",
-    "version": "3.0.0",
-    "file": "Vueve-Studio-3.0.0-macOS.zip",
-    "sha256": "0a02cedf6a9b5661616e203840ed7ae375829b2960d96fce0f464acf657808c2",
-    "mb": 13.4,
-    "about": "3D anime script-to-film studio.",
-    "needs": "Needs Node.js and headless Chrome installed on the Mac.",
-    "tag": "vueve-studio-v3.0.0",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Vueve-Studio-3.0.0-Windows-x64-Setup.exe",
-        "sha256": "70728d6b22a8af7a3fa6759b0dab76df6fc7bdd2ad91c63e6c2099cf1556baae",
-        "mb": 302.9,
-        "kind": "installer"
-      },
-      {
-        "file": "Vueve-Studio-3.0.0-Windows-x64.zip",
-        "sha256": "f95cfdd7048544e41e88caebc2f46882cf051267c81fa0f855e138722c4ea827",
-        "mb": 407,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Vueve-Studio-3.0.0-Linux-amd64.deb",
-        "sha256": "69d777f5cb9b68c6fb4959485d307aa823de09c4a632a795f4585e057ff7fb00",
-        "mb": 270.7,
-        "kind": "deb"
-      },
-      {
-        "file": "Vueve-Studio-3.0.0-Linux-x86_64.AppImage",
-        "sha256": "d0bec75f98fac2760059933cd34ef865f0f34b875f8103a16634a565bb3ce1e4",
-        "mb": 386.7,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41327570995,
-        "platform": "win32",
-        "steps": 7
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41327570995,
-        "platform": "linux",
-        "steps": 7
-      }
-    },
-    "desktopDifferences": [
-      "Dialogue is spoken with this computer's own voices (Windows voices, or espeak-ng on Linux if installed) instead of the macOS voices; characters set to a macOS voice (the default is \"Daniel\") need a voice picked in Assets. On Linux without espeak-ng, upload a recording for each line.",
-      "Automatic lyric transcription (whisper.cpp) is not available; paste or edit the lyric sheet in the Song tab instead.",
-      "There is no \"Set Gemini API Key…\" menu; the optional Gemini cloud features work only if GEMINI_API_KEY is set in the system environment.",
-      "No progress badge, finished-render notification or keep-awake while rendering, and files can't be dropped on the app icon (use Ctrl+O). Menu commands are keyboard shortcuts with Ctrl; Render Draft is Ctrl+Alt+R.",
-      "Fixes a 3.0.0 bug: opening a song before its analysis finished showed an error message (the Mac app still does)."
-    ]
-  },
-  {
-    "slug": "xylo-code",
-    "name": "Xylo Code",
-    "version": "0.5.2",
-    "file": "Xylo-Code-0.5.2-macOS.zip",
-    "sha256": "8f2339b4124461f03bc23d2a340bc0fd9c9dc2df03b403629e92a48b449c81d4",
-    "mb": 38.3,
-    "about": "Code editor (IDE).",
-    "needs": "",
-    "tag": "xylo-code-v0.5.2",
-    "arch": "Apple Silicon",
-    "windows": [
-      {
-        "file": "Xylo-Code-0.5.2-Windows-x64.zip",
-        "sha256": "12e5698087ada539aff3b15ee3277d99b440d78f27d04117ad79d582e6d07de0",
-        "mb": 47.9,
-        "kind": "zip"
-      }
-    ],
-    "linux": [
-      {
-        "file": "Xylo-Code-0.5.2-Linux-x86_64.AppImage",
-        "sha256": "77b6accfecad11e452148b59c09c2ea05fd637430e2f952b01a1a2c37314af9c",
-        "mb": 33.6,
-        "kind": "appimage"
-      }
-    ],
-    "desktopTested": {
-      "windows": {
-        "at": "2026-11-01",
-        "run": 41322767900,
-        "platform": "windows",
-        "steps": null
-      },
-      "linux": {
-        "at": "2026-11-01",
-        "run": 41322767900,
-        "platform": "linux",
-        "steps": null
-      }
-    },
-    "desktopDifferences": [
-      "No iPhone or iOS Simulator run destinations, device installs or Xcode project builds: those need a Mac with Xcode.",
-      "The iOS App and macOS App project templates are not offered (CMake and Swift package templates are).",
-      "The LLDB debugger (breakpoints, stepping, variables) works on macOS only; Windows and Linux say it is unavailable.",
-      "The Inspector cannot edit Xcode build settings (it needs Apple's plutil).",
-      "Apple Account / signing team lookup and Open in Xcode are Mac-only.",
-      "Open in Hot Contents shows the server's repository details but cannot launch the Hot Contents app (it is a Mac app).",
-      "The terminal panel needs a POSIX shell: bash on Linux, Git for Windows' bash on Windows."
-    ]
+  "desktopDifferences": [
+   "API keys and credential passwords are encrypted with the system's secure storage (Windows data protection, or the Secret Service/KWallet keyring on Linux) instead of Apple Keychain. On Linux without a keyring, Clean refuses to save secrets rather than store them in plain text.",
+   "Publishing can't start, stop or restart the publisher background service: on the Mac those buttons control its launchd service (clean-publisher-daemon). Here Clean reads that service's state, releases and logs in ~/.clean/publisher, publishes and rolls back releases, and runs the health and DNS checks.",
+   "Publish New Release asks you to choose the website's build folder once; the Mac version uses a fixed folder on the owner's Mac.",
+   "Import Project has separate buttons for files and folders, because Windows and Linux file pickers can't select both at once."
+  ]
+ },
+ {
+  "slug": "connect",
+  "name": "Connect",
+  "version": "1.0.0",
+  "file": "Connect-1.0.0-macOS.zip",
+  "sha256": "1b9b63fadc56ebbd84a968674ebb53cd7d19697a8f4cad69d64df4386b89214c",
+  "mb": 107.2,
+  "about": "Private connection app.",
+  "needs": "",
+  "tag": "connect-v1.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Connect-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "33eb88911c5feeacdee72b531f751b420857b3afb02fb83cd52803983d1574bb",
+    "mb": 93.2,
+    "kind": "installer"
+   },
+   {
+    "file": "Connect-1.0.0-Windows-x64.zip",
+    "sha256": "72346995f2d7e4c840112c715bc2a4a943c51e8f2eb44a44db68f61ed0bf2c5f",
+    "mb": 129.4,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Connect-1.0.0-Linux-amd64.deb",
+    "sha256": "5ec7a087d826476cedafa0d703c57957b6e6cc87f84cba10fba206898dbcf73c",
+    "mb": 79.8,
+    "kind": "deb"
+   },
+   {
+    "file": "Connect-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "05012d226c893a3f5e0394e5a25ca84fea52c2cff36bf173a6c15e10e55a6488",
+    "mb": 115.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
   }
+ },
+ {
+  "slug": "feet",
+  "name": "Feet",
+  "version": "0.1.0",
+  "file": "Feet-0.1.0-macOS.zip",
+  "sha256": "215399d5c055069bb3bbcf47fcf40b01884024bab90f91f433a752399e4c4545",
+  "mb": 2.1,
+  "about": "Walking routes, navigation and accessibility.",
+  "needs": "Needs the Feet route server, which isn't online yet.",
+  "tag": "feet-v0.1.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Feet-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "844c6e28363c183dd4d215f3ae72f4f4c9e91eff221143bd0e51b5992b17b6c5",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Feet-0.1.0-Windows-x64.zip",
+    "sha256": "49a2786a5a161d7f4cf549f3b585c0ee92166746713f705ce04e013a3231778c",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Feet-0.1.0-Linux-amd64.deb",
+    "sha256": "27ac1f98e58d92be93872d42a1793a39620a6f5dceb6e85180d29a66e4773d3e",
+    "mb": 90,
+    "kind": "deb"
+   },
+   {
+    "file": "Feet-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "efbb075a858423850699ee2e89eb0fd80d5927a519ada6c8c7cf617a7ba2c2fe",
+    "mb": 125.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 9
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 9
+   }
+  },
+  "desktopDifferences": [
+   "No spoken destination (\"Say where to\"): speech recognition isn't available on Windows or Linux in this version. Read aloud and spoken directions work where the system has a voice.",
+   "The map shows OpenStreetMap tiles instead of Apple Maps, so there is no Satellite or Hybrid view and no points of interest on the map.",
+   "Your position comes from the computer's location service when it has one; on many PCs it doesn't, so choose a start place instead. Navigation and activity recording need a location fix.",
+   "Saved data is kept in the app's data folder as JSON rather than a SQLite file; it isn't shared with the Mac app."
+  ]
+ },
+ {
+  "slug": "finishes-musik",
+  "name": "Finishes Musik",
+  "version": "1.4.0",
+  "file": "Finishes-Musik-1.4.0-macOS.zip",
+  "sha256": "9d4a2021d3c18dbc74c37ce35be5edcfe13c5b8a805b979a8e68d14544d6280a",
+  "mb": 2.9,
+  "about": "Mix and master your own songs and organise them into albums: play songs, cut or extend them, compare before and after at matched loudness, fine-tune, LUFS and true-peak metering, and WAV/FLAC export with a report. Password protected; everything stays on your Mac.",
+  "needs": "",
+  "tag": "finishes-musik-v1.4.0",
+  "arch": "Apple Silicon + Intel"
+ },
+ {
+  "slug": "fionbo",
+  "name": "Fionbo",
+  "version": "1.0",
+  "file": "Fionbo-1.0-macOS.zip",
+  "sha256": "0276cad3301478c09bb8059182eec0c5430e3638c366b9819421e66a02048539",
+  "mb": 0,
+  "about": "Fionbo app.",
+  "needs": "",
+  "tag": "fionbo-v1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Fionbo-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "d3ba624a7a2a8dd7c38b8e9b25847f7f489f26e82323a60b13a83bca169b4aae",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Fionbo-1.0.0-Windows-x64.zip",
+    "sha256": "66e975487c1de2b686515b143399043575b2046d149ac41839e72c1320bf8bdb",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Fionbo-1.0.0-Linux-amd64.deb",
+    "sha256": "0cf5720f87eaf83b3c2acd746cab394921dc9c6d911486c3fdb596024dd989b6",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Fionbo-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "ce0c4a482278c811820c545188de8beda44e90a239c931fefb4eca2a629dbbd8",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "win32",
+    "steps": 3
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323827189,
+    "platform": "linux",
+    "steps": 3
+   }
+  },
+  "desktopDifferences": [
+   "Uses the standard app icon; the Mac app sets its Dock icon from the Fionbo avatar at launch."
+  ]
+ },
+ {
+  "slug": "fionn-mpho-mwaba",
+  "name": "Fionn Mpho Mwaba",
+  "version": "4.1.0",
+  "file": "Fionn-Mpho-Mwaba-4.1.0-macOS.zip",
+  "sha256": "ae228a11afa55dc32ae4d4e05ea41736d4a0059d854756e90008c56939f2ab4d",
+  "mb": 6.1,
+  "about": "Personal AI workstation.",
+  "needs": "",
+  "tag": "fionn-mpho-mwaba-v4.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Windows-x64-Setup.exe",
+    "sha256": "1cb475ef301e710e6ff145f977135981cfccf65cf88e49834dd465042b86dc02",
+    "mb": 115.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Windows-x64.zip",
+    "sha256": "93767643f1e3016619038ea6520e9eeaccb5921223bb31eb24a6b7c5f864ec2e",
+    "mb": 153.9,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Linux-amd64.deb",
+    "sha256": "6d1cdb7a91ec9c3fb6ff90cebe493304e937e086b478d1cf0bd8a42725fe2c13",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Fionn-Mpho-Mwaba-4.1.0-Linux-x86_64.AppImage",
+    "sha256": "2a5399b905e6bd248d6a6dc74253b1728905bf4f0eb74e70596405531de8da81",
+    "mb": 126.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322009386,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322009386,
+    "platform": "linux",
+    "steps": 8
+   }
+  },
+  "desktopDifferences": [
+   "The Mac's Apple-only AI features are not available: Image Playground (on-device image generation), Apple Vision text recognition and Apple Speech (voice chat, dictation, read-aloud, audio transcription). Chat and the agent use Ollama on this computer, as on the Mac, or your own cloud keys.",
+   "No image analysis or Word/Excel/PowerPoint/PDF creation tools yet.",
+   "Cannot read PDF, Word, Excel, PowerPoint or iWork files; text and code files only.",
+   "No Projects, Build (live web preview), Files or Saved tabs, and no Prompt Studio.",
+   "File search scans folders directly instead of using the Spotlight index, so it is slower on large folders.",
+   "No Xcode build/inspect-project tools; use run_command for builds.",
+   "Undo of a move to the Recycle Bin/Trash isn't offered (restore it from the Recycle Bin/Trash instead).",
+   "The Antigravity CLI chat back-end is not included.",
+   "No in-app updater; new versions come from the ShouldBe website.",
+   "The macOS privacy permissions section (Full Disk Access, Microphone…) is Mac-only."
+  ]
+ },
+ {
+  "slug": "funding-cockpit",
+  "name": "Funding Cockpit",
+  "version": "2.0.0",
+  "file": "Funding-Cockpit-2.0.0-macOS.zip",
+  "sha256": "074e54f4a5f833f347d2611a805cb901a29c4f879b498854f365dece5201b58e",
+  "mb": 0.9,
+  "about": "A workspace for writing grant and funding applications: questions, answers, sign-off and deadlines in one place.",
+  "needs": "",
+  "tag": "funding-cockpit-v2.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Funding-Cockpit-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "9b7cf08fcf92ae02c8addff453eaa24be242e9dd4a08682a3c75bf6372fa555b",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Funding-Cockpit-2.0.0-Windows-x64.zip",
+    "sha256": "169d1cc48cfdea27324195627259b04c3af16a93c317026c65223108723847d9",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Funding-Cockpit-2.0.0-Linux-amd64.deb",
+    "sha256": "2b2fb58f1eaec57b7b40a970e26ba7a786b7fa79f3b38349b7f5eaece86c9cd0",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Funding-Cockpit-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "0fd586f241d1437d3905fa398c445caaddaff18545c257d044423bacc3582e3b",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "Uses the layout of Funding Cockpit's web version (same screens, features, data file format and keyboard shortcuts with Ctrl instead of Cmd) rather than the Mac app's native sidebar window; text size has three steps instead of four, plus the View menu zoom."
+  ]
+ },
+ {
+  "slug": "ganise-organize",
+  "name": "Ganise Organize",
+  "version": "0.1.0",
+  "file": "Ganise-Organize-0.1.0-macOS.zip",
+  "sha256": "b16f53ca82959fe66387eca1ba61eb6f3ef8c6f2b349d273d729be96da0f4566",
+  "mb": 2.7,
+  "about": "Organiser for files and duplicate apps.",
+  "needs": "",
+  "tag": "ganise-organize-v0.1.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Ganise-Organize-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "3b5f351325778bdf409dde1669c7385721f491786e0d855079f0e929274d939b",
+    "mb": 114.6,
+    "kind": "installer"
+   },
+   {
+    "file": "Ganise-Organize-0.1.0-Windows-x64.zip",
+    "sha256": "c5a7a6935cf557ac8e04539b9afbd06453dc5431486f111bd10503fd161efed2",
+    "mb": 153.4,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Ganise-Organize-0.1.0-Linux-amd64.deb",
+    "sha256": "665f20d38ae136587fe301d4850d3a9ef43dee93db9d1b43414dfdd0ba457b7d",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Ganise-Organize-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "8f0cda992f847f96fa987bed06de9bd0f87f8a17d8711aa37ef12a84814b6ea4",
+    "mb": 125.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "linux",
+    "steps": 6
+   }
+  },
+  "desktopDifferences": [
+   "The Applications section (finding duplicate copies of installed Mac apps by bundle identifier) is not included; it only works with macOS .app bundles.",
+   "Merge combines duplicate folders and exact duplicate files; the Mac version also removes older builds of the same .app.",
+   "The Full Disk Access card is replaced by a note: Ganise works on the folders you choose."
+  ]
+ },
+ {
+  "slug": "gone",
+  "name": "Gone",
+  "version": "1.0.1",
+  "file": "Gone-1.0.1-macOS.zip",
+  "sha256": "2661bd314af8f86b39cf2659f7a8f9f86e44b01b71aecc8c9558ace0a92e151c",
+  "mb": 0.4,
+  "about": "Email delivery console: send mail through your own SMTP account, domains, delivery logs.",
+  "needs": "Sends mail through your own SMTP account.",
+  "tag": "gone-v1.0.1",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "GONE-1.0.1-Windows-x64-Setup.exe",
+    "sha256": "f5d2a83382d1ef9c1394d8281893f389aa3d315cb064b8effc25fa0232aab19d",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "GONE-1.0.1-Windows-x64.zip",
+    "sha256": "576a91e67b2b0b9025ff49c30ec6521a87387f4be1326f7c4bd330f147df4360",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "GONE-1.0.1-Linux-amd64.deb",
+    "sha256": "cf4f42880a0f2d0627f1af4c8d29aa2c49b62389cb0ac34ef10c48b922791fd4",
+    "mb": 89.6,
+    "kind": "deb"
+   },
+   {
+    "file": "GONE-1.0.1-Linux-x86_64.AppImage",
+    "sha256": "ae43f3b1df9b3c2497ab7a576584dce42e5163d811a14ae14f07799811f8b00c",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "The SMTP password is kept in Windows protected storage or the Linux system keyring instead of the macOS Keychain. If no keyring is available on Linux, GONE won't save it (it is used only until you quit).",
+   "Mail is sent by GONE's own SMTP client instead of curl. It supports STARTTLS, implicit TLS on port 465, and PLAIN/LOGIN sign-in; servers that only offer other sign-in methods (such as CRAM-MD5 or OAuth) aren't supported.",
+   "Domain checks use this computer's DNS settings instead of the dig command."
+  ]
+ },
+ {
+  "slug": "hot-contents",
+  "name": "Hot Contents",
+  "version": "2.0.0",
+  "file": "Hot-Contents-2.0.0-macOS.zip",
+  "sha256": "9f5222a4b3dc40220b3083b4af6c5ba8d33e721babe46561762f6aa1e68bc766",
+  "mb": 0,
+  "about": "Trending repositories and private git hosting.",
+  "needs": "Needs the Hot Contents server, which isn't included.",
+  "tag": "hot-contents-v2.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Hot-Contents-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "94dc3544a3573a3be33654786f0d7ffdcec6182e4fff57c128af19caf7905361",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Hot-Contents-2.0.0-Windows-x64.zip",
+    "sha256": "3de532ba13b3948ec65f3a9ecd7bfe2151d841b5568320d2a151ddf5c3f452a3",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Hot-Contents-2.0.0-Linux-amd64.deb",
+    "sha256": "3eaf8d6de45c6e36aaa344205d2d639378f872495ec57a5dc36c78b7d7235ba9",
+    "mb": 89.6,
+    "kind": "deb"
+   },
+   {
+    "file": "Hot-Contents-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "3ba8c685fe4448bc3d6bd62b7c5388bee3cb18ed433865c8d72c94c47532481c",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "linux",
+    "steps": 8
+   }
+  }
+ },
+ {
+  "slug": "independent",
+  "name": "Independent",
+  "version": "0.1.0",
+  "file": "Independent-0.1.0-macOS.zip",
+  "sha256": "88f77f8e9053a583f00dbb1c05042a4d688e175f082b560046610b90efdb4297",
+  "mb": 0,
+  "about": "Independent app manifests and launcher.",
+  "needs": "Needs Python 3 on the Mac.",
+  "tag": "independent-v0.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Independent-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "e71a6bb68904484a5754408ac4121b5d218767d0495f80343ea1f9b1fb98d305",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Independent-0.1.0-Windows-x64.zip",
+    "sha256": "88c192a8b3d701393ba86090e9ec3b5efd8c0f53e6be4c9292e8678d940a9a1a",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Independent-0.1.0-Linux-amd64.deb",
+    "sha256": "8aa86f82ddba8ff796f41f2737a21bc1d818e74260990edffada7b9ef65f3b08",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Independent-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "b3a41ca1383fecfdcbe70083299544de5749fa193deae95a12fb09916a0770a8",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "win32",
+    "steps": 7
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "linux",
+    "steps": 7
+   }
+  },
+  "desktopDifferences": [
+   "Its settings, activity log and manifest backups are kept in the app's data folder instead of ~/.independent (same file formats).",
+   "No Python needed: the Mac build runs a Python/Tk program with the Python already on the Mac; this version is self-contained."
+  ]
+ },
+ {
+  "slug": "jobs",
+  "name": "Jobs",
+  "version": "0.2.0",
+  "file": "Jobs-0.2.0-macOS.zip",
+  "sha256": "a3f0ce081bddead2848ce770b9329287204358b43a62572e35c9890719a4bb78",
+  "mb": 1.3,
+  "about": "UK vacancy platform.",
+  "needs": "Needs the Jobs server, which isn't online yet.",
+  "tag": "jobs-v0.2.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Jobs-0.2.0-Windows-x64-Setup.exe",
+    "sha256": "a5e6128ffba8b6480a9917713b5d7e0c84314b07b2605dcae06c113119dda65a",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Jobs-0.2.0-Windows-x64.zip",
+    "sha256": "0dfd71a3e8ea66d648750fb2bc4aacbcbe92fbf291c91742edc51570cb593baf",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Jobs-0.2.0-Linux-amd64.deb",
+    "sha256": "767d752d6894cdce6e22b883034aec1d68c3d2d05e575c0aab22838b8af0ca3f",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Jobs-0.2.0-Linux-x86_64.AppImage",
+    "sha256": "e86893fb4e32fc52d84cdde767a3319884ef2a579f3b156110c80e2d495678fa",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "Needs a Jobs server: like the Mac app it uses http://127.0.0.1:8820 unless you enter another address in Sources & Settings.",
+   "Share copies the vacancy link to the clipboard instead of opening the macOS share menu."
+  ]
+ },
+ {
+  "slug": "lenda",
+  "name": "Lenda",
+  "version": "2.1",
+  "file": "Lenda-2.1-macOS.zip",
+  "sha256": "99f2793fc50b9cb9caa76094ef12111ca6315d660e379825fc73ced49b0cfdcf",
+  "mb": 0.6,
+  "about": "Lenda app with the George corner assistant.",
+  "needs": "The George assistant needs Node.js on the Mac.",
+  "tag": "lenda-v2.1",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Lenda-2.1.0-Windows-x64-Setup.exe",
+    "sha256": "c752faeb706aacb1c9e4338f878a2da353d93396eaa886be6ac4d26e55992b53",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Lenda-2.1.0-Windows-x64.zip",
+    "sha256": "8e151c01f563fcd1d08955456befbd775a437855a9fcd727b56f95f168e56a43",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Lenda-2.1.0-Linux-amd64.deb",
+    "sha256": "53e6a23d085eb9369cf07657e11ec07d6fc9675d694c61e21938d44245219174",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Lenda-2.1.0-Linux-x86_64.AppImage",
+    "sha256": "48aedd2050678fa095ba9a7facf24a5d2fcfda5c59257d75aa93406cb605c6e3",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322841336,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322841336,
+    "platform": "linux",
+    "steps": 6
+   }
+  },
+  "desktopDifferences": [
+   "Date suggestions from pasted conversations use Lenda's own English date finder instead of macOS's built-in date detector, so it may pick up slightly different phrases.",
+   "Connected Apps checks the Start menu (Windows) or installed app list (Linux) instead of the Mac Applications folders."
+  ]
+ },
+ {
+  "slug": "live-summer",
+  "name": "Live Summer",
+  "version": "0.1.0",
+  "file": "Live-Summer-0.1.0-macOS.zip",
+  "sha256": "59467f13687a1c8ce7e4ccd3ef5492737a7b5d2b59b3febfd12dd743995d2b6f",
+  "mb": 0.3,
+  "about": "Live Summer app.",
+  "needs": "",
+  "tag": "live-summer-v0.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Live-Summer-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "e41c9d1962099315e974e516c1b873c28e06d9899dab8d8acf82efac16d52b9f",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Live-Summer-0.1.0-Windows-x64.zip",
+    "sha256": "47f400209e85d9f30e609ba3c987f99c7cc615c6c5a384ba0c744b37b50b47db",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Live-Summer-0.1.0-Linux-amd64.deb",
+    "sha256": "e352707a4a5caae4e049a05eba80638768291fd825ccc5767e64024374be47a7",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Live-Summer-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "a8cdbd90fe882acda3635b872e52504520f80e497ce5ce2d2172fdd9e922e7d2",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323886164,
+    "platform": "win32",
+    "steps": 7
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323886164,
+    "platform": "linux",
+    "steps": 7
+   }
+  },
+  "desktopDifferences": [
+   "Explore Map uses OpenStreetMap tiles instead of Apple Maps.",
+   "\"Remind me\" reminders only appear while Live Summer is open (the Mac schedules them with the system)."
+  ]
+ },
+ {
+  "slug": "liveo",
+  "name": "Liveo",
+  "version": "1.0.2",
+  "file": "Liveo-1.0.2-macOS.zip",
+  "sha256": "0fa88fef326db1a5483a2c23b2ff78b479f60c4d19ea8d46fedad9da598b634e",
+  "mb": 119.6,
+  "about": "Live and upcoming football, boxing and other sport: Live Now, Upcoming, Football, Boxing and Other Sports with search and filters, scores, start times and where to watch (TV listings and official broadcasters). Data from TheSportsDB. Never shows unofficial streams.",
+  "needs": "",
+  "tag": "liveo-v1.0.2",
+  "arch": "Apple Silicon",
+  "macIntel": {
+   "file": "Liveo-1.0.2-macOS-Intel.zip",
+   "sha256": "067ced3772517ea5b76908f072ac79fc4db56d35eab4e35d662f280235149712",
+   "mb": 126.8
+  },
+  "windows": [
+   {
+    "file": "Liveo-1.0.2-Windows-x64-Setup.exe",
+    "sha256": "04f969c33b100e5a6c885be3ea45a568f5092110b0d8b364f61a732a8bf741e0",
+    "mb": 114.8,
+    "kind": "installer"
+   },
+   {
+    "file": "Liveo-1.0.2-Windows-x64.zip",
+    "sha256": "b2023dc841f9fa9351af22916ab873d6ce54bbaf041b492e1ed7e1ea90493cf2",
+    "mb": 153.9,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Liveo-1.0.2-Linux-amd64.deb",
+    "sha256": "1dbe86489c84ec2f84b4471217033349b6f09bb795fe0514a15625a4a350a907",
+    "mb": 90.1,
+    "kind": "deb"
+   },
+   {
+    "file": "Liveo-1.0.2-Linux-x86_64.AppImage",
+    "sha256": "be8e26fb3294f949164941d3674c722e4781a6ebc763b6bfcef1d1ba11f30a0d",
+    "mb": 126.3,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41316065557,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41316065557,
+    "platform": "linux",
+    "steps": null
+   }
+  }
+ },
+ {
+  "slug": "milo",
+  "name": "Milo",
+  "version": "0.3.0",
+  "file": "Milo-0.3.0-macOS.zip",
+  "sha256": "0818eb308e54ddf398d22ffaf19c655bd9cc013e6ba72b70c90cfddf1066eb1f",
+  "mb": 127.4,
+  "about": "Web browser like Safari: Reader, Listen to Page, Reading List, Tab Overview, and Clarice summaries.",
+  "needs": "",
+  "tag": "milo-v0.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Milo-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "8fd9480e94773b582ec926032106fc959258cb02356f93f9bb8ab78efd9391c3",
+    "mb": 113.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Milo-0.1.0-Windows-x64.zip",
+    "sha256": "71c2d9033fe8c70ed67d4215b0205cdc9587df59578381695eb7c48384c1bbf9",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Milo-0.1.0-Linux-amd64.deb",
+    "sha256": "5d6daec1386e1e2170a2b8375254d2c0a99d41fd567058b428fb8c6a8a8dbd5d",
+    "mb": 88.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Milo-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "690fd2970bb5e34450819e7be79d31adfd344fb6bb403dca0525dfbc346c98c5",
+    "mb": 125.2,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
+  },
+  "macTag": "milo-v0.3.0"
+ },
+ {
+  "slug": "myl",
+  "name": "MYL",
+  "version": "1.0.0",
+  "file": "MYL-1.0.0-macOS.zip",
+  "sha256": "5f34771bad3e0700979c243dfaea258b034632a0b42914acda13a88320d8cb4a",
+  "mb": 0.4,
+  "about": "Mind Your Language: offline password vault.",
+  "needs": "",
+  "tag": "myl-v1.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "MYL-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "34b9356e8056b287e120eb92c775e4d00b3dcc6deafc493601a942a423e18ee0",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "MYL-1.0.0-Windows-x64.zip",
+    "sha256": "162b6fee9ec85614957d4bf0e8c07557699d96fc536a04163aa37aa54994c8f8",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "MYL-1.0.0-Linux-amd64.deb",
+    "sha256": "d6f82e3ef6ff428f7adc534ceea3a26ed899f426c6bbed7b76a3c150c3d515f7",
+    "mb": 89.6,
+    "kind": "deb"
+   },
+   {
+    "file": "MYL-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "8f2e829bb45a0d06f508b0097652d870c2fe7335575b4a56c905ed1af74abb44",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "win32",
+    "steps": 12
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41324224265,
+    "platform": "linux",
+    "steps": 12
+   }
+  },
+  "desktopDifferences": [
+   "No Touch ID / biometric unlock; unlock with your master password.",
+   "The vault is protected by your computer's secure storage instead of the macOS Keychain: Windows Data Protection on Windows, and the system keyring (GNOME Keyring or KWallet) on Linux. On Linux without a keyring, MYL refuses to create a vault rather than store it unprotected.",
+   "Vaults can't be moved between a Mac and a Windows or Linux computer (each is locked to the computer's own secure storage, as on the Mac)."
+  ]
+ },
+ {
+  "slug": "ostore",
+  "name": "OStore",
+  "version": "2.4.0",
+  "file": "OStore-2.4.0-macOS.zip",
+  "sha256": "6886cf6e0ee8b0bfecbaa08fac3e1b82a4d4e867f25ef1e816f7a0d072367fe9",
+  "mb": 1.3,
+  "about": "App store, update authority and Mac application library.",
+  "needs": "Needs ShouldCloud running on the same Mac.",
+  "tag": "ostore-v2.4.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "OStore-2.4.0-Windows-x64-Setup.exe",
+    "sha256": "7bffa0747f9bacd152c7c1a879373e2cba57f7ce32f9884925c8c255a859c29b",
+    "mb": 114.4,
+    "kind": "installer"
+   },
+   {
+    "file": "OStore-2.4.0-Windows-x64.zip",
+    "sha256": "b9d3b4e745fcdf1f8e7480f2b3c8f4768470580024a8817220103c97d16088b1",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "OStore-2.4.0-Linux-amd64.deb",
+    "sha256": "fe14605a355d46209a497f2c3165d466b3fe68b5ae7dd914cb09ff31aaa1e712",
+    "mb": 90,
+    "kind": "deb"
+   },
+   {
+    "file": "OStore-2.4.0-Linux-x86_64.AppImage",
+    "sha256": "6927eb1e5837be0bb5e10281459fc3856af532bf4bf1b2a83045b537c3d0fa26",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323149004,
+    "platform": "win32",
+    "steps": 14
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323149004,
+    "platform": "linux",
+    "steps": 13
+   }
+  },
+  "desktopDifferences": [
+   "Needs ShouldCloud on the same computer (default 127.0.0.1:8788, changeable in settings); remote addresses must use HTTPS.",
+   "Installs Linux AppImage and tar packages itself; deb/rpm go through PackageKit, MSI through Windows Installer and MSIX through App Installer, each after you confirm.",
+   ".exe installers are never run (the catalogue declares no silent-install switches), as the OStore Windows spec requires.",
+   "Automatic updates install by themselves only for AppImage and tar apps; system-package updates are offered on the Updates page.",
+   "No Publisher Studio (publishing to ShouldCloud is done from the Mac).",
+   "Application Library: no installer archives, no licence-key storage, no own-app source analysis and no App Store lookup; Check Links verifies developer web pages only.",
+   "AppImage packages are checked by SHA-256 only; their internal app identity is not inspected.",
+   "Screenshots are listed by caption but not downloaded."
+  ]
+ },
+ {
+  "slug": "real",
+  "name": "REAL",
+  "version": "0.3.0",
+  "file": "REAL-0.3.0-macOS.zip",
+  "sha256": "b8c8adbebc5a2bb6d6b42318e30707ccfe0725af97e763df7fb9e0c05ed562ca",
+  "mb": 2.9,
+  "about": "Independent social photo app.",
+  "needs": "Needs the REAL server, which isn't online yet.",
+  "tag": "real-v0.3.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "REAL-0.3.0-Windows-x64-Setup.exe",
+    "sha256": "f8b36e4f941eee675490bc5d1a1005d35919cdc325a7b7b10a66788636c89854",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "REAL-0.3.0-Windows-x64.zip",
+    "sha256": "fbef2bc9f86dbc9cda694700298092626357c7cfa4f67ca16f4a52482a631b6f",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "REAL-0.3.0-Linux-amd64.deb",
+    "sha256": "a53c0909521d277ecc5cf1bbe0ce336a0931d947765e98a3c5006613ba3bd3b3",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "REAL-0.3.0-Linux-x86_64.AppImage",
+    "sha256": "64b86ac622ff04a7fa51cbd860acea3a955b044b831c2287c30b09e1673e85b9",
+    "mb": 125.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "Live broadcasts open in REAL on the web to watch (the Mac app plays them in the window); live chat and reactions work in the app.",
+   "Share copies the post's link instead of opening the macOS share menu.",
+   "The sign-in token is protected with the system keychain where the computer provides one (on some Linux desktops it is stored in the app's data folder)."
+  ]
+ },
+ {
+  "slug": "rest",
+  "name": "Rest",
+  "version": "2.0.0",
+  "file": "Rest-2.0.0-macOS.zip",
+  "sha256": "86f3c5865c9bfaccb03ef8c178bfe27e55c5fb9dedbab3560a376a1a0f636c14",
+  "mb": 1.7,
+  "about": "App drawer and file navigator, with the seated character.",
+  "needs": "",
+  "tag": "rest-v2.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Rest-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "a585c4022176d09a249366d9d7fb4d80114c29d8a11f2261a8739fe253e4893a",
+    "mb": 114.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Rest-2.0.0-Windows-x64.zip",
+    "sha256": "7a0eca2bd9346c66b82231bc5d8c3ef172a5b7802aed64bc893fbba26022a585",
+    "mb": 153.4,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Rest-2.0.0-Linux-amd64.deb",
+    "sha256": "97f171defc359975b7ad1dfc268e96e68fe4dbca965331773c5b5a9468fe2838",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Rest-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "8d20b4fbbc18ae8551683d306fec202d839940844aed0ab0c28ac93af45df6a5",
+    "mb": 125.9,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "win32",
+    "steps": 9
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323181152,
+    "platform": "linux",
+    "steps": 9
+   }
+  },
+  "desktopDifferences": [
+   "The character and the drawer live inside Rest's window instead of floating on the desktop above other windows.",
+   "Apps come from the Start Menu (Windows) or the system's application launchers (Linux). Microsoft Store apps without a Start Menu shortcut are not listed.",
+   "There is no menu-bar icon; right-click the window for the same options.",
+   "No \"Open Rest when I log in\" setting.",
+   "Rest doesn't say \"Switched to\" an app that was already running; it always opens it.",
+   "The PetsOS Files window (⇧⌘F) is not included."
+  ]
+ },
+ {
+  "slug": "revelation",
+  "name": "Revelation",
+  "version": "0.1.0",
+  "file": "Revelation-0.1.0-macOS.zip",
+  "sha256": "5d19950e878fd9bd104683c9480ffa3d20c250c5d89a27ef20dfeabcc8323dc1",
+  "mb": 0.2,
+  "about": "Story studio.",
+  "needs": "",
+  "tag": "revelation-v0.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Revelation-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "23c5bd687a9316b1d04727fa5d96a7182031f5db0a8b2afef00b539b5eed0018",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Revelation-0.1.0-Windows-x64.zip",
+    "sha256": "013b48bee97ce44761e0ab72f14f9934be5bec84e53bb58876eef22fd0c131c9",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Revelation-0.1.0-Linux-amd64.deb",
+    "sha256": "7be3c9fcbd322ac82ddb75176bb623e6712c671555d2483d3d477bb3b16131e3",
+    "mb": 89.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Revelation-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "7486d0efd07413bb8bda134b44c43a6f84bcd3b868e40b03d82b32dc33b17d4e",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "linux",
+    "steps": 6
+   }
+  },
+  "desktopDifferences": [
+   "There is no app icon yet (the Mac build has none either), so the standard Electron icon is shown."
+  ]
+ },
+ {
+  "slug": "roatchez",
+  "name": "Roatchez",
+  "version": "1.3.0",
+  "file": "Roatchez-1.3.0-macOS.zip",
+  "sha256": "cc4918ca0bc40f83520e0dc976ffa0e459dbf5d8c52e09b36b561944d762ad85",
+  "mb": 31.4,
+  "about": "Streetwear collection with 3D product views.",
+  "needs": "",
+  "tag": "roatchez-v1.3.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Roatchez-1.3.0-Windows-x64-Setup.exe",
+    "sha256": "2aa767e7627a048c25f8906a962b9334e490249c20dab823ea2a19e5d4ed9fd6",
+    "mb": 134.2,
+    "kind": "installer"
+   },
+   {
+    "file": "Roatchez-1.3.0-Windows-x64.zip",
+    "sha256": "5a279c38a5881692ee3974f3ba3605dc1ab0bdd4bc942f6a04a219bbfd090169",
+    "mb": 175.8,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Roatchez-1.3.0-Linux-amd64.deb",
+    "sha256": "64522bed636faf000a32016b38d0d95d14c3a37f29a96f1dd4e2eebf732b1db8",
+    "mb": 108.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Roatchez-1.3.0-Linux-x86_64.AppImage",
+    "sha256": "17cc843badc6ab5426966b89cf2aab9f7655b548e78f5add982f94e4768670cf",
+    "mb": 148.4,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "win32",
+    "steps": 16
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "linux",
+    "steps": 16
+   }
+  },
+  "desktopDifferences": [
+   "Does not receive products sent from Roatchez Studio (Studio is Mac only); the 30 Studio products bundled with the Mac app are included.",
+   "The 3D shape mock-ups are drawn with WebGL instead of Apple SceneKit, so lighting and materials look slightly different; on computers without WebGL 2 the product photo is shown instead.",
+   "The Mac command-line checks (--catalogue-audit, --studio-verify, --studio-product) are not included."
+  ]
+ },
+ {
+  "slug": "roatchez-studio",
+  "name": "Roatchez Studio",
+  "version": "2.0.0",
+  "file": "Roatchez-Studio-2.0.0-macOS.zip",
+  "sha256": "7a8af2cde4e2d49ba8aac0a1a385ee82d3c1a6912a8c3e6b7b0d5f9d86cf18f3",
+  "mb": 1.6,
+  "about": "Product manager for the Roatchez clothing app: make product pages and send them to Roatchez.",
+  "needs": "Sends products to the Roatchez app, so install Roatchez too.",
+  "tag": "roatchez-studio-v2.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Roatchez-Studio-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "92897b77d816158af5a10abdaeb2a72ca3439cb7c1229f200d54fb057e90df5f",
+    "mb": 115.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Roatchez-Studio-2.0.0-Windows-x64.zip",
+    "sha256": "4c3f1ab3b7334ca3c8afd53c1accbc1d6d05666e6e2579396e924c30fb5f6c5a",
+    "mb": 154.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Roatchez-Studio-2.0.0-Linux-amd64.deb",
+    "sha256": "841b041b61cf0c552c974e60d1dc72e75fe9566d71d32316541dfe2b7fd7db1d",
+    "mb": 90.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Roatchez-Studio-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "4d69aedc9488eb832216621da60c08e8d8c757c4942946fc2eb35250352365f7",
+    "mb": 126.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "win32",
+    "steps": 8
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322651620,
+    "platform": "linux",
+    "steps": 8
+   }
+  },
+  "desktopDifferences": [
+   "Sent products are written to the RoatchezStudioBridge folder (%APPDATA%\\RoatchezStudioBridge on Windows, ~/.config/RoatchezStudioBridge on Linux) in the same products.json format as the Mac. The Windows/Linux Roatchez app only shows them if it reads that folder.",
+   "A send is checked by reading the bridge catalogue back; the Mac version also asks the installed Roatchez app (Roatchez --studio-verify) to confirm it shows the product, and refuses to send if Roatchez is missing.",
+   "Open Roatchez and Show in Roatchez only work when Roatchez is installed in its usual place.",
+   "Replacement images must be PNG or JPEG (the Mac also accepts HEIC and TIFF).",
+   "Drafts from the earlier, misspelled Mac build are not imported."
+  ]
+ },
+ {
+  "slug": "samples-loop-studio",
+  "name": "Samples Loop Studio",
+  "version": "2.1.0",
+  "file": "Samples-Loop-Studio-2.1.0-macOS.zip",
+  "sha256": "978d64075e6c7415515beaf91d264a1af7642034bc79efc2a3a180bdebb47852",
+  "mb": 5.2,
+  "about": "Audio loops and multitrack DAW.",
+  "needs": "",
+  "tag": "samples-loop-studio-v2.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Windows-x64-Setup.exe",
+    "sha256": "dd83df6af18fdcfbebf7ef3cb9d1a70add28501cc20ab92de0d00e3ae821887d",
+    "mb": 117.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Windows-x64.zip",
+    "sha256": "0ebd92b8bf71b104fd3745ab933ae190e1b765fd46b7a20f9872e69da205ce8d",
+    "mb": 156.8,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Linux-amd64.deb",
+    "sha256": "2668161180ee7b66830c2774e2aee7eacfc078a9505318eba62b8bd5c4a5e8ce",
+    "mb": 92.9,
+    "kind": "deb"
+   },
+   {
+    "file": "Samples-Loop-Studio-2.1.0-Linux-x86_64.AppImage",
+    "sha256": "e0357b0785075850a778345b050bd88798d3079f976f6ec8a35965e8fe66c993",
+    "mb": 129.3,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41325032734,
+    "platform": "win32",
+    "steps": 16
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41325032734,
+    "platform": "linux",
+    "steps": 16
+   }
+  },
+  "desktopDifferences": [
+   "Audio Unit plug-ins (effects and instruments) aren't available; Audio Unit channels and inserts in Mac projects are silent here.",
+   "SL Synth's sound engine was rebuilt from the Mac app's behaviour, so synth parts sound very close but not sample-identical; samples, built-in sounds, drums and the mixer effects play the same.",
+   "SL Drum Machine Tune and Decay are approximations of the Mac versions.",
+   "Export writes WAV and AIFF (master and stems); FLAC and AAC/M4A aren't offered.",
+   "Editor windows can't be detached into their own floating windows.",
+   "Audio plays through the system's default output; there is no device, buffer-size or input-channel choice, and no DSP-load or memory readout.",
+   "Audio recording is basic: count-in and punch-in/out don't apply to audio takes, and input monitoring isn't available.",
+   "Sample time-stretch and pitch-shift tools, and clip time-stretch/reverse in the playlist, aren't included.",
+   "Files can't be dragged in from the file manager; use Import Audio or File › Open.",
+   "Collect Project Package isn't available.",
+   "The new-project templates start with similar but not identical patterns to the Mac templates."
+  ]
+ },
+ {
+  "slug": "shouldcloud",
+  "name": "ShouldCloud",
+  "version": "0.10.2",
+  "file": "ShouldCloud-0.10.2-macOS.zip",
+  "sha256": "c46e1428ff0aabc387a37ebe8d218d60a9f1259786c5708348a3486123543fe0",
+  "mb": 24.5,
+  "about": "Release hosting and publishing cloud.",
+  "needs": "A server app: needs Node.js (Homebrew).",
+  "tag": "shouldcloud-v0.10.2",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "ShouldCloud-0.10.2-Windows-x64-Setup.exe",
+    "sha256": "6afaca3b180adfa90d22348ca4435bed3e8dc4bf352ad77188a22fb616034dc8",
+    "mb": 114.6,
+    "kind": "installer"
+   },
+   {
+    "file": "ShouldCloud-0.10.2-Windows-x64.zip",
+    "sha256": "d7f52c3c07ce92c74bb86a0d41c2cd62eb0ea6733a9c5eeb27e23430f1ede285",
+    "mb": 153.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "ShouldCloud-0.10.2-Linux-amd64.deb",
+    "sha256": "73e475335e6392414e5ebf0b0ab30fd7fcbbb677a9d8a103649417dcd1fd7cb1",
+    "mb": 90.2,
+    "kind": "deb"
+   },
+   {
+    "file": "ShouldCloud-0.10.2-Linux-x86_64.AppImage",
+    "sha256": "832bda8ec921f453970b499cf0cb7e2cdfec0f17b9f498864eae9d45c349ae89",
+    "mb": 125.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "win32",
+    "steps": 9
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41323286108,
+    "platform": "linux",
+    "steps": 9
+   }
+  },
+  "desktopDifferences": [
+   "The Mac app's \"Publisher Access\" dialog is not included: the remote admin password and publisher key are in the data folder (Help > Open data folder > .shouldcloud/public-access and .shouldcloud/publisher).",
+   "The origin only runs while the app window is open; the Mac version can keep running as a background service and keeps the Mac awake.",
+   "\"Deploy Viewverse\" (the bundled Viewverse Mac Preview) needs macOS and does not work here.",
+   "The old September 2026 seed release files bundled with the Mac app are not included."
+  ]
+ },
+ {
+  "slug": "sonix",
+  "name": "Sonix",
+  "version": "2.0.1",
+  "file": "Sonix-2.0.1-macOS.zip",
+  "sha256": "b6974046fef6b0b929c8a34f8a0d9b0c403e3a9bd7e8375f05612229d2fda215",
+  "mb": 7.7,
+  "about": "Music app (multi-platform).",
+  "needs": "",
+  "tag": "sonix-v2.0.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Sonix-2.0.0-Windows-x64-Setup.exe",
+    "sha256": "1f9d023c9030812ebed0eb6255d0691e45f6c75d73430d777a347c21d9b1e9cb",
+    "mb": 118.7,
+    "kind": "installer"
+   },
+   {
+    "file": "Sonix-2.0.0-Windows-x64.zip",
+    "sha256": "efa413f9507d97458d7676d69606cfe8df616a9c7714bba8bcb313ff13dd3534",
+    "mb": 158.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Sonix-2.0.0-Linux-amd64.deb",
+    "sha256": "b530e0917c10d7c2b831e43c0f82bd19600cc5b10ea80a29dd56ba31a7a18bca",
+    "mb": 94.2,
+    "kind": "deb"
+   },
+   {
+    "file": "Sonix-2.0.0-Linux-x86_64.AppImage",
+    "sha256": "6444ade1dd86d78aa3d18b7a2b447197a4b3e9208f35af022acd232a77fd2f73",
+    "mb": 130.9,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "win32",
+    "steps": 12
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "linux",
+    "steps": 12
+   }
+  },
+  "desktopDifferences": [
+   "Studio takes are saved as WAV files (the Mac saves AAC .m4a).",
+   "Settings has no Check for Updates: the Mac version installs updates from a local O Store folder; on Windows and Linux, download new versions from shouldbe.media."
+  ],
+  "macTag": "sonix-v2.0.1"
+ },
+ {
+  "slug": "speco",
+  "name": "Speco",
+  "version": "0.3.0",
+  "file": "Speco-0.3.0-macOS.zip",
+  "sha256": "b9162c051bfa6272c944b624f170a395969493cb90e6b04b47ff1b619f9cfb93",
+  "mb": 0.3,
+  "about": "Voice-to-terminal assistant: speak, and it writes and runs terminal commands after a safety filter.",
+  "needs": "",
+  "tag": "speco-v0.3.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Speco-0.3.0-Windows-x64-Setup.exe",
+    "sha256": "33a0ef5fe35d58558e08acec786ea49ddb7090bfd14ed1aeb5cba9bb6b88fcc9",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "Speco-0.3.0-Windows-x64.zip",
+    "sha256": "0cf3adfe1a7047eef2661145af99b31e2c1975f2c0be5b9e8559673dcdde4996",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Speco-0.3.0-Linux-amd64.deb",
+    "sha256": "778772d1720d21068ee929f5ff4937577a34d02b908974cd49f525188492ff0b",
+    "mb": 89.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Speco-0.3.0-Linux-x86_64.AppImage",
+    "sha256": "751ef2297a27815cef14f5cee69e51b1258a81686719bfba985042cbfa26d282",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41325530082,
+    "platform": "win32",
+    "steps": 11
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41325530082,
+    "platform": "linux",
+    "steps": 11
+   }
+  },
+  "desktopDifferences": [
+   "No voice input: the Mac uses Apple's speech recognition, which doesn't exist on Windows or Linux, and no free offline recogniser is bundled. You type instructions into Live Speech instead; they go through the same 1.4-second wait, safety filter and terminal steps.",
+   "Commands run in Windows PowerShell on Windows and /bin/sh on Linux (the Mac uses zsh). On Windows Speco writes PowerShell versions of the same commands (for example New-Item instead of mkdir -p).",
+   "The safety filter has extra rules for dangerous Windows and Linux commands on top of the Mac's rules.",
+   "Each batch runs in a fresh shell that continues in the folder the last one ended in; shell variables set by hand don't carry over (Speco's own commands never set any).",
+   "Spoken replies use the computer's own voices; on Linux these are usually unavailable to the app, so replies are shown as text only."
+  ]
+ },
+ {
+  "slug": "stepmail",
+  "name": "StepMail",
+  "version": "1.8.1",
+  "file": "StepMail-1.8.1-macOS.zip",
+  "sha256": "d6c008f540a5716b6fbb214f3ac28a55f3d451dfac1a78c63861fbc6bbc96c98",
+  "mb": 0.7,
+  "about": "Encrypted email client and mail server.",
+  "needs": "Needs the StepMail mail server, which isn't online yet.",
+  "tag": "stepmail-v1.8.1",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "StepMail-1.8.1-Windows-x64-Setup.exe",
+    "sha256": "bba257b73721483c5086a9408f4f20bbb1c06777942c6169ac0b0ecd1f923927",
+    "mb": 114.3,
+    "kind": "installer"
+   },
+   {
+    "file": "StepMail-1.8.1-Windows-x64.zip",
+    "sha256": "a0051af5b70d3b812bc7d60b36e5e14ad76bc0f988f694ef577a95af14389b7e",
+    "mb": 153.2,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "StepMail-1.8.1-Linux-amd64.deb",
+    "sha256": "0fa9473f7c7287ceeeefe0d471c8036b0060bf602bdf1d6771c6b8993c7edb02",
+    "mb": 89.5,
+    "kind": "deb"
+   },
+   {
+    "file": "StepMail-1.8.1-Linux-x86_64.AppImage",
+    "sha256": "6e98158eff6739fe12ccc4b10fe89f15b63e01fab62c421566a40e019e555232",
+    "mb": 125.5,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "win32",
+    "steps": 24
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322024340,
+    "platform": "linux",
+    "steps": 24
+   }
+  },
+  "desktopDifferences": [
+   "Two-factor setup shows the key and otpauth link to type into an authenticator app; there is no QR code to scan.",
+   "Session tokens and on-device password hashes are kept in the app's data folder, not in a system keychain.",
+   "\"This computer only\" mailboxes are separate from ones made in the Mac app; mail isn't copied between them."
+  ]
+ },
+ {
+  "slug": "syncro",
+  "name": "Syncro",
+  "version": "0.1.0",
+  "file": "Syncro-0.1.0-macOS.zip",
+  "sha256": "76251663c3551bac00d35cfaf49a2868b2f5a0d06eef4b9aa2215a99bb7a953d",
+  "mb": 133.5,
+  "about": "Rota and daily routine planner.",
+  "needs": "Accounts need the Syncro accounts server, which isn't online yet.",
+  "tag": "syncro-v0.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Syncro-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "1e3e4d803c9d89db55b8c92b1dbbd1e62ff99508cf581a53b29588420710b665",
+    "mb": 120.1,
+    "kind": "installer"
+   },
+   {
+    "file": "Syncro-0.1.0-Windows-x64.zip",
+    "sha256": "2f71822cd2c9121a567c22f0ec3fa96d7959dd4bf85f85433148be29d04030a8",
+    "mb": 160,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Syncro-0.1.0-Linux-amd64.deb",
+    "sha256": "e95892c3406670ddab73591a8371a9d594c995d6331f01537a2c707fd7d78377",
+    "mb": 94.8,
+    "kind": "deb"
+   },
+   {
+    "file": "Syncro-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "a5b0597825c00766813927b7b1a38a39d266a511388437668f4832a9b2da28be",
+    "mb": 131.8,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41315087615,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41315087615,
+    "platform": "linux",
+    "steps": null
+   }
+  }
+ },
+ {
+  "slug": "the-booth",
+  "name": "The Booth",
+  "version": "0.6.1",
+  "file": "The-Booth-0.6.1-macOS.zip",
+  "sha256": "34d0ac1a032aa42ba45e2a226cb79ae1b2c7f3ccab905b77acbaef041e5924fc",
+  "mb": 10.7,
+  "about": "Photo capture and storyboard studio.",
+  "needs": "",
+  "tag": "the-booth-v0.6.1",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "The-Booth-0.6.1-Windows-x64-Setup.exe",
+    "sha256": "95df9fd72f0751df69a7dc087f72e0e4a5683a73d6f3beac8a62d2732852f2c6",
+    "mb": 115.8,
+    "kind": "installer"
+   },
+   {
+    "file": "The-Booth-0.6.1-Windows-x64.zip",
+    "sha256": "ea20ecd2e8226a0b7e3b09cdbc43ab3271b0efcbe9b9b0150bdc0d0aa8ff802a",
+    "mb": 154.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "The-Booth-0.6.1-Linux-amd64.deb",
+    "sha256": "ab64d9a482601d3cd0c4ebde2e99e10b500c3cd20eb4b09ea963626a48e21f0f",
+    "mb": 90.9,
+    "kind": "deb"
+   },
+   {
+    "file": "The-Booth-0.6.1-Linux-x86_64.AppImage",
+    "sha256": "1d3602d5a65a92e01c874f17e15cae2870fe221e6d9517dc37061f1b8271d302",
+    "mb": 127,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "win32",
+    "steps": 10
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41321943237,
+    "platform": "linux",
+    "steps": 10
+   }
+  },
+  "desktopDifferences": [
+   "AI Scene Studio (Apple Vision person segmentation and Image Playground AI rooms) is Mac only and is not included.",
+   "AI Character Mode (Create ML styles trained on the Mac) is Mac only; live broadcasting uses the original camera only.",
+   "Live broadcasting needs FFmpeg installed separately (as on the Mac); it encodes with x264 on Windows and Linux instead of Apple's VideoToolbox hardware encoder.",
+   "Live recordings are saved in Videos/The Booth/Live and diagnostics in The Booth's own logs folder instead of the Mac's Movies and Library/Logs folders.",
+   "Reload is not blocked while live, and closing the window while live stops the broadcast cleanly instead of asking first."
+  ]
+ },
+ {
+  "slug": "tribute",
+  "name": "Tribute",
+  "version": "1.0.0",
+  "file": "Tribute-1.0.0-macOS.zip",
+  "sha256": "b2fb869ff0f2223880a8cb7f65cb0a09043a7a629f2ffcb2dba5f0a72b23979d",
+  "mb": 40.4,
+  "about": "Music distribution: upload singles, EPs and albums, check them against store rules, get UPC/ISRC codes, split royalties with collaborators and share a smart link. Sending to real stores is simulated for now.",
+  "needs": "",
+  "tag": "tribute-v1.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Tribute-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "e8b1b7262c590dd6adacbab7d085ec3a973494318800ffc8375d12a6858fa6aa",
+    "mb": 114.5,
+    "kind": "installer"
+   },
+   {
+    "file": "Tribute-1.0.0-Windows-x64.zip",
+    "sha256": "a3e81367dff65df07b9c85028b297dadd23e8ca870cf07cd756179c1f3981ba2",
+    "mb": 153.3,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Tribute-1.0.0-Linux-amd64.deb",
+    "sha256": "3660546dc0b53fabb73e5811e5c9906ca1eb4e10336bc2ef686de02c98ec46df",
+    "mb": 90,
+    "kind": "deb"
+   },
+   {
+    "file": "Tribute-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "d31c7779343f7d1fd346b0f822dbbef3978e42c47dfaa73c3c44b3720b45720e",
+    "mb": 125.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
+  }
+ },
+ {
+  "slug": "viewverse",
+  "name": "Viewverse",
+  "version": "1.0.0",
+  "file": "Viewverse-1.0.0-macOS.zip",
+  "sha256": "ab1cef3a853dd298d3d3186cfa7f46a1f5f89c34a98755712640e91dc5f3af1e",
+  "mb": 0.8,
+  "about": "Video streaming and review.",
+  "needs": "Needs Node.js 22.13 or newer and ffmpeg (brew install node ffmpeg).",
+  "tag": "viewverse-v1.0.0",
+  "arch": "Apple Silicon + Intel",
+  "windows": [
+   {
+    "file": "Viewverse-1.0.0-Windows-x64-Setup.exe",
+    "sha256": "40914605a40c6c2128dba74da1d943b17ce6b7615e1706acfb0560647445de6e",
+    "mb": 206.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Viewverse-1.0.0-Windows-x64.zip",
+    "sha256": "a4047d25a33cf34c2a8a5f973a7d417cf635e918763193e4af40362fe509902d",
+    "mb": 276.5,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Viewverse-1.0.0-Linux-amd64.deb",
+    "sha256": "607b5299d64cf434999e834e6d3588fb622d09156f581602abd17567641092f6",
+    "mb": 186.6,
+    "kind": "deb"
+   },
+   {
+    "file": "Viewverse-1.0.0-Linux-x86_64.AppImage",
+    "sha256": "8d0d9925f29f673a424e8fdbcaeac95525c86f3179cca15ea7620bb132adaaa7",
+    "mb": 263.3,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41315621648,
+    "platform": "win32",
+    "steps": 6
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41315621648,
+    "platform": "linux",
+    "steps": 6
+   }
+  }
+ },
+ {
+  "slug": "visora",
+  "name": "Visora",
+  "version": "0.1.0",
+  "file": "Visora-0.1.0-macOS.zip",
+  "sha256": "bd071abf35b324343d3e923c8dfb0970a3ad81fedd40d4c0d6ad8cc6056ab407",
+  "mb": 127.2,
+  "about": "Visual planning canvas.",
+  "needs": "",
+  "tag": "visora-v0.1.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Visora-0.1.0-Windows-x64-Setup.exe",
+    "sha256": "fd309af83b5cb77661cb1fb9f04251117b8518d43d66358a7450f0dfd167820f",
+    "mb": 113.4,
+    "kind": "installer"
+   },
+   {
+    "file": "Visora-0.1.0-Windows-x64.zip",
+    "sha256": "8166805c977dd8eb430b1b9171d32ec7db96be58afbad753a1880f49c1673af0",
+    "mb": 153.1,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Visora-0.1.0-Linux-amd64.deb",
+    "sha256": "3d54d1a12147f8ae298cb4e69ccd3ace5628a5ad7e5d4766c781ece37cbef61c",
+    "mb": 88.4,
+    "kind": "deb"
+   },
+   {
+    "file": "Visora-0.1.0-Linux-x86_64.AppImage",
+    "sha256": "d93b5d08023f5c140d599ea59e67506d823ca0099fe5e443ca204f221bd81b41",
+    "mb": 125,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "win32",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41313603364,
+    "platform": "linux",
+    "steps": null
+   }
+  }
+ },
+ {
+  "slug": "vueve-studio",
+  "name": "Vueve Studio",
+  "version": "3.0.0",
+  "file": "Vueve-Studio-3.0.0-macOS.zip",
+  "sha256": "0a02cedf6a9b5661616e203840ed7ae375829b2960d96fce0f464acf657808c2",
+  "mb": 13.4,
+  "about": "3D anime script-to-film studio.",
+  "needs": "Needs Node.js and headless Chrome installed on the Mac.",
+  "tag": "vueve-studio-v3.0.0",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Vueve-Studio-3.0.0-Windows-x64-Setup.exe",
+    "sha256": "70728d6b22a8af7a3fa6759b0dab76df6fc7bdd2ad91c63e6c2099cf1556baae",
+    "mb": 302.9,
+    "kind": "installer"
+   },
+   {
+    "file": "Vueve-Studio-3.0.0-Windows-x64.zip",
+    "sha256": "f95cfdd7048544e41e88caebc2f46882cf051267c81fa0f855e138722c4ea827",
+    "mb": 407,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Vueve-Studio-3.0.0-Linux-amd64.deb",
+    "sha256": "69d777f5cb9b68c6fb4959485d307aa823de09c4a632a795f4585e057ff7fb00",
+    "mb": 270.7,
+    "kind": "deb"
+   },
+   {
+    "file": "Vueve-Studio-3.0.0-Linux-x86_64.AppImage",
+    "sha256": "d0bec75f98fac2760059933cd34ef865f0f34b875f8103a16634a565bb3ce1e4",
+    "mb": 386.7,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41327570995,
+    "platform": "win32",
+    "steps": 7
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41327570995,
+    "platform": "linux",
+    "steps": 7
+   }
+  },
+  "desktopDifferences": [
+   "Dialogue is spoken with this computer's own voices (Windows voices, or espeak-ng on Linux if installed) instead of the macOS voices; characters set to a macOS voice (the default is \"Daniel\") need a voice picked in Assets. On Linux without espeak-ng, upload a recording for each line.",
+   "Automatic lyric transcription (whisper.cpp) is not available; paste or edit the lyric sheet in the Song tab instead.",
+   "There is no \"Set Gemini API Key…\" menu; the optional Gemini cloud features work only if GEMINI_API_KEY is set in the system environment.",
+   "No progress badge, finished-render notification or keep-awake while rendering, and files can't be dropped on the app icon (use Ctrl+O). Menu commands are keyboard shortcuts with Ctrl; Render Draft is Ctrl+Alt+R.",
+   "Fixes a 3.0.0 bug: opening a song before its analysis finished showed an error message (the Mac app still does)."
+  ]
+ },
+ {
+  "slug": "xylo-code",
+  "name": "Xylo Code",
+  "version": "0.5.2",
+  "file": "Xylo-Code-0.5.2-macOS.zip",
+  "sha256": "8f2339b4124461f03bc23d2a340bc0fd9c9dc2df03b403629e92a48b449c81d4",
+  "mb": 38.3,
+  "about": "Code editor (IDE).",
+  "needs": "",
+  "tag": "xylo-code-v0.5.2",
+  "arch": "Apple Silicon",
+  "windows": [
+   {
+    "file": "Xylo-Code-0.5.2-Windows-x64.zip",
+    "sha256": "12e5698087ada539aff3b15ee3277d99b440d78f27d04117ad79d582e6d07de0",
+    "mb": 47.9,
+    "kind": "zip"
+   }
+  ],
+  "linux": [
+   {
+    "file": "Xylo-Code-0.5.2-Linux-x86_64.AppImage",
+    "sha256": "77b6accfecad11e452148b59c09c2ea05fd637430e2f952b01a1a2c37314af9c",
+    "mb": 33.6,
+    "kind": "appimage"
+   }
+  ],
+  "desktopTested": {
+   "windows": {
+    "at": "2026-11-01",
+    "run": 41322767900,
+    "platform": "windows",
+    "steps": null
+   },
+   "linux": {
+    "at": "2026-11-01",
+    "run": 41322767900,
+    "platform": "linux",
+    "steps": null
+   }
+  },
+  "desktopDifferences": [
+   "No iPhone or iOS Simulator run destinations, device installs or Xcode project builds: those need a Mac with Xcode.",
+   "The iOS App and macOS App project templates are not offered (CMake and Swift package templates are).",
+   "The LLDB debugger (breakpoints, stepping, variables) works on macOS only; Windows and Linux say it is unavailable.",
+   "The Inspector cannot edit Xcode build settings (it needs Apple's plutil).",
+   "Apple Account / signing team lookup and Open in Xcode are Mac-only.",
+   "Open in Hot Contents shows the server's repository details but cannot launch the Hot Contents app (it is a Mac app).",
+   "The terminal panel needs a POSIX shell: bash on Linux, Git for Windows' bash on Windows."
+  ]
+ }
 ]
