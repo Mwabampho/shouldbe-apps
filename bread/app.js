@@ -183,12 +183,12 @@
     for (let i = 0; i < 6; i++) boxes += '<i class="' + (ui.codeErr ? 'bad' : '') + '">' + esc(c[i] || '') + '</i>';
     const disp = ui.expected.slice(0, 3) + ' ' + ui.expected.slice(3);
     return '<div class="screen center">' + headerRow('Step 3 of 3', 'toPin') +
-      '<span class="big-ic">' + icon('refresh') + '</span><h2>Dynamic Security Check</h2><p class="muted">Enter the 6-digit review code<br>shown below.</p>' +
+      '<h2>Dynamic Security Check</h2><p class="muted">Type this code into the boxes below.<br>It is not sent by text — it is shown here.</p>' +
+      '<div class="notif"><span class="notif-ic">' + mark(22) + '</span><div><b>Bread</b><small>Review</small><p>Your review code is: <strong class="code-big">' + disp + '</strong></p></div></div>' +
       '<label class="code-boxes">' + boxes + '<input id="codeInput" inputmode="numeric" autocomplete="one-time-code" maxlength="6" aria-label="Six digit security code" value="' + esc(c) + '"></label>' +
       '<p class="muted small">Code expires in <span id="codeSecs">' + ui.codeSecs + '</span> seconds</p>' +
       (ui.codeErr ? '<p class="err">' + esc(ui.codeErr) + '</p>' : '') +
-      '<div class="notif"><span class="notif-ic">' + mark(22) + '</span><div><b>Bread</b><small>Review</small><p>Your review code is: ' + disp + '</p></div></div>' +
-      '<button class="ghost-btn" data-act="newCode">' + icon('refresh') + ' Generate New Review Code</button>' +
+            '<button class="ghost-btn" data-act="newCode">' + icon('refresh') + ' Generate New Review Code</button>' +
       '<div class="grow"></div>' + footer('Codes are generated on this phone<br>and expire after 30 seconds.') + '</div>';
   }
 
@@ -580,8 +580,6 @@
     const ns = app.querySelector('.main-scroll');
     if (ns) { ns.dataset.tab = ui.tab; ns.scrollTop = keep; }
     if (ui.screen === 'code') {
-      const ci = document.getElementById('codeInput');
-      if (ci) setTimeout(() => ci.focus(), 50);
       if (!codeTimer) codeTimer = setInterval(tickCode, 1000);
     } else if (codeTimer) { clearInterval(codeTimer); codeTimer = null; }
   }
@@ -817,7 +815,7 @@
       boxes.forEach((b, i) => { b.textContent = ui.code[i] || ''; b.className = ''; });
       if (ui.code.length === 6) {
         if (ui.code === ui.expected) { el.blur(); setTimeout(() => { ui.screen = 'granted'; render(); }, 150); }
-        else { ui.codeErr = 'That code does not match. Try the review code shown below.'; ui.code = ''; render(); }
+        else { ui.codeErr = 'That code does not match. Type the code in the box above.'; ui.code = ''; render(); }
       }
       return;
     }

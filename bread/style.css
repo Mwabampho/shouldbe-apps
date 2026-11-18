@@ -245,3 +245,5 @@ button:focus-visible, select:focus-visible { outline: 2px solid var(--gold); out
 input:focus-visible { outline: none; }
 .date-field:focus-within, .search:focus-within { box-shadow: 0 0 0 1px rgba(235,179,99,.7); }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+.code-big { display: block; font-size: 26px; letter-spacing: .08em; color: var(--gold2); margin-top: 2px; }
